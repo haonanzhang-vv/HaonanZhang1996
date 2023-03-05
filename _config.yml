@@ -15,9 +15,9 @@ show_sidebar: true        # show a sidebar instead of the usual header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "Blog.md", title: "Home", icon: home}
+  - {file: "Blog.html", title: "Home", icon: home}
   - {file: "README.md", title: "About me"}
-  - {file: "Blog.md", title: "Blog"}
+  - {file: "Blog.html", title: "Blog"}
   
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
