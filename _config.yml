@@ -15,7 +15,7 @@ show_sidebar: true        # show a sidebar instead of the usual header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.html", title: "Home", icon: home}
+  - {file: "Blog.md", title: "Home", icon: home}
   - {file: "README.md", title: "About me"}
   - {file: "Blog.md", title: "Blog"}
   
