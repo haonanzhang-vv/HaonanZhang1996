@@ -1,0 +1,243 @@
+---
+title:  "Line Plot in R with ggplot2"
+mathjax: true
+layout: post
+categories: media
+---
+
+In this tutorial, we will go through __different types of line-base plots (e.g. straight line, smooth curve, density, etc.) in R with `ggplot2`__ and how we can __stratify/group line plots with different categories/levels__. 
+
+## 1. Format of dataset
+The dataset we used for the tutorial includes cycle threshold values and numerical measurements of a biomarker for different respiratory viruses collected in different clinics in participant's level. It has 6 coloumns:
+
+- `PTID`: this is an __unique identification__ for each participants __[1200 participants]__ (string); 
+
+- `Location`: this is the __location of clinic__ where participants visited __[6 locations: 'Hospital A', 'Hospital B', 'Clinic A', 'Clinic C', 'Urgent Care A', 'Urgent Care B']__ (string);
+
+- `Severity`: this is the __severity level of diseases [2 levels: 'Mild', 'Severe']__ (string); 
+
+- `Virus`: this indicates the __types of viral infections [2 types: 'Enterovirus', 'Rhinovirus']__ (string);
+
+- `Ct`: this is the __cycle threshold value__ for a type of viral infection (numerical);
+
+- `Biomarker`: this is a __numerical measurement of a biomarker__ (numerical).
+
+![](https://github.com/YzwIsALaity/Line-Plot-Tutorial-in-R/blob/3cb83a04056a112854923509fb147d4fb1c11c25/Dataset_Shape.jpeg)
+
+
+No matter what types of plots we want to create with `ggplots`, the package has a fundamental input function for the dataset before passing into different plots. That is `ggplot()` and this function requires to passing dataset and setting variables X-axis and/or Y-axis. It basically need to use the inner argument `aes()` and we often pass below arguments into `aes()`:
+
+- `x = `: a variable for X-axis;
+
+- `y = `: a variable for Y-axis;
+
+- `group = `: a variable for indicating different groups in a plot. __Typically, we will put a categorical variable for this command and we want to visualize figures for different categories regarding the same X and Y variables.__
+
+- `col = `: a numerical value/vector of colors for points/lines from different `group`. __The color in here is just used to select the color for outer boxes/frames/etc. rather than color filled in boxes/frames/etc.__;
+
+- `fill = `: a numerical value/vector of colors for __filling out in boxes/frames/etc. from different `group`__.
+
+Once we use `group`, `col`, and `fill`, the `ggplot` will automatically provide legends for them. The effects from `col` and `fill` are similar to `group` so we can just call `col` or `fill` without calling the command `group`.
+
+## 2. Basic line plot (connect points with lines)
+We are going to create a basic line plot, that is, only connecting `Ct`-`Biomarker` pairs of points with straight lines and stratified points by `Virus`. We will still remove the grid and background for the figure and set `Ct` as X-axis and `Biomarker` as Y-axis. __The primary function we used in here from `ggplot2` package is `geom_line()`__.
+```
+# Version 0.0
+ggplot(Dt, aes(x = Ct, y = Biomarker, col = Virus)) + 
+  geom_line() + 
+  theme_bw() +                                                      # dark-on-light theme
+  theme(panel.border = element_blank(),                             # these four are for the background and grid
+        panel.background = element_blank(),                    
+        panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(), 
+        axis.line.x = element_line(),                               # these two are for the axis line
+        axis.line.y = element_line(),
+        axis.text.x = element_text(colour = "black", size = 11),    # there two are for texts in axes
+        axis.text.y = element_text(colour = "black", size = 11),
+        axis.ticks.x = element_line(),                              # these two are for ticks in axes
+        axis.ticks.y = element_line(),
+        axis.title.x = element_text(colour = "black", size = 11, face = 'bold', vjust = -1),                              
+        axis.title.y = element_text(colour = "black", size = 11, face = 'bold'),
+        legend.title = element_text(colour = "black", size = 11, face = 'bold')) 
+```
+
+![](https://github.com/YzwIsALaity/Line-Plot-Tutorial-in-R/blob/3cb83a04056a112854923509fb147d4fb1c11c25/Version%200.0.jpeg)
+
+In this plot, we can find that it is really hard to distinguish a trace of each virus so we can __split Version 0.0 into two figures based on `Virus` with the same layout__. This will require us to use a new function:
+
+- __`facet_grid()`__: this is used to form a matrix of panels defined by row and column faceting variables and it has some main arguments:
+
+  * `cols = ` and `rows = `: variable's name will be first passed into `vars()` and then into these two arguments and they are used to determine how we want to layout panels. __For example, if we set `cols = var(Virus)`, we will see two side-by-side figures and each one represents a type of `Virus`.__
+  
+  * `scales = `: it is used to determine if __scales should be shared across all facets__ (the default, "fixed"), or do they vary across rows ("free_x"), columns ("free_y"), or both rows and columns ("free").
+In this example, we will set up `cols = var(Virus)` and `scales = 'fixed' since X-axis and Y-axis for two figures share the same variables and ranges.
+```
+# Version 1.0
+ggplot(Dt, aes(x = Ct, y = Biomarker)) + 
+  geom_line() + 
+  facet_grid(cols = vars(Virus), scales = 'fixed') +
+  theme_bw() +                                                      # dark-on-light theme
+  theme(panel.border = element_blank(),                             # these four are for the background and grid
+        panel.background = element_blank(),                    
+        panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(), 
+        axis.line.x = element_line(),                               # these two are for the axis line
+        axis.line.y = element_line(),
+        axis.text.x = element_text(colour = "black", size = 11),    # there two are for texts in axes
+        axis.text.y = element_text(colour = "black", size = 11),
+        axis.ticks.x = element_line(),                              # these two are for ticks in axes
+        axis.ticks.y = element_line(),
+        axis.title.x = element_text(colour = "black", size = 11, face = 'bold', vjust = -1),                              
+        axis.title.y = element_text(colour = "black", size = 11, face = 'bold'),
+        legend.title = element_text(colour = "black", size = 11, face = 'bold'),
+        strip.text = element_text(size = 15),                       # set up size of title for each figure with 15
+        strip.background = element_blank())                         # remove the background of titles for figures
+```
+
+![](https://github.com/YzwIsALaity/Line-Plot-Tutorial-in-R/blob/3cb83a04056a112854923509fb147d4fb1c11c25/Version%201.0.jpeg)
+
+The above example is just stratified pairs of `Ct`-`Biomarker` by types of `Virus` and for the next one, we can try to __stratify them with two variables__. __Namely, pairs of `Ct`-`Biomarker` will be stratified by types of `Virus` and levels of `Severity`.__ We will set up columns as `Virus` and rows as `Severity`.
+```
+# Version 2.0
+ggplot(Dt, aes(x = Ct, y = Biomarker)) + 
+  geom_line() + 
+  facet_grid(cols = vars(Virus), rows = vars(Severity),             # stratified by Virus and Severity
+             scales = 'fixed') +
+  theme_bw() +                                                      # dark-on-light theme
+  theme(panel.border = element_blank(),                             # these four are for the background and grid
+        panel.background = element_blank(),                    
+        panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(), 
+        axis.line.x = element_line(),                               # these two are for the axis line
+        axis.line.y = element_line(),
+        axis.text.x = element_text(colour = "black", size = 11),    # there two are for texts in axes
+        axis.text.y = element_text(colour = "black", size = 11),
+        axis.ticks.x = element_line(),                              # these two are for ticks in axes
+        axis.ticks.y = element_line(),
+        axis.title.x = element_text(colour = "black", size = 11, face = 'bold', vjust = -1),                              
+        axis.title.y = element_text(colour = "black", size = 11, face = 'bold'),
+        legend.title = element_text(colour = "black", size = 11, face = 'bold'),
+        strip.text = element_text(size = 13, face = 'bold'),        # set up size of title for each figure with 15
+        strip.background = element_blank())                         # remove the background of titles for figures
+```
+
+![](https://github.com/YzwIsALaity/Line-Plot-Tutorial-in-R/blob/3cb83a04056a112854923509fb147d4fb1c11c25/Version%202.0.jpeg)
+
+In this section, we have seen how we can use basic line plot to visualize the development of a numerical biomarker along with cycle threshold values of viruses. Obviously, the basic line plot does not provide useful information for two variables so one may think about using more generalized methods to show their relationship, that is, a __smooth curve__.
+
+## 3. Smooth curve plot
+Beyond the basic version of line plots (Version 0.0 and Version 1.0), smooth curve plot is a better choice to visualize the development of one numerical variable along with another numerical variable. The main function for smooth curve in `ggplot2` package is 
+
+- `geom_smooth()`: it is used to fit different smooth curves and it has several common arguments that users often specify:
+
+  * `method = `: it is used to determine smoothing method (function) to use
+  
+    + "lm" for linear regression
+    
+    + "glm" for generalized linear regression
+    
+    + "gam" for generalized additive method __(default for observations more than 1000 and fitted with cubic spline [`y ~ s(x, bs = 'cs')`])__
+    
+    + "loess" for local polynomial regression __(default for observations less than 1000)__
+    
+  * `se = `: it is used to choose __whether the plot displays confidence interval around smooth (T or F)__
+  
+  * `formula = `: it is used to provide formula to use in smoothing function (e.g. y ~ x, y ~ poly(x, 2), y ~ log(x))
+  
+  * `method.args = list()`: it is used to provide a list for additional arguments passed on to the modelling function defined by `method`
+
+In this section, we are going to __use smooth curves to visualize the development of the numerical `Biomarker` along with the `Ct` values for different `Virus`, stratified by `Severity` level and `Location` of clinics__. Hence, we will modify the Version 2.0 to meet our new requirements and this time we will show the border of each panel and the background of titles for columns and rows.
+```
+# Version 3.0
+ggplot(Dt, aes(x = Ct, y = Biomarker, col = Severity, fill = Severity)) + # set up colors/fill for Severity
+  geom_smooth(method = 'loess',                             # use local polynomial regression
+              alpha = 0.3,                                  # size = 0.5 --> line width
+              size = 0.5) +                                 # alpha = 0.3 --> color transparency
+  facet_grid(cols = vars(Virus), rows = vars(Location),     # stratified by Virus and Location
+             scales = 'fixed') +
+  theme_bw() +                                                      # dark-on-light theme
+  theme(panel.background = element_blank(),                    
+        panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(), 
+        axis.line.x = element_line(),                               # these two are for the axis line
+        axis.line.y = element_line(),
+        axis.text.x = element_text(colour = "black", size = 11),    # there two are for texts in axes
+        axis.text.y = element_text(colour = "black", size = 11),
+        axis.ticks.x = element_line(),                              # these two are for ticks in axes
+        axis.ticks.y = element_line(),
+        axis.title.x = element_text(colour = "black", size = 11, face = 'bold', vjust = -1),                              
+        axis.title.y = element_text(colour = "black", size = 11, face = 'bold'),
+        legend.title = element_text(colour = "black", size = 11, face = 'bold'),
+        legend.text = element_text(colour = "black", size = 11),
+        strip.text = element_text(size = 13, face = 'bold'))      # set up size of title for each figure with 13
+```
+
+![](https://github.com/YzwIsALaity/Line-Plot-Tutorial-in-R/blob/3cb83a04056a112854923509fb147d4fb1c11c25/Version%203.0.jpeg)
+
+Eventually we get the fancy one! Probably, it will be better to include borders and background of titles in columns and rows.
+
+## 4. Density plot/histogram
+The last example we are going show is the density plot which almost conveys similar information as a histogram. A density plot is a specific version of smooth curve as well. The main functions we are going to use in here are 
+
+- `geom_density()`: it is used to plot the density of a numerical variable;
+
+- `geom_histogram()`: it is used to plot the histogram of a numerical variable.
+
+In this example, we will show a normal density plot for `Ct` stratified by `Location` and a histogram for `Ct` stratified by `Location`.
+```
+# Version 4.0
+p1 <- 
+  ggplot(Dt, 
+         aes(x = Ct, col = Location, fill = Location)) +            
+  geom_density(alpha = 0.3) + 
+  xlab('Ct') + ylab('Density') +
+  theme_bw() +                                                      # dark-on-light theme
+  theme(panel.border = element_blank(),
+        panel.background = element_blank(),                    
+        panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(), 
+        axis.line.x = element_line(),                               # these two are for the axis line
+        axis.line.y = element_line(),
+        axis.text.x = element_text(colour = "black", size = 11),    # there two are for texts in axes
+        axis.text.y = element_text(colour = "black", size = 11),
+        axis.ticks.x = element_line(),                              # these two are for ticks in axes
+        axis.ticks.y = element_line(),
+        axis.title.x = element_text(colour = "black", size = 11, face = 'bold', vjust = -1),                              
+        axis.title.y = element_text(colour = "black", size = 11, face = 'bold'),
+        legend.title = element_text(colour = "black", size = 11, face = 'bold'),
+        legend.text = element_text(colour = "black", size = 11))   
+
+# Histogram
+p2 <- 
+  ggplot(Dt, 
+         aes(x = Ct, col = Location, fill = Location)) +            
+  geom_histogram() + 
+  xlab('Ct') + ylab('Count') +
+  theme_bw() +                                                      # dark-on-light theme
+  theme(panel.border = element_blank(),
+        panel.background = element_blank(),                    
+        panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(), 
+        axis.line.x = element_line(),                               # these two are for the axis line
+        axis.line.y = element_line(),
+        axis.text.x = element_text(colour = "black", size = 11),    # there two are for texts in axes
+        axis.text.y = element_text(colour = "black", size = 11),
+        axis.ticks.x = element_line(),                              # these two are for ticks in axes
+        axis.ticks.y = element_line(),
+        axis.title.x = element_text(colour = "black", size = 11, face = 'bold', vjust = -1),                              
+        axis.title.y = element_text(colour = "black", size = 11, face = 'bold'),
+        legend.title = element_text(colour = "black", size = 11, face = 'bold'),
+        legend.text = element_text(colour = "black", size = 11))  
+# Arrange plots
+grid.arrange(p1, p2, nrow = 1)
+```
+
+![](https://github.com/YzwIsALaity/Line-Plot-Tutorial-in-R/blob/3cb83a04056a112854923509fb147d4fb1c11c25/Density.jpeg)
+
+Beside these plots, there are other functions related to line-base plots in `ggplot2` package and users can refer to other line plots such as 
+
+- `geom_abline()`, `geom_hline()`, `geom_vline()`: these three provide __diagonal, horizontal, and vertical lines__;
+
+- `geom_segment()`, `geom_curve()`: these two provide __line segments and curves__.
+
+People can make different combinations of these lines and create a complex figure that fulfill their requirements.
