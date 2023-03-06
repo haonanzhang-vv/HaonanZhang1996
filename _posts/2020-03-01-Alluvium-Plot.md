@@ -16,7 +16,7 @@ The first dataset we used is a follow-up study with a __cohort of 200 patients__
 
 - `Specialist`: this covariate provides different __types of specialists__ and has __five levels [None, Neurology, Rheumatology, Infectious Disease, Pulmonology]__ (numerical).
 
-![](https://github.com/YzwIsALaity/Alluvium-Plot-Tutorial/blob/fe9b191c90b75e92682db4389f8b46ef17bf20ba/Dataset_1.jpeg)
+![Data](https://github.com/YzwIsALaity/Alluvium-Plot-Tutorial/blob/fe9b191c90b75e92682db4389f8b46ef17bf20ba/Dataset_1.jpeg)
 
 There are some new functions we are going to use for creating a alluvium plot beside the `ggplot()`. __In `ggplot()`, we first set up the X-axis as `x = Time` and fill out stratum with its color as `stratum = Specialist, fill = Specialist`. Since each participant's choice of specialist are changed and recorded over `Time`, the alluvium in the plot should each unique participant and we will set `alluvium = PTID`. Eventually, we set the legend label as `label = Specialist`.__
 
