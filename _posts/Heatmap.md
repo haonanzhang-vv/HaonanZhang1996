@@ -1,0 +1,309 @@
+---
+title:  "Heatmap in R with ggplot2"
+mathjax: true
+layout: post
+categories: media
+---
+
+This is a short tutorial for making __heatmaps__ in R with __ggplot2__. In general, a heatmap is intended to show a __(numerical) correlation between a pair of features/covariates/variables__ and mostly a __correlation matrix__ will be the input of a heatmap. However, it is possible that we just want to show the __longitudinal change/trend of subjects__ in a heatmap and under this case, the scale in a heatmap will only have few levels (e.g. __Yes/No, High/Median/Low, etc.__). 
+
+# Part 1: Categorical/Nominal variable
+## 1. Format of dataset for heatmap
+For example, a cohort study recorded a list of symptoms that each participant experienced and reported in follow-up surveys. In here, each symptom will only contain two levels: "Yes" for experiencing the symptom at X-month follow-up and "No" for no experiencing the symptom at X-month follow-up. We used a fake dataset to show how we can visualize the longitudinal change/trend of participants' symptoms. The dataset has 5 columns:
+
+- `PTID`: an __unique identification__ for each participant (string);
+
+- `n.symptoms`: the __total number of symptoms__ that a participants reported over all follow-ups (numerical);
+
+- `Month`: the __timepoint for each follow-up__ and it has 3 levels [6-month, 12-month, 24-month] (string);
+
+- `Experienced.Symptom`: a __binary covariate [No, Yes]__ that indicates if a participant experienced a symptom in a given follow-up (string);
+
+- `Symptom`: a __list of symptoms in follow-up [10 symptoms: Fatigue, Headache, Muscle Aches, Breathing Difficulties, Loss Taste/Smell, Joint Pain, Vertigo, Lowering Vision,       Brain Fog, Hair Loss]__ (string).
+
+![](https://github.com/YzwIsALaity/Heatmap/blob/2a378e9b043535a679c90e68db6f9b08f6b533a7/Data%20Shape%20(Individual).jpeg)
+
+
+In the ggplot, no matter what kind of plots we make, they are basically composed of two parts: X-axis and Y-axis. __Since we want to create a heatmap for the longitudinal reported symptoms, we set X-axis as__ `Month`__, Y-axis as__ `PTID`__, and filled values for tiles in the heatmap with__ `Experienced.Symptom`. Since we have 10 symptoms and each of them were recorded at 3 different timepoints, we need to work on each symptom first and then __arrange them horizontally__. 
+
+## 2. Heatmap for one symptom
+We take Fatigue as an example and we will extract rows for Fatigue. 
+```
+# Extract rows for Fatigue #################################################################################
+Fatigue <- Dt[which(Dt$Symptom == 'Fatigue'), ]
+# Heatmap ##################################################################################################
+p_Fatigue <- 
+  ggplot(Fatigue, 
+         aes(x = Month, y = reorder(PTID, n.symptoms))) + 
+  geom_tile(aes(fill = Experienced.Symptom)) + 
+  scale_fill_manual(name = 'Experienced Symptom', 
+                    values = c('No' = 'aquamarine2', 'Yes' = 'firebrick2', 'NA' = 'gray45')) + 
+  ggtitle('Fatigue') + 
+  theme(panel.grid.major = element_blank(),      # remove background and grid
+        panel.background = element_blank(), 
+        axis.line = element_blank(),             # remove lines in X- and Y-axes
+        axis.ticks.x = element_blank(),          # remove ticks in X- and Y-axes
+        axis.ticks.y = element_blank(),
+        axis.title.x = element_blank(),          # remove titles in X- and Y-axes
+        axis.title.y = element_blank(),
+        axis.text.x = element_text(size = 15, color = 'black', face = "bold", angle = 45, hjust = 1),
+        axis.text.y = element_text(size = 15, color = 'black', face = "bold"),
+        legend.text = element_text(size = 15, color = 'black', face = "bold"),
+        legend.title = element_text(size = 15, face = "bold", color = 'black'),
+        plot.title = element_text(size = 20, hjust = 0.5, face = "bold", color = 'black'))
+p_Fatigue
+```
+![](https://github.com/YzwIsALaity/Heatmap/blob/2a378e9b043535a679c90e68db6f9b08f6b533a7/Heatmap%20(one%20symptom).jpeg)
+
+
+The above is the heatmap for one symptom (fatigue) and we are going to layout details for the code below:
+
+- The main __function for heatmaps in ggplot2__ is `geom_tile()` and we often need to set up and pass the command `aes(fill = )` into the main function. Since we want to __fill     tiles with the covariate__ `Experienced.Symptom`, we eventually result in `geom_tile(aes(fill = Experienced.Symptom))`.
+
+- `ggplot(Fatigue, aes(x = Month, y = reorder(PTID, n.symptoms)))`: this is the main input of ggplot2 and we want to __reorder the input dataset by the total number of symptoms     that a participant experienced__. Namely, participants experiencing more symptoms over 3 timepoints will be placed at top. 
+
+- `scale_fill_manual(name = 'Experienced Symptom', values = c('No' = 'aquamarine2', 'Yes' = 'firebrick2', 'NA' = 'gray45'))`: this command provides a chance to __manually modify    the variation of color for the value filled in tiles__. Since we only have two level No/Yes, we set up different colors for them and add up potential color for missing values as   well. 
+
+- `theme()`: this is a function used to __modify non-data components__ in the the plot and we want to enlarge texts in axes, titles, and legends.
+
+  * `axis.text.x`, `axis.text.y`, `legend.text`, and `legend.title`: we hope texts in __axes and legends in bold__ (`face = "bold"` in `element_text()`) and better for display, we     __rotate labels in X-axis__ with 45 degrees (`angle = 45`) and move it down a little bit (`hjust = 1`);
+  
+  * `plot.title`: we hope our main title is a little bit greater (`size = 20`) and center in the figure (`hjust = 0.5`);
+  
+  * `color = 'black'`: we also want all texts in black so we pass this command into each `element_text()`;
+
+- `ggtitle()`: this is for the title of the figure.
+
+## 3. Heatmap for multiple symptoms
+Now we are going to pack heatmaps for multiple symptoms together. __For the first heatmap (in here it is Fatigue), we need to remove the legend and for the last one, we add the legend to it but remove texts in Y-axis. For others heatmaps in the middle of a row, we will remove texts in Y-axis and legend for better display.__ Thus, we create the first and the last one separately and then create others in a loop.
+```
+# First: Fatigue #########################################################################################
+Fatigue <- Dt[which(Dt$Symptom == 'Fatigue'), ]
+p_Fatigue <- 
+  ggplot(Fatigue, 
+         aes(x = Month, y = reorder(PTID, n.symptoms))) + 
+  geom_tile(aes(fill = Experienced.Symptom)) + 
+  scale_fill_manual(name = 'Experienced Symptom', 
+                    values = c('No' = 'aquamarine2', 'Yes' = 'firebrick2', 'NA' = 'gray45')) + 
+  ggtitle('Fatigue') + 
+  theme(panel.grid.major = element_blank(),      # remove background and grid
+        panel.background = element_blank(), 
+        axis.line = element_blank(),             # remove lines in X- and Y-axes
+        axis.ticks.x = element_blank(),          # remove ticks in X- and Y-axes
+        axis.ticks.y = element_blank(),
+        axis.title.x = element_blank(),          # remove titles in X- and Y-axes
+        axis.title.y = element_blank(),
+        axis.text.x = element_text(size = 15, color = 'black', face = "bold", angle = 45, hjust = 1),
+        axis.text.y = element_text(size = 15, color = 'black', face = "bold"),
+        legend.position = 'none',                # remove legend
+        plot.title = element_text(size = 20, hjust = 0.5, face = "bold", color = 'black'))
+
+# Last: Hair Loss #########################################################################################
+Hair_Loss <- Dt[which(Dt$Symptom == 'Hair Loss'), ]
+p_Hair_Loss <- 
+  ggplot(Hair_Loss, 
+         aes(x = Month, y = reorder(PTID, n.symptoms))) + 
+  geom_tile(aes(fill = Experienced.Symptom)) + 
+  scale_fill_manual(name = 'Experienced Symptom', 
+                    values = c('No' = 'aquamarine2', 'Yes' = 'firebrick2', 'NA' = 'gray45')) + 
+  ggtitle('Hair Loss') + 
+  theme(panel.grid.major = element_blank(),      # remove background and grid
+        panel.background = element_blank(), 
+        axis.line = element_blank(),             # remove lines in X- and Y-axes
+        axis.ticks.x = element_blank(),          # remove ticks in X- and Y-axes
+        axis.ticks.y = element_blank(),
+        axis.title.x = element_blank(),          # remove titles in X- and Y-axes
+        axis.title.y = element_blank(),
+        axis.text.x = element_text(size = 15, color = 'black', face = "bold", angle = 45, hjust = 1),
+        axis.text.y = element_blank(),
+        legend.text = element_text(size = 15, color = 'black', face = "bold"),
+        legend.title = element_text(size = 15, face = "bold", color = 'black'),
+        plot.title = element_text(size = 20, hjust = 0.5, face = "bold", color = 'black'))
+
+# Middle: other symptoms  #################################################################################
+Var.Middle <- c('Headache', 'Muscle Aches', 'Breathing Difficulties', 'Loss Taste/Smell', 
+                'Joint Pain', 'Vertigo', 'Lowering Vision', 'Brain Fog')
+Heatmap.Middle <- list()
+for(i in 1:length(Var.Middle)){
+  Data <- Dt[which(Dt$Symptom == Var.Middle[i]), ]
+  p <- 
+  ggplot(Data, 
+         aes(x = Month, y = reorder(PTID, n.symptoms))) + 
+  geom_tile(aes(fill = Experienced.Symptom)) + 
+  scale_fill_manual(name = 'Experienced Symptom', 
+                    values = c('No' = 'aquamarine2', 'Yes' = 'firebrick2', 'NA' = 'gray45')) + 
+  ggtitle(Var.Middle[i]) + 
+  theme(panel.grid.major = element_blank(),      # remove background and grid
+        panel.background = element_blank(), 
+        axis.line = element_blank(),             # remove lines in X- and Y-axes
+        axis.ticks.x = element_blank(),          # remove ticks in X- and Y-axes
+        axis.ticks.y = element_blank(),
+        axis.title.x = element_blank(),          # remove titles in X- and Y-axes
+        axis.title.y = element_blank(),
+        axis.text.x = element_text(size = 15, color = 'black', face = "bold", angle = 45, hjust = 1),
+        axis.text.y = element_blank(),
+        legend.position = 'none',                # remove legend
+        plot.title = element_text(size = 20, hjust = 0.5, face = "bold", color = 'black'))
+  Heatmap.Middle[[i]] <- p
+}
+```
+
+__To remove the the legend in plots__, we pass the command `legend.position = 'none'` into the function `theme()`. Since we have multiple plots now, we are going to arrange their positions and eventually pack them together! 
+
+This time since the width of plots are different since the first and last one contains more non-data components than the heatmaps in the middle, we need to use a __layout matrix__ to arrange the position of heatmaps. The idea for the matrix is very simple and we just need to __repeat the rank number for each heatmap multiple times (the number of repeat is used to modify the width of each heatmap)__. In here, we set up __the width for the first nine heatmaps as 8 units__ and __the width for the last heatmap as 16 units (since it has a legend)__. Since all heatmaps are displayed in a row, the __layout matrix__ is just a row vector which contains different lengths of repeated rank numbers and it looks like
+```
+Layout.Mat <- matrix(c(rep(1:9, each = 8), rep(10, 16)), nrow = 1)
+Layout.Mat
+```
+![](https://github.com/YzwIsALaity/Heatmap/blob/2a378e9b043535a679c90e68db6f9b08f6b533a7/Layout%20matrix.jpeg)
+
+To arrange the position of heatmaps, we use the function `grid.arrange()` and pass the command `layout_matrix = Layout.Mat` into it.
+```
+grid.arrange(p_Fatigue,
+             Heatmap.Middle[[1]],
+             Heatmap.Middle[[2]],
+             Heatmap.Middle[[3]],
+             Heatmap.Middle[[4]],
+             Heatmap.Middle[[5]],
+             Heatmap.Middle[[6]],
+             Heatmap.Middle[[7]],
+             Heatmap.Middle[[8]], 
+             p_Hair_Loss, 
+             layout_matrix = Layout.Mat)
+```
+![](https://github.com/YzwIsALaity/Heatmap/blob/2a378e9b043535a679c90e68db6f9b08f6b533a7/Heatmap%20(multiple%20symptoms).jpeg)
+
+It eventually looks like the above one! __Its actual size (width * height) and resolution should be adjusted when you are going to output it from R.__  
+
+# Part 2: Numerical variable
+## 1. Format of dataset for heatmap
+Similar to the dataset on the first part, the only difference is that this time we are going to fill out __numerical values for tiles__ rather than categorical/nominal values. 
+![](https://github.com/YzwIsALaity/Heatmap/blob/2a378e9b043535a679c90e68db6f9b08f6b533a7/Data%20Shape%20(Aggregated).jpeg)
+
+
+This dataset includes 4 variables:
+
+- `Symptom.PriorTimepoint`: a list of __symptoms at prior timepoints__ (Acute, 6-month, 12-month, and 24-month) (string);
+
+- `Symptom.LaterTimepoint`: a list of __symptoms at subsequent timepoints__ (string);
+  
+  * Symptom: Fatigue, Headache, Body aches, Difficult breathing, Loss or alter taste/smell, Joint pain, Vertigo/dizzy, Lower vision, Brain fog, Hair loss, Gastrointestinal, and      Difficult sleeping
+
+- `Corr`: the __correlation of a pair of symptoms__ in `Symptom.PriorTimepoint` and `Symptom.LaterTimepoint` (numerical);
+
+- `Comparison`: texts used to describe timepoints in `Symptom.PriorTimepoint` and `Symptom.LaterTimepoint` ("Acute vs 6-month", "6-month vs 12-month", and "12-month vs 24-month")     (string).
+
+## 2. Heatmap for one type of `Comparison`
+In here, we first create a heatmap for a pair of symptoms in acute and 6-month timepoint. 
+```
+# Extract the specific type #################################################################################
+Dt1 <- Dt[which(Dt$Comparison == "Acute vs 6-month"), ]
+# Plot ###################################################################################################### 
+p_acute_6m <- 
+  ggplot(Dt1, aes(x = Symptom.PriorTimepoint, y = Symptom.LaterTimepoint)) + 
+  geom_tile(aes(fill = Corr)) + 
+  ggtitle('Acute vs 6-month') + 
+  scale_fill_gradientn(breaks = seq(-1, 1, length.out = 6), 
+                       colors = viridis(6), n.breaks = 6, limits = c(-1, 1), na.value = 'gray27') + 
+  theme(panel.grid.major = element_blank(), 
+        panel.background = element_blank(), 
+        axis.line = element_blank(),
+        axis.ticks.x = element_blank(),
+        axis.ticks.y = element_blank(),
+        axis.title.x = element_blank(),
+        axis.title.y = element_blank(),
+        axis.text.x = element_text(size = 15, color = 'black', face = "bold", angle = 45, hjust = 1),
+        axis.text.y = element_text(size = 15, color = 'black', face = "bold"),
+        plot.title = element_text(size = 20, hjust = 0.5, face = "bold", color = 'black'),
+        legend.text = element_text(size = 15, hjust = 0.5, color = 'black'),
+        legend.title = element_text(size = 15, hjust = 0.5, face = "bold", color = 'black'))
+p_acute_6m
+```
+![](https://github.com/YzwIsALaity/Heatmap/blob/2a378e9b043535a679c90e68db6f9b08f6b533a7/Heatmap%20(Aggregated).jpeg)
+
+All __non-data component settings for heatmaps__ in part 2 are the same as the part 1 except the function `scale_fill_gradientn()`. 
+
+- `scale_fill_gradientn()`: this function is used to create n-color gradient so it can set up what color you want to use and how many gradient you want.
+  
+  * `breaks = seq(-1, 1, length.out = 6)`: create a __consecutive sequence of break__ (e.g. `r seq(-1, 1, length.out = 6)`);
+  
+  * `colors = viridis(6)`: set up a vector of __choices of colors for gradient__ and we use `viridis()` from the `viridis` package;
+  
+  * `n.breaks = 6`: set up the __number of breaks__;
+  
+  * `limits = c(-1, 1)`: set up the __limits of numerical values for breaks (lower, upper)__;
+  
+  * `na.value = 'gray27'`: set up the __color for missing values__.
+
+## 3. Heatmap for multiple types of `Comparison`
+__Similar to the part 1, we will remove the legend for the first heatmap, remove the texts in Y-axis and legend for the heatmap in the middle, and remove the texts in Y-axis for the last heatmap.__
+```
+# First: Acute vs 6-month ############################################################################
+Dt1 <- Dt[which(Dt$Comparison == "Acute vs 6-month"), ]
+p_acute_6m <- 
+  ggplot(Dt1, aes(x = Symptom.PriorTimepoint, y = Symptom.LaterTimepoint)) + 
+  geom_tile(aes(fill = Corr)) + 
+  ggtitle('Acute vs 6-month') + 
+  scale_fill_gradientn(breaks = seq(-1, 1, length.out = 6), 
+                       colors = viridis(6), n.breaks = 6, limits = c(-1, 1), na.value = 'gray27') + 
+  theme(panel.grid.major = element_blank(), 
+        panel.background = element_blank(), 
+        axis.line = element_blank(),
+        axis.ticks.x = element_blank(),
+        axis.ticks.y = element_blank(),
+        axis.title.x = element_blank(),
+        axis.title.y = element_blank(),
+        axis.text.x = element_text(size = 15, color = 'black', face = "bold", angle = 45, hjust = 1),
+        axis.text.y = element_text(size = 15, color = 'black', face = "bold"),
+        plot.title = element_text(size = 20, hjust = 0.5, face = "bold", color = 'black'),
+        legend.position = 'none')
+
+# Middle: 6-month vs 12-month #######################################################################
+Dt2 <- Dt[which(Dt$Comparison == "6-month vs 12-month"), ]
+p_acute_12m <- ggplot(Dt2, aes(x = Symptom.PriorTimepoint, y = Symptom.LaterTimepoint)) + 
+  geom_tile(aes(fill = Corr)) + 
+  ggtitle('6-month vs 12-month') + 
+  scale_fill_gradientn(breaks = seq(-1, 1, length.out = 6), 
+                       colors = viridis(6), n.breaks = 6, limits = c(-1, 1), na.value = 'gray27') + 
+  theme(panel.grid.major = element_blank(), 
+        panel.background = element_blank(), 
+        axis.line = element_blank(),
+        axis.ticks.x = element_blank(),
+        axis.ticks.y = element_blank(),
+        axis.title.x = element_blank(),
+        axis.title.y = element_blank(),
+        axis.text.x = element_text(size = 15, color = 'black', face = "bold", angle = 45, hjust = 1),
+        axis.text.y = element_blank(),
+        plot.title = element_text(size = 20, hjust = 0.5, face = "bold", color = 'black'),
+        legend.position = 'none')
+
+# Last: 12-month vs 24-month ##########################################################################
+Dt3 <- Dt[which(Dt$Comparison == "12-month vs 24-month"), ]
+p_acute_24m <- ggplot(Dt3, aes(x = Symptom.PriorTimepoint, y = Symptom.LaterTimepoint)) + 
+  geom_tile(aes(fill = Corr)) + 
+  ggtitle('12-month vs 24-month') + 
+  scale_fill_gradientn(breaks = seq(-1, 1, length.out = 6), 
+                       colors = viridis(6), n.breaks = 6, limits = c(-1, 1), na.value = 'gray27') + 
+  theme(panel.grid.major = element_blank(), 
+        panel.background = element_blank(), 
+        axis.line = element_blank(),
+        axis.ticks.x = element_blank(),
+        axis.ticks.y = element_blank(),
+        axis.title.x = element_blank(),
+        axis.title.y = element_blank(),
+        axis.text.x = element_text(size = 15, color = 'black', face = "bold", angle = 45, hjust = 1),
+        axis.text.y = element_blank(),
+        plot.title = element_text(size = 20, hjust = 0.5, face = "bold", color = 'black'),
+        legend.text = element_text(size = 15, hjust = 0.5, color = 'black'),
+        legend.title = element_text(size = 15, hjust = 0.5, face = "bold", color = 'black'))
+# Arrange heatmaps ######################################################################################
+Layout.Mat <- matrix(c(rep(1, 14), rep(2, 10), rep(3, 12)), nrow = 1)
+grid.arrange(p_acute_6m, 
+             p_acute_12m, 
+             p_acute_24m, 
+             layout_matrix = Layout.Mat)
+```
+![](https://github.com/YzwIsALaity/Heatmap/blob/2a378e9b043535a679c90e68db6f9b08f6b533a7/Multiple%20Heatmaps%20(Aggregated).jpeg)
+
+Eventually, we get the final one!
+
