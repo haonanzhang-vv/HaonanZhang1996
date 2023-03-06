@@ -17,7 +17,7 @@ show_sidebar: true        # show a sidebar instead of the usual header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "README.md", title: "Home", sidebaricon: home}
   - {file: "blog.md", title: "Blog"}
-  - {file: 'PubList.md', title: "Publication & Presentation"}
+  - {file: 'PubList.md', title: "Publication"}
   
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
