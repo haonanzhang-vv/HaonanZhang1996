@@ -16,7 +16,7 @@ The first dataset we used is a follow-up study with a __cohort of 200 patients__
 
 - `Specialist`: this covariate provides different __types of specialists__ and has __five levels [None, Neurology, Rheumatology, Infectious Disease, Pulmonology]__ (numerical).
 
-![Data](https://github.com/YzwIsALaity/Alluvium-Plot-Tutorial/blob/fe9b191c90b75e92682db4389f8b46ef17bf20ba/Dataset_1.jpeg)
+![](https://raw.githubusercontent.com/YzwIsALaity/Alluvium-Plot-Tutorial-in-R/fe9b191c90b75e92682db4389f8b46ef17bf20ba/Dataset_1.jpeg)
 
 There are some new functions we are going to use for creating a alluvium plot beside the `ggplot()`. __In `ggplot()`, we first set up the X-axis as `x = Time` and fill out stratum with its color as `stratum = Specialist, fill = Specialist`. Since each participant's choice of specialist are changed and recorded over `Time`, the alluvium in the plot should each unique participant and we will set `alluvium = PTID`. Eventually, we set the legend label as `label = Specialist`.__
 
@@ -30,7 +30,7 @@ ggplot(Dt, aes(x = Time, stratum = Specialist, alluvium = PTID, fill = Specialis
   geom_flow(stat = "alluvium") 
 ```
 
-![](https://github.com/YzwIsALaity/Alluvium-Plot-Tutorial/blob/fe9b191c90b75e92682db4389f8b46ef17bf20ba/p1.jpeg)
+![](https://raw.githubusercontent.com/YzwIsALaity/Alluvium-Plot-Tutorial-in-R/fe9b191c90b75e92682db4389f8b46ef17bf20ba/p1.jpeg)
 
 - `geom_stratum()`: this function is used to create __strata__ of an alluvial plot.
   * In this example, each __stratum__ represents the amount of participants seeking for a type of specialists.
@@ -39,7 +39,7 @@ ggplot(Dt, aes(x = Time, stratum = Specialist, alluvium = PTID, fill = Specialis
   geom_stratum(alpha = 0.7) # "alpha = 0.7" is used to control the transparency of color filled in strata
 ``` 
 
-![](https://github.com/YzwIsALaity/Alluvium-Plot-Tutorial/blob/fe9b191c90b75e92682db4389f8b46ef17bf20ba/p2.jpeg)
+![](https://raw.githubusercontent.com/YzwIsALaity/Alluvium-Plot-Tutorial-in-R/fe9b191c90b75e92682db4389f8b46ef17bf20ba/p2.jpeg)
 
 - `scale_fill_brewer()`: this function is used to provide sequential ('seq'), diverging ('div') and qualitative ('qual') __color schemes__ in `ggplot2`.
   * `type = 'div'` means we want diverging color scheme (colors are different from each other apparently) and `palette = "Set2"` means we want to use the "Set2" palette.
@@ -74,7 +74,7 @@ ggplot(Dt, aes(x = Time,
         plot.title = element_text(face = "bold", family = "Times"))
 ```
 
-![](https://github.com/YzwIsALaity/Alluvium-Plot-Tutorial/blob/fe9b191c90b75e92682db4389f8b46ef17bf20ba/p3.jpeg)
+![](https://raw.githubusercontent.com/YzwIsALaity/Alluvium-Plot-Tutorial-in-R/fe9b191c90b75e92682db4389f8b46ef17bf20ba/p3.jpeg)
 
 The height of each stratum is the number of participants at a given timepoint of visit with a type of specialist and flow curves between two timepoints show the longitudinal changes in specialists for participants. The acute state is the baseline and we have 200 participants. In subsequent follow-ups, we lost some participants and this is reflected by the height of bars in following timepoints. 
 
@@ -87,7 +87,7 @@ The second dataset is a 2-year record of counts for different respiratory viruse
 
 - `Count`: the number of viruses (numerical).
 
-![](https://github.com/YzwIsALaity/Alluvium-Plot-Tutorial/blob/fe9b191c90b75e92682db4389f8b46ef17bf20ba/Dataset_2.jpeg)
+![](https://raw.githubusercontent.com/YzwIsALaity/Alluvium-Plot-Tutorial-in-R/fe9b191c90b75e92682db4389f8b46ef17bf20ba/Dataset_2.jpeg)
 
 Differed from the example one which has __stratum__ inside a bar for each timepoint, this example will only have alluvium and flow. Therefore, we will use new functions.
 
@@ -128,6 +128,6 @@ ggplot(data = Dt2,
         plot.title = element_text(face = "bold", family = "Times"))
 ```
 
-![](https://github.com/YzwIsALaity/Alluvium-Plot-Tutorial/blob/fe9b191c90b75e92682db4389f8b46ef17bf20ba/p4.jpeg)
+![](https://raw.githubusercontent.com/YzwIsALaity/Alluvium-Plot-Tutorial-in-R/fe9b191c90b75e92682db4389f8b46ef17bf20ba/p4.jpeg)
 
 We eventually get a alluvium plot with colorful ribbons!
