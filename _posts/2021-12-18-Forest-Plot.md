@@ -5,6 +5,9 @@ layout: post
 categories: media
 ---
 
+![Forest Plot](https://raw.githubusercontent.com/YzwIsALaity/Forest-Plot-Tutorial-in-R/cc64ccb0e0922c9553c9e2aeb64cf090644e2d1b/Version%203.0.jpeg)
+
+
 # 1. Format of dataset for forest plot
 We will use __ggplot2__ to make a __forest plot__ for estimated odds ratios from logistic regression models and the ggplot2 requires a specific format of the dataset. __We require three packages `ggplot2`, `gridExtra`, and `scales`.__ In this dataset, we have 6 columns
 
