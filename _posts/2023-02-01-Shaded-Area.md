@@ -5,6 +5,9 @@ layout: post
 categories: media
 ---
 
+![Shaded Area](https://raw.githubusercontent.com/YzwIsALaity/Shaded-Area-Plot-Tutorial-in-R/4a3120d1ac3cbfd5a5d7068b3f941a0867650eb0/Version%202.jpeg)
+
+
 In this tutorial, we will go through __different types of plots with shaded areas in R with `ggplot2`__ and how we can __integrate a shaded area plot with other elements (i.e., bar plot)__. The shaded area plot can help us to better understand how different types of rate/prevalence/incidence/frequency/... change over time.
 
 ## 1. Format of dataset
