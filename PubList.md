@@ -2,8 +2,7 @@
 layout: page
 title: "Publication"
 ---
-# Publication & Presentation
 
-1. ABC in Journal DEF
+1. I don't want to tell you
 
-2. GHI in Journal JKL
+
