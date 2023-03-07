@@ -20,7 +20,7 @@ We will use __ggplot2__ to make a __forest plot__ for estimated odds ratios from
 
 - `Index`: it is a sequence of ordered number used for the plot and its length is equal to the number of `Variable`.
 
-![](https://github.com/YzwIsALaity/Forest-Plot-Tutorial/blob/eb8887ed67d5da87e9bf5fc69895c7459390ec5d/Dataset%20Shape.png)
+![](https://raw.githubusercontent.com/YzwIsALaity/Forest-Plot-Tutorial-in-R/eb8887ed67d5da87e9bf5fc69895c7459390ec5d/Dataset%20Shape.png)
 
 In the ggplot, no matter what kind of plots we make, they are basically composed of two parts: X-axis and Y-axis. __Since we want to create a forest plot for odds ratio, we set X-axis as__ `Variable` __and Y-axis as__ `OR`.
 
@@ -33,7 +33,7 @@ ggplot(Plot.OR.Mat.6, aes(x = OR, y = Variable)) +    # x is for X-axis | y is f
   geom_errorbarh(aes(xmin = Lower, xmax = Upper))     # a function for plotting two whiskers
 ```
 
-![](https://github.com/YzwIsALaity/Forest-Plot-Tutorial/blob/33ff981aaeb260a5f32916e05fa769b35aadf931/Version%200.0.jpeg)
+![](https://raw.githubusercontent.com/YzwIsALaity/Forest-Plot-Tutorial-in-R/33ff981aaeb260a5f32916e05fa769b35aadf931/Version%200.0.jpeg)
 
 So it basically looks like the above one. But we can polish it and eventually attach `Summary` with corresponding `Variable`. 
 
@@ -62,7 +62,7 @@ ggplot(Plot.OR.Mat.6, aes(x = OR, y = Variable)) +                  # x is for X
   ggtitle('6-month Timepoint')                                      # title of plots
 ```
 
-![](https://github.com/YzwIsALaity/Forest-Plot-Tutorial/blob/477bde6d42ba41b9c3c71f0dcb2095ee29538463/Version%201.0.jpeg)
+![](https://raw.githubusercontent.com/YzwIsALaity/Forest-Plot-Tutorial-in-R/477bde6d42ba41b9c3c71f0dcb2095ee29538463/Version%201.0.jpeg)
 
 In the Version 1.0, we can find that the gray background and grid may not be good for presenting the plot and texts in two axes are small. 
 
@@ -137,7 +137,7 @@ ggplot(Plot.OR.Mat.6, aes(x = OR, y = Variable)) +                  # x is for X
 p1
 ```
 
-![](https://github.com/YzwIsALaity/Forest-Plot-Tutorial/blob/66d0209a407a273f78a5d92f86d99a9d670e2bf5/Version%202.0.jpeg)
+![](https://raw.githubusercontent.com/YzwIsALaity/Forest-Plot-Tutorial-in-R/66d0209a407a273f78a5d92f86d99a9d670e2bf5/Version%202.0.jpeg)
 
 This version looks more clear and tidy! We can try our last step, that is to combine the `Summary` for each variable. 
 
@@ -176,7 +176,7 @@ Eventually, the final plot will be better than previous versions.
 grid.arrange(p1, tab1, 
              nrow = 1, ncol = 2)
 ```
-![](https://github.com/YzwIsALaity/Forest-Plot-Tutorial/blob/cc64ccb0e0922c9553c9e2aeb64cf090644e2d1b/Version%203.0.jpeg)
+![](https://raw.githubusercontent.com/YzwIsALaity/Forest-Plot-Tutorial-in-R/cc64ccb0e0922c9553c9e2aeb64cf090644e2d1b/Version%203.0.jpeg)
 
 This is the final version! If we want to print it out from R, __we can always change its size when we save the figure to make sure title is center or aligned left__. 
 
@@ -239,7 +239,7 @@ grid.arrange(p2, tab2,
              p1, tab1,
              nrow = 2, ncol = 2)
 ```
-![](https://github.com/YzwIsALaity/Forest-Plot-Tutorial/blob/ddd1c3a8b85da7319432c60195ec29a32138fc48/Version%204.0.jpeg)
+![](https://raw.githubusercontent.com/YzwIsALaity/Forest-Plot-Tutorial-in-R/ddd1c3a8b85da7319432c60195ec29a32138fc48/Version%204.0.jpeg)
 
 __After we remove the X-axis for the top plot__, we need to __align the__ `Summary` __with rows in the plot__ and this can be modified by `geom_text(aes(y = Index, x = 1, label = Summary), size = 4, hjust = 0, vjust = 1.35)` (need to modify `vjust = `: modify vertical distance). 
 
