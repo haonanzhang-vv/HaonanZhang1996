@@ -5,6 +5,9 @@ layout: post
 categories: media
 ---
 
+![Violin Plot](https://raw.githubusercontent.com/YzwIsALaity/Box-Violin-Plot-Tutorial-in-R/042bda2d9a9dee966d39cdfbc937b63c2de91855/p5.jpeg)
+
+
 This is a short tutorial for how to change a __plain box plot__ to be more advanced versions (e.g. __box plot with p-value, violin plot__, etc.).
 ## 1. Format of dataset for boxplot
 The dataset is a record of the level of biomarker for a disease and patients in the dataset are categorized into different groups based on their severity levels. Hence, this dataset has three columns:
