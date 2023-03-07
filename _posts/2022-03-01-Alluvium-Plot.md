@@ -5,6 +5,9 @@ layout: post
 categories: media
 ---
 
+![Alluvium Plot](https://raw.githubusercontent.com/YzwIsALaity/Alluvium-Plot-Tutorial-in-R/fe9b191c90b75e92682db4389f8b46ef17bf20ba/Dataset_2.jpeg)
+
+
 This is a short tutorial for creating __alluvium plots in R__ with `ggplot2`. An alluvium plot is used to show the change/trend/development of subjects regarding single/multiple variables over time flow. Beside `ggplot2`, we require to use `ggalluvial` package in our plots and will provide two examples of alluvium plots.
 
 ## 1. Example: Counts of specialists in different timepoints
