@@ -1,6 +1,6 @@
 title: "Yongzhe Wang"
 author: "Yognzhe Wang"
-description: "City of Hope"
+description: "Yongzhe Wang"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -15,7 +15,7 @@ show_sidebar: true        # show a sidebar instead of the usual header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "README.md", title: "Home", icon: home}
+  - {file: "README.md", title: "About Me", icon: home}
   - {file: "index.html", title: "Blog"}
   - {file: 'PubList.md', title: "Publication"}
   
