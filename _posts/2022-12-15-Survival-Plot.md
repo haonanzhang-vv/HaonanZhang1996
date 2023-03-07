@@ -5,6 +5,9 @@ layout: post
 categories: media
 ---
 
+![Kaplan Meier](https://raw.githubusercontent.com/YzwIsALaity/Survival-Plot-Tutorial-in-R/d7afc4c734d6dd42cc2ea63bd52ff43ca5c127de/Version%203.jpg)
+
+
 In this tutorial, we will go through **survival curves (e.g. Kaplan-Meier curve, Cox model curve)** with an extension package **`survminer`** from **`ggplots`**.
 
 ## 1. Format of dataset
