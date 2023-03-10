@@ -1,5 +1,5 @@
 ---
-title:  "Survival Plot in R with ggplot2"
+title:  "Kaplan Meier Curve in R with ggplot2"
 mathjax: true
 layout: post
 categories: media
