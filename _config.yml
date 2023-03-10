@@ -23,6 +23,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:yonwang@coh.org"}
   - {title: Github, icon: github, url: "https://github.com/YzwIsALaity"}
+  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/yongzhe-wang-8b4812178/?original_referer="}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
