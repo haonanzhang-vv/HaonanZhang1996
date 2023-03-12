@@ -32,7 +32,8 @@ Compared to a __histogram/density__, a __box plot__ is more often to use when pe
 
 ## 2. Version 0.0: basic
 The first step in here we are going to draw a simple box plot to visualize empirical distribution of `Biomarker` through different groups in `Illness`. In this version, we will __remove the background and grid__ for the box plot. We make __titles in axes in bold type__. The main function for box plot is `geom_boxplot()` and we will set `Illness` in X-axis and `Biomarker` in Y-axis.  
-```
+
+````
 # Set Illness and Sex as factors
 Dt$Illness <- factor(Dt$Illness, levels = c("Healthy Control", "Mild", "Moderate", "Severe"))
 Dt$Sex <- factor(Dt$Sex, levels = c('Male', 'Female'))
@@ -55,7 +56,7 @@ ggplot(Dt, aes(x = Illness, y = Biomarker)) +
         axis.title.x = element_text(colour = "black", size = 11, face = 'bold', vjust = -1),                              
         axis.title.y = element_text(colour = "black", size = 11, face = 'bold'),
         legend.title = element_text(colour = "black", size = 11, face = 'bold')) 
-```
+````
 
 ![](https://raw.githubusercontent.com/YzwIsALaity/Box-Violin-Plot-Tutorial-in-R/042bda2d9a9dee966d39cdfbc937b63c2de91855/p1.jpeg)
 
@@ -63,7 +64,8 @@ In Version 0.0, we just show boxes for `Illness` groups and do not stratified th
 
 ## 3. Version 1.0: grouped
 Based on the setting of Version 0.0, the boxplot can be stratified by `Sex` and this only required we pass `fill = Sex` into `aes()` for main ggplot function `ggplot()`. In this version, we will use preselected colors for `Sex`.
-```
+
+````
 # we can preselect color for each box 
 Col <- c("#FF0000", "#80FF00")
 # Version 1.0
@@ -85,7 +87,7 @@ ggplot(Dt, aes(x = Illness, y = Biomarker, fill = Sex)) +
         axis.title.x = element_text(colour = "black", size = 11, face = 'bold', vjust = -1),                              
         axis.title.y = element_text(colour = "black", size = 11, face = 'bold'),
         legend.title = element_text(colour = "black", size = 11, face = 'bold')) 
-```
+````
 
 ![](https://github.com/YzwIsALaity/Box-Violin-Plot-Tutorial-in-R/blob/042bda2d9a9dee966d39cdfbc937b63c2de91855/p2.jpeg)
 
@@ -103,7 +105,8 @@ To integrate a box plot with hypothesis testing together, we need to use `ggpubr
   * `vjust`: it is used to move the text up or down relative to the bracket.
   
   * `paired`: it is used to indicate whether you want a paired test.
-```
+
+````
 # Version 2.0
 ggplot(Dt, aes(x = Illness, y = Biomarker, fill = Sex)) +
   geom_boxplot(alpha = 0.5) +                                       # 'alpha = 0.5' control the transparency of colors
@@ -127,7 +130,7 @@ ggplot(Dt, aes(x = Illness, y = Biomarker, fill = Sex)) +
         axis.title.x = element_text(colour = "black", size = 11, face = 'bold', vjust = -1),                              
         axis.title.y = element_text(colour = "black", size = 11, face = 'bold'),
         legend.title = element_text(colour = "black", size = 11, face = 'bold')) 
-```
+````
 
 ![](https://raw.githubusercontent.com/YzwIsALaity/Box-Violin-Plot-Tutorial-in-R/042bda2d9a9dee966d39cdfbc937b63c2de91855/p3.jpeg)
 
@@ -143,7 +146,8 @@ The first example of a violin plot is based on Version 0.0.
 - __The basic logic of creating a violin plot over existed box plot is to put `geom_violin()` at first and then call `geom_boxplot()`.__ 
 
 - __Meanwhile, since the box plot is above the violin plot, we hope violins can cover boxes. It is necessary to adjust the size of violins and boxes to make sure each violin can cover each box entirely.__  
-```
+
+````
 # Version 3.0
 ggplot(Dt, aes(x = Illness, y = Biomarker)) +
   geom_violin(width = 1, 
@@ -165,13 +169,13 @@ ggplot(Dt, aes(x = Illness, y = Biomarker)) +
         axis.title.x = element_text(colour = "black", size = 11, face = 'bold', vjust = -1),                              
         axis.title.y = element_text(colour = "black", size = 11, face = 'bold'),
         legend.title = element_text(colour = "black", size = 11, face = 'bold')) 
-```
+````
 
 ![](https://raw.githubusercontent.com/YzwIsALaity/Box-Violin-Plot-Tutorial-in-R/042bda2d9a9dee966d39cdfbc937b63c2de91855/p4.jpeg)
 
 The second example of a violin plot is based on Version 2.0. __Due to the overlapped of violins and boxes, we need to adjust their overlapped position and we will use one more arguments in both `geom_violin()` and `geom_boxplot()`--`position`. We will set `position = position_dodge()` and pass any some numerical values into `position_dodge()`. `position_dodge()` is used to control the horizontal distance between two groups. Finally, we need to make sure `geom_violin()` and `geom_boxplot()` share the same `position`.__
 
-```
+````
 # Version 4.0
 ggplot(Dt, aes(x = Illness, y = Biomarker, fill = Sex)) +
   geom_violin(aes(fill = Sex), width = 1, alpha = 0.5,
@@ -198,7 +202,7 @@ ggplot(Dt, aes(x = Illness, y = Biomarker, fill = Sex)) +
         axis.title.x = element_text(colour = "black", size = 11, face = 'bold', vjust = -1),                              
         axis.title.y = element_text(colour = "black", size = 11, face = 'bold'),
         legend.title = element_text(colour = "black", size = 11, face = 'bold')) 
-```
+````
 
 ![](https://raw.githubusercontent.com/YzwIsALaity/Box-Violin-Plot-Tutorial-in-R/042bda2d9a9dee966d39cdfbc937b63c2de91855/p5.jpeg)
 
