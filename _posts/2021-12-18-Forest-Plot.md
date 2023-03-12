@@ -53,7 +53,8 @@ Meanwhile, plots for odds ratio are often displayed under log scale and we can a
 - `scale_x_continuous()`: we use the command `trans = 'log'` (for __log transformation__) inside the function and set up the __scale range of X-axis__ with the command `limits = c(0.005, 13)`(lower, upper). Since the log transformation will bring up lots of digits for numerical values, we can pass the `label_number()` to round digits into __2 decimal places of precision__.
 
 We can combine them with the __X-axis label__ [`xlab()`] and the __main title__ [`ggtitle()`] to see what it looks like.
-```{r}
+
+````
 # Version 1.0
 ggplot(Plot.OR.Mat.6, aes(x = OR, y = Variable)) +                  # x is for X-axis | y is for Y-axis                  
   geom_point(shape = 18, size = 3) +                                # a function for plotting points
@@ -64,7 +65,7 @@ ggplot(Plot.OR.Mat.6, aes(x = OR, y = Variable)) +                  # x is for X
                      labels = label_number()) +                     # round digits
   xlab("Odds Ratio (95% CI, log scale)") +                          # X-axis label
   ggtitle('6-month Timepoint')                                      # title of plots
-```
+````
 
 ![](https://raw.githubusercontent.com/YzwIsALaity/Forest-Plot-Tutorial-in-R/477bde6d42ba41b9c3c71f0dcb2095ee29538463/Version%201.0.jpeg)
 
@@ -106,7 +107,8 @@ So in the next step we are going to improve the background and texts under the V
     `plot.title = element_text(hjust = -0.86, face="bold")`.
 
 We also want to move the title for Y-axis and add a vertical line for OR = 1 (`geom_vline(xintercept = 1, color = "red", linetype = "dashed", cex = 0.5, alpha = 0.5)`). Now we can combine them all together!
-```{r}
+
+````
 # Version 2.0
 p1 <- 
 ggplot(Plot.OR.Mat.6, aes(x = OR, y = Variable)) +                  # x is for X-axis | y is for Y-axis                  
@@ -139,7 +141,7 @@ ggplot(Plot.OR.Mat.6, aes(x = OR, y = Variable)) +                  # x is for X
                                                                     # we used dashed line in here
              alpha = 0.5)                                           # the transparency level of the line 
 p1
-```
+````
 
 ![](https://raw.githubusercontent.com/YzwIsALaity/Forest-Plot-Tutorial-in-R/66d0209a407a273f78a5d92f86d99a9d670e2bf5/Version%202.0.jpeg)
 
@@ -147,7 +149,8 @@ This version looks more clear and tidy! We can try our last step, that is to com
 
 # 4. Version 3.0
 In the last version, we are going to combine the `Summary` and the main plot together. The basic logic of the combination is to put two plots together--the main plot is the Version 2.0 and another empty plot only contains `Summary`. First, we are going to create an empty plot which __attaches__ `Summary` __on its right hand side__. We first create an empty plot.
-```{r}
+
+````
 table_base <- 
   ggplot(Plot.OR.Mat.6, aes(y = Variable)) +                          # everything in this plot is empty 
   ylab(NULL) + xlab('') + ggtitle('') + 
@@ -167,7 +170,7 @@ table_base <-
         plot.title = element_text(hjust = -0.86, face = "bold"))      # make sure hjust is the same as p1
 ## OR point estimate table
 tab1 <- table_base + geom_text(aes(y = rev(Index), x = 1, label = Summary), size = 4, hjust = 0, vjust = -0.5)  
-```
+````
 
 The `tab1` is an empty plot only including `Summary` and we need to arrange its position and combine it with the main plot `p1`. Hence, we need to use the function `grid.arrange()`.
 
@@ -175,18 +178,21 @@ The `tab1` is an empty plot only including `Summary` and we need to arrange its 
   `nrow = 1` and `ncol = 2` which means we want to horizontally put them together where `p1` is in the left hand side and `tab1` is in the right hand side.
 
 Eventually, the final plot will be better than previous versions.
-```{r}
+
+````
 # eventually we attach the summary to the plot
 grid.arrange(p1, tab1, 
              nrow = 1, ncol = 2)
-```
+````
+
 ![](https://raw.githubusercontent.com/YzwIsALaity/Forest-Plot-Tutorial-in-R/cc64ccb0e0922c9553c9e2aeb64cf090644e2d1b/Version%203.0.jpeg)
 
 This is the final version! If we want to print it out from R, __we can always change its size when we save the figure to make sure title is center or aligned left__. 
 
 # 5. Version 4.0
 This is a stacked version of forest plots. __However, this time we need to remove everything in the X-axis for the plot at the top of a stack__. 
-```{r}
+
+````
 # Version 4.0
 p2 <- 
 ggplot(Plot.OR.Mat.6, aes(x = OR, y = Variable)) +                  # x is for X-axis | y is for Y-axis                  
@@ -242,7 +248,7 @@ tab2 <- table_base2 + geom_text(aes(y = Index, x = 1, label = Summary), size = 4
 grid.arrange(p2, tab2,
              p1, tab1,
              nrow = 2, ncol = 2)
-```
+````
 ![](https://raw.githubusercontent.com/YzwIsALaity/Forest-Plot-Tutorial-in-R/ddd1c3a8b85da7319432c60195ec29a32138fc48/Version%204.0.jpeg)
 
 __After we remove the X-axis for the top plot__, we need to __align the__ `Summary` __with rows in the plot__ and this can be modified by `geom_text(aes(y = Index, x = 1, label = Summary), size = 4, hjust = 0, vjust = 1.35)` (need to modify `vjust = `: modify vertical distance). 
