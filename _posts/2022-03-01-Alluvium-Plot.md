@@ -25,22 +25,24 @@ There are some new functions we are going to use for creating a alluvium plot be
 
 - `geom_flow()`: this function is used to create __lodes__ of an alluvial plot.
   * In this example, __lodes__ are just flow curves in the plot. If we just single call this function, it looks like below
-```
+
+````
 # Set time as a factor
 Dt$Time <- factor(Dt$Time, levels = c('Acute', '6-month', '12-month', '24-month'))
 # Plot
 ggplot(Dt, aes(x = Time, stratum = Specialist, alluvium = PTID, fill = Specialist, label = Specialist)) +
   geom_flow(stat = "alluvium") 
-```
+````
 
 ![](https://raw.githubusercontent.com/YzwIsALaity/Alluvium-Plot-Tutorial-in-R/fe9b191c90b75e92682db4389f8b46ef17bf20ba/p1.jpeg)
 
 - `geom_stratum()`: this function is used to create __strata__ of an alluvial plot.
   * In this example, each __stratum__ represents the amount of participants seeking for a type of specialists.
-```
+
+````
 ggplot(Dt, aes(x = Time, stratum = Specialist, alluvium = PTID, fill = Specialist, label = Specialist)) +
   geom_stratum(alpha = 0.7) # "alpha = 0.7" is used to control the transparency of color filled in strata
-``` 
+```` 
 
 ![](https://raw.githubusercontent.com/YzwIsALaity/Alluvium-Plot-Tutorial-in-R/fe9b191c90b75e92682db4389f8b46ef17bf20ba/p2.jpeg)
 
@@ -48,7 +50,8 @@ ggplot(Dt, aes(x = Time, stratum = Specialist, alluvium = PTID, fill = Specialis
   * `type = 'div'` means we want diverging color scheme (colors are different from each other apparently) and `palette = "Set2"` means we want to use the "Set2" palette.
 
 We can combine together to see what we can get! This time we are going to remove the background and grid and __use "Times New Roman" font for every text/label__ in the plot (`element_text(family = 'Times')`). 
-```
+
+````
 # Version 1.0
 ggplot(Dt, aes(x = Time, 
                stratum = Specialist, 
@@ -75,7 +78,7 @@ ggplot(Dt, aes(x = Time,
         legend.text = element_text(size = 11, color = 'black',family = "Times"),
         legend.title = element_text(size = 13, face = "bold", color = 'black', family = "Times"),
         plot.title = element_text(face = "bold", family = "Times"))
-```
+````
 
 ![](https://raw.githubusercontent.com/YzwIsALaity/Alluvium-Plot-Tutorial-in-R/fe9b191c90b75e92682db4389f8b46ef17bf20ba/p3.jpeg)
 
@@ -101,7 +104,8 @@ Differed from the example one which has __stratum__ inside a bar for each timepo
 - `scale_fill_brewer()`: this is the same as `scale_color_brewer()` 
 
 Meanwhile, we will pass `aes(x = Time, y = Count, alluvium = Virus)` into `ggplot()` so we set __`Time` in X-axis and `Count` in Y-axis and the `alluvium` will be `Virus`__. Let us put all together to see what we can get!
-```
+
+````
 # Set the Time as a factor 
 Dt2$Time <- factor(Dt2$Time, levels = c(paste0(2019, '-', c(3,6,9,12)), paste0(2020, '-', c(3,6,9,12))))
 # Version 2.0
@@ -129,7 +133,7 @@ ggplot(data = Dt2,
         legend.text = element_text(size = 11, color = 'black', family = "Times"),
         legend.title = element_text(size = 13, face = "bold", color = 'black', family = "Times"),
         plot.title = element_text(face = "bold", family = "Times"))
-```
+````
 
 ![](https://raw.githubusercontent.com/YzwIsALaity/Alluvium-Plot-Tutorial-in-R/fe9b191c90b75e92682db4389f8b46ef17bf20ba/p4.jpeg)
 
