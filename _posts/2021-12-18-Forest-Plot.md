@@ -31,10 +31,12 @@ In the ggplot, no matter what kind of plots we make, they are basically composed
 When we determined which variables should be placed in X-axis or Y-axis, we then need to choose what "values" should be displayed. Typically, these "values" are in numerical format and we also need to choose what types of plots we want to show (e.g. point, line, bar, tile, box with whisker, etc.). A forest plot consists of a center (`OR`) and two whiskers (`Lower` and `Upper`).
 
 ````
+```
 # Version 0.0
 ggplot(Plot.OR.Mat.6, aes(x = OR, y = Variable)) +    # x is for X-axis | y is for Y-axis                  
   geom_point() +                                      # a function for plotting points
   geom_errorbarh(aes(xmin = Lower, xmax = Upper))     # a function for plotting two whiskers
+```
 ````
 
 ![](https://raw.githubusercontent.com/YzwIsALaity/Forest-Plot-Tutorial-in-R/33ff981aaeb260a5f32916e05fa769b35aadf931/Version%200.0.jpeg)
