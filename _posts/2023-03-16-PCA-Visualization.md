@@ -24,7 +24,7 @@ With the development of technology for molecular-level observation, many new typ
 
 ![](https://raw.githubusercontent.com/YzwIsALaity/PCA-Visualization-Tutorial-in-R/b914277f23d70ba3831a69bf0428310099d7b1dc/Dataset.jpeg) 
 
-It is clear that the dataset is high-dimensional, as the number of variables ($p = 500$) is much greater than the number of observations ($n = 120$). PCA will be performed on 500 different RNA-seq variables.
+It is clear that the dataset is high-dimensional, as the number of variables (_p = 500_) is much greater than the number of observations (_n = 120_). PCA will be performed on 500 different RNA-seq variables.
 
 # 2. Principle component analysis 
 In this section, we will build up a PCA model with `prcomp()` function and the design matrix for 500 RNA-seq. It mainly requires two arguments:
