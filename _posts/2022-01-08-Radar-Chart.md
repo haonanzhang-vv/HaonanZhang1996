@@ -9,7 +9,7 @@ categories: media
 
 
 
-This is a short tutorial for creating a __radar chart/spider chart/star chart__ and it requires `fmsb` and `scales` packages. A radar chart is a good tool for visualizing multivariate data that is shared among similar groups/participants so it is good to visualize life performance metrics (e.g. EQ-5D-5L, EQ-5D-3L, etc.). We will take a dataset with __EQ-5D-5L__ as an example in this turtorial. 
+This is a short tutorial for creating a __radar chart/spider chart/star chart__ and it requires `fmsb` and `scales` packages. A radar chart is a good tool for visualizing multivariate data that is shared among similar groups/participants so it is good to visualize life performance metrics (e.g. EQ-5D-5L, EQ-5D-3L, etc.). We will take a dataset with __EQ-5D-5L__ as an example in this tutorial. 
 
 The EQ-5D-5L is a health-related quality of life measurement and it includes __five dimensions: mobility (MO), self-care (SC), usual activities (UA), pain/discomfort (PD), and anxiety/depression (AD)__. For each dimension, it has five ordinal levels:
 
