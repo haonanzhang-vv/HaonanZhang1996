@@ -34,9 +34,9 @@ The core function to create this plot is `geom_bin_2d()` which is used to divide
 
 - `scale_x_continuous()` and `scale_y_continuous()`: it is used to modify the x/y axis and two core arguments need to be passed into these two functions
 
-    + limits: it is used to provide a limit of the axis (noticed that the default __length of the bar in y axis is 0.5-1.5__)
+    + `limits`: it is used to provide a limit of the axis (noticed that the default __length of the bar in y axis is 0.5-1.5__)
     
-    + expand: it is used to provide a vector of range expansion constants used to add some padding around the data to ensure that they are placed some distance away from the axes and we need to __set up as `expand = c(0, 0)`__
+    + `expand`: it is used to provide a vector of range expansion constants used to add some padding around the data to ensure that they are placed some distance away from the axes and we need to __set up as `expand = c(0, 0)`__
 
 Now we can create this figure!
 
