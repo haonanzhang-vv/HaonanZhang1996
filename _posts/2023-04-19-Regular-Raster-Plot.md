@@ -45,21 +45,22 @@ ggplot(Dt.Plot, aes(x = Time,
                     y = Level, 
                     fill = State)) + 
   geom_bin_2d(stat = "identity") + 
-  scale_x_continuous(limits = c(0, max(Dt.Plot$Time)), 
-                     expand = c(0, 0)) + 
-  scale_y_continuous(limits = c(0.5, 1.5), 
-                     expand = c(0, 0)) +
-  labs(x = 'Time (s)', y = 'States of Neural Behavior') + 
-  theme_bw() +                                                      # dark-on-light theme
-  theme(panel.border = element_rect(colour = "black"),
+  scale_x_continuous(limits = c(0, max(Dt.Plot$Time)),   # the range of x axis: 0-1800s
+                     expand = c(0, 0)) +                 # there is no gap between bar and x axis
+  scale_y_continuous(limits = c(0.5, 1.5),               # the range of y axis: 0.5-1.5 (default length of bar)
+                     expand = c(0, 0)) +                 # there is no gap between bar and x axis
+  labs(x = 'Time (s)',                                   # set up labels for x and y axes
+       y = 'States of Neural Behavior') + 
+  theme_bw() +                                           # dark-on-light theme
+  theme(panel.border = element_rect(colour = "black"),   # keep border of figure
         panel.grid = element_blank(),
-        axis.text.x = element_text(colour = "black", size = 11),          # text to the left side for 1 unit 
+        axis.text.x = element_text(colour = "black", size = 11),  # text to the left side for 1 unit 
         axis.text.y = element_blank(),
         axis.ticks.x = element_line(),                              
-        axis.ticks.y = element_blank(),
+        axis.ticks.y = element_blank(),                  # remove ticks in y axis
         axis.title.x = element_text(colour = "black", size = 11, face = 'bold'),                              
         axis.title.y = element_text(colour = "black", size = 11, face = 'bold'),
-        legend.title = element_blank())  
+        legend.title = element_blank())                  # remove title of legend
 
 
 ```
