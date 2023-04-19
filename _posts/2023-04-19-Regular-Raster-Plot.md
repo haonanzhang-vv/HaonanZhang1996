@@ -1,5 +1,5 @@
 ---
-title:  "Regular Raster Plot in R (Similar to `imshow()` in Python)"
+title:  "Regular Raster Plot in R (Similar to imshow() in Python)"
 mathjax: true
 layout: post
 categories: media
