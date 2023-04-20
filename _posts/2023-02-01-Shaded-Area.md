@@ -36,7 +36,7 @@ The basic functions in `ggplot2` for shaded area plots are `geom_ribbon()` and `
 
 The first version we want to show is for the stacked "shaded area". The x-axis will be the calendar time (`Date`), the y-axis will be the frequency of detected respiratory pathogens (`Count`), and "shaded area" for each type of `Virus` will be stacked vertically. We will use the `geom_area()` in this example and use and we will a extra package `ggthemes` for color palette.
 
-````
+```{r}
 # Version 1: stacked
 ggplot(Dt, aes(x = Index)) +                      # set up x-axis as numerical Index
   geom_area(aes(y = Count,                        # pass Count for y axis
@@ -59,18 +59,18 @@ ggplot(Dt, aes(x = Index)) +                      # set up x-axis as numerical I
         axis.title.x = element_text(colour = "black", size = 11, face = 'bold', vjust = -1),                              
         axis.title.y = element_text(colour = "black", size = 11, face = 'bold'),
         legend.title = element_text(colour = "black", size = 11, face = 'bold'))  
-````
+```
 
 ![](https://raw.githubusercontent.com/YzwIsALaity/Shaded-Area-Plot-Tutorial-in-R/4a3120d1ac3cbfd5a5d7068b3f941a0867650eb0/Version%201.jpeg)
 
 In the above example, the frequency of detected virus is stacked vertically at each time point and the "shaded area" for each type of virus will be marked by a specific color (color palette is similar to __Tableau__). The next example is to integrate "shaded area" with a bar plot and we set "shaded area" for prevalence of detected viruses and bar for frequency of detected viruses. To simplify the figure, we will focus on the __prevalence and frequency of Adenovirus and Enterovirus__ to demonstrate the use of `geom_ribbon()`. Since the units of frequency and prevalence are different, we will implement the __second y axis__ in the plot to distinguish values for frequency and prevalence.
 
-````
+```{r}
 # Extract records for Adenovirus and Enterovirus
 Dt.Sub <- Dt[which(Dt$Virus %in% c('Adenovirus', 'Enterovirus')), ]
 # Check distribution of Count and Prevalence
 summary(Dt.Sub[, c('Count', 'Prevalence')])
-````
+```
 
 ![](https://raw.githubusercontent.com/YzwIsALaity/Shaded-Area-Plot-Tutorial-in-R/4a3120d1ac3cbfd5a5d7068b3f941a0867650eb0/Distribution.png)
 
@@ -84,17 +84,17 @@ In `ggplot2`, the __second y axis__ need to be tranformed from the __main y axis
 
 Noticed that __frequency and prevalence of virus__ come with different labels so we will create two types of labels for them and the below code trunk is used to create labels.
 
-````
+```{r}
 # Create labels for 'Count' and 'Prevalence' 
 Dt.Sub$Virus_Label <- factor(ifelse(Dt.Sub$Virus == 'Adenovirus', 'Diagnoses, Adenovirus', 'Diagnoses, Enterovirus'), 
                              levels = c('Diagnoses, Adenovirus', 'Diagnoses, Enterovirus'))
 Dt.Sub$Axis_Label <- factor(ifelse(Dt.Sub$Virus == 'Adenovirus', 'Prevalence, Adenovirus', 'Prevalence, Enterovirus'), 
                             levels = c('Prevalence, Adenovirus', 'Prevalence, Enterovirus'))
-````
+```
 
 After we set up all preprocessing for the subdataset, we are going to integrate a bar plot for frequency of detected viruses with "shaded areas" for prevalence of viruses.
 
-````
+```{r}
 # Version 2: bar + shaded area
 ## preselected color for different labels
 Col <- c('gold2', 'purple', 'green4', 'plum3')
@@ -120,7 +120,7 @@ ggplot(Dt.Sub, aes(x = Index)) +
         legend.text = element_text(color = 'black', face = "bold"),
         legend.title = element_text(face = "bold", color = 'black'),
         plot.title = element_text(hjust = 0.5, face = "bold", color = 'black'))
-````
+```
 
 ![](https://raw.githubusercontent.com/YzwIsALaity/Shaded-Area-Plot-Tutorial-in-R/4a3120d1ac3cbfd5a5d7068b3f941a0867650eb0/Version%202.jpeg)
 
