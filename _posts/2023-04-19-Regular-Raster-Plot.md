@@ -24,7 +24,7 @@ Our objective is to display this 1-dimensional data over time!
 # 2. Plot
 To create this figure, we first need to create a numerical y axis as a new column `Level` with value one, and then set `State` variable as a factor with four levels.
 
-```
+```{r}
 Dt.Plot$'Level' <- 1
 Dt.Plot$State <- factor(Dt.Plot$State, 
                         levels = c('Baseline 1', 'Signal 1', 'Baseline 2', 'Signal 2'))
@@ -40,7 +40,7 @@ The core function to create this plot is `geom_bin_2d()` which is used to divide
 
 Now we can create this figure!
 
-```
+```{r}
 ggplot(Dt.Plot, aes(x = Time, 
                     y = Level, 
                     fill = State)) + 
