@@ -38,7 +38,7 @@ The original dataset has seven columns:
 
 In the radar chart, we want to __show average levels of five dimensions for four groups__ so we need to do data preprocessing first. We will `dplyr` and `tidyr` packages for this process.
 
-````
+```{r}
 # Create a table with averages for each measurement
 Dt.Summary <- 
   Dt %>% 
@@ -49,7 +49,7 @@ Dt.Summary <-
             PD.Avg = mean(PD),
             MO.Avg = mean(MO))
 kable(Dt.Summary)
-````
+```
 
 ![](https://raw.githubusercontent.com/YzwIsALaity/Radar-Chart-Tutorial-in-R/1e5dc30a259b09e851af3e60d2231e52b84a03d5/Final%20Dataset%20Shape%201.jpeg)
 
@@ -89,7 +89,7 @@ We first create a single radar chart with the final dataset and are going to use
 
 - `vlcex`: this is to choose __font size magnification for__ `vlabels`.
 
-````
+```{r}
 # the name of each group used in legend ####################################################################
 Group <- c('Healthy Control', 'Infected Patients', 'Long-term Symptoms', 'Short-term Symptoms')
 
@@ -124,7 +124,7 @@ legend("right",        # we put the legend on the right of the radar chart but o
        text.col = "black", cex = 1.25, pt.cex = 1.25, bty = "n", pch = 20
   )
 par(op) # this command is used to perform the setup of margin for radar chart
-````
+```
 
 ![](https://raw.githubusercontent.com/YzwIsALaity/Radar-Chart-Tutorial-in-R/1e5dc30a259b09e851af3e60d2231e52b84a03d5/Radar%20Plot%20(Single).jpeg)
 
@@ -133,7 +133,7 @@ Since the `radarchart()` is based on the basic `plot()` in the R, __all non-data
 ## 3. Multiple radar charts
 In the next step, we are going to put multiple radar charts together if they all share the same legend. This is one is a little bit complex than the single one but it is still acceptable. __The basic logic for putting multiple radar charts in a row is first to create different radar charts separately and then attach an empty plot including the legend only to a row of radar plots.__ 
 
-````
+```{r}
 # arrange positions for multiple radar charts and legends ###################################################
 par(mfrow = c(1, 3)) # mfrow = c(1,3) means we want to put plots/legends in 1 row and each plot/legend
                      # occupies 1 column so totally 3 columns (2 radar charts + 1 legend) 
@@ -181,7 +181,7 @@ legend('left',  # this 'left' means we want to put the legend on the left side o
        pch = 20, cex = 1.35, pt.cex = 1.35, bty = "n")
 
 par(op)
-````
+```
 
 ![](https://raw.githubusercontent.com/YzwIsALaity/Radar-Chart-Tutorial-in-R/1e5dc30a259b09e851af3e60d2231e52b84a03d5/Radar%20Plot%20(Multiple).jpeg)
 
