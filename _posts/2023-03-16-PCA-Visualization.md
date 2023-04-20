@@ -33,7 +33,7 @@ In this section, we will build up a PCA model with `prcomp()` function and the d
 
 - `scale`: a logical value indicating whether the variables should be scaled to have unit variance before the analysis takes place (in general, we need to scale data before putting into PCA).
 
-```
+```{r}
 # Extract columns for RNA-seq
 X <- Dt[, -c(1:3)]
 # Perform PCA 
@@ -52,7 +52,8 @@ There are many different packages in R that can perform various types of princip
 # 3. Basic: scatter plot in 2D or 3D
 The standard method for visualizing the results of Principal Component Analysis (PCA) involves plotting a 2D scatter plot with the reduced dataset, with the x-axis representing `PC1` and the y-axis representing `PC2`. In our case, we will create two versions of this scatter plot, one with stratification by unique patient IDs and one without.
 ## (1). 2D scatter plot without stratification by IDs
-```
+
+```{r}
 require(ggplot2)
 p_2D_PCA <- 
 ggplot(Dt.Plot, aes(x = PC1, y = PC2, col = Treatment)) + 
@@ -81,7 +82,8 @@ The first scatter plot of PCA results is a 2D representation of the dataset with
 
 ## (2). 2D scatter plot with stratification by IDs
 Occasionally, users may be interested in examining how a PCA model performs on each individual subject. To enable this analysis, we generate a 2D scatter plot with stratification by subject IDs. We implement the `facet_grid()` function to arrange the stratification in a column orientation.
-```
+
+```{r}
 p_2D_PCA_ID <- 
 ggplot(Dt.Plot, aes(x = PC1, y = PC2, col = Treatment)) + 
   geom_point(alpha = 0.8) + 
@@ -129,7 +131,7 @@ To visualized the PCA results in 3D space, we need to implement `plotly` package
 
 After we specify these functions based on our style, we can create a scatter plot in 3D space.
 
-```
+```{r}
 require(plotly)
 p_3D_PCA <- plot_ly(data = Dt.Plot,                                         # dataset
                     x = ~ PC1, y = ~ PC2, z = ~ PC3,                        # specify x/y/z axes
@@ -158,7 +160,7 @@ Instead of showing the PCA trajectory at the subject level, we first aggregate t
 
 - `summarise()`: it returns one row for each combination of grouping variables and it will contain one column for each grouping variable and one column for each of the summary statistics that you have specified
 
-```
+```{r}
 require(tidyr)
 require(dplyr)
 # Aggregated 
@@ -174,7 +176,7 @@ head(Dt.Plot.Aggregated)
 
 The aggregated dataset consists of five columns: time points, the means of principal components aggregated by patient level at different time points, and a treatment variable. After obtaining the aggregated dataset, we will implement smoothing functions, such as cubic splines, to obtain trajectories in 2D or 3D spaces. To do this, we will first use the aggregated PC values to fit a spline regression over time in each dimension using the `splinefun()` function. Then, we will use a series of consecutive points with equal length to make interpolations of the fitted spline. To specify `x` and `y` in the `splinefun()` function, we will set `x` as time and `y` as aggregated PC values.
 
-```
+```{r}
 # Interprolated points
 Time <- Dt.Plot.Aggregated$Time
 Interprolate <- seq(from = min(Time), to = max(Time), len = 200)
@@ -202,7 +204,7 @@ To create a figure for 2D PCA trajectory, we mainly use the `geom_path()` functi
 
 - `type`: indicating whether the arrow head should be a closed triangle ("open" or "closed")
 
-```
+```{r}
 p_2D_PCA_Traj <- 
   ggplot(Dt.Plot.Traj, aes(x = PC1, y = PC2, col = Treatment)) + 
   geom_path(arrow = arrow(angle = 10, 
@@ -235,7 +237,7 @@ Compared to 2D version, 3D version can better visualize the development of traje
 
 - `line`: it is used to control graphic components for lines
 
-```
+```{r}
 p_3D_PCA_Traj <- plot_ly(Dt.Plot.Traj, 
                          x = ~ PC1, y = ~ PC2, z = ~ PC3, 
                          color = ~ Treatment, colors = c('#D6604D', '#4393C3'), 
@@ -254,7 +256,8 @@ Here we go!
 
 ## (4). 3D trajectory in subject level
 For trajectory in subject level, we first need to fit separated smoothers for each PC dimension and each patient. 
-```
+
+```{r}
 id <- unique(Dt.Plot$Patient_ID)
 n_id <- length(id)
 Dt.Plot.Subject <- data.frame()
@@ -283,7 +286,7 @@ for(i in 1:n_id){
 
 To create a figure for 3D PCA trajectory in subject level, we just need to use `Patient_ID` in `color` argument. 
 
-```
+```{r}
 p_3D_PCA_Traj <- plot_ly(Dt.Plot.Subject, 
                          x = ~ PC1, y = ~ PC2, z = ~ PC3, 
                          color = ~ Patient_ID, 
