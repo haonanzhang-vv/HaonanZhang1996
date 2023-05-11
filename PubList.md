@@ -41,7 +41,7 @@ Key words: dual viral infection, household, time-dependent covariate and time-va
 __Variable Importance for Fixed Effects in Linear Mixed Model__ \
 __Yongzhe Wang__ \
 _Western North American Region of The International Biometric Society Annual Meeting. (2022). (Oral presentation)._ \
-Key words: linear mixed model (LMM), Shapley value, LMG variable importance, R^2, variance decomposition
+Key words: linear mixed model (LMM), Shapley value, LMG variable importance, $R^2$, variance decomposition
 
 __Streptococcus pneumoniae nasal carriage patterns with and without common respiratory viruses in Seattle, WA, USA__ \
 Julia C. Bennett, Anne Emanuels, Jessica Heimonen, Jessica O’Hanlon, James P. Hughes, Peter D. Han, __Yongzhe Wang__, Denise J. McCulloch, Eric J. Chow, Constance E. Ogokeh, Melissa A. Rolfes, Timothy M. Uyeki, Jay Shendure, Lea M. Starita, Janet A. Englund, Helen Y. Chu \
