@@ -44,7 +44,7 @@ _Journal of Infectious Diseases. (In press)_ \
 Key words: dual viral infection, household, time-dependent covariate and time-varying coefficient Cox models, smoothed baseline hazard, incidence
 
 __Variable Importance for Fixed Effects in Linear Mixed Model__ \
-__Yongzhe Wang__ \
+__Yongzhe Wang__, Lingbo Ye, Zifan Yu \
 _Western North American Region of The International Biometric Society Annual Meeting. (2022). (Oral presentation)._ \
 Key words: linear mixed model (LMM), Shapley value, LMG variable importance, coefficient of determination, variance decomposition
 
