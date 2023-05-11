@@ -60,7 +60,7 @@ Key words: regression, prediction, polynomial regression, artificial neural netw
 
 __Decoding the genome of cement by Gaussian Process Regression__ \
 Yu Song, __Yongzhe Wang__, Kaixin Wang, Mathieu Bauchy \
-_NeurIPS Workshop: Machine Learning for Engineering Modeling, Simulation, and Design. (2020)._ [_PDF_](https://ml4eng.github.io/camera_readys/38.pdf) \
+_NeurIPS Workshop: Machine Learning for Engineering Modeling, Simulation, and Design. (2020). (Oral presentation)_ [_PDF_](https://ml4eng.github.io/camera_readys/38.pdf) \
 Key words: prediction, Gaussian process (GP) regression, variable importance, main effect, long-term cement behavior
 
 __Predicting Concrete’s Strength by Machine Learning: Balance between Accuracy and Complexity of Algorithms__ \
