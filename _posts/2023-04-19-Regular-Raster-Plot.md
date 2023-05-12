@@ -8,7 +8,7 @@ categories: media
 ![Cover](https://raw.githubusercontent.com/YzwIsALaity/Regular-Raster-Plot-In-R/main/2D%20Raster%20Plot.jpg)
 
 
-This is a brief tutorial on how to create __a raster plot in Python using the `imshow()` function from the `matplotlib` library__. The focus is on displaying __1-dimensional discrete time series data (i.e., neural signal recordings of spikes over time)__ using the `ggplot2` package. While there are no functions in `ggplot2` that perform exactly the same operation as `imshow()`, we can still use alternative functions to achieve the same result.
+This is a brief tutorial on how to create __a raster plot in Python using the__ `imshow()` __function from the `matplotlib` library__. The focus is on displaying __1-dimensional discrete time series data (i.e., neural signal recordings of spikes over time)__ using the `ggplot2` package. While there are no functions in `ggplot2` that perform exactly the same operation as `imshow()`, we can still use alternative functions to achieve the same result.
 
 # 1. Dataset
 The simulated dataset is pretty simple which only includes two columns:
