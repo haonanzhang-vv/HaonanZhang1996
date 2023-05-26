@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Publication"
+title: "Publication and Presentation"
 ---
 
 __Interrupted Time Series Design with Longitudinal Models: Evaluating a Multi-Site Intervention to Improve Colorectal Cancer Screening in Federally Qualified Health Centers in Los Angeles County__ \
