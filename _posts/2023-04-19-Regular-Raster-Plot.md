@@ -1,5 +1,5 @@
 ---
-title:  "Regular Raster Plot in R"
+title:  "Regular Raster Plot in R with ggplot2"
 mathjax: true
 layout: post
 categories: media
