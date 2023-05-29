@@ -18,7 +18,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.html", title: "Data Visualization", icon: arrow-right}
   - {file: "README.md", title: "About Me", icon: arrow-right}
   - {file: 'PubList.md', title: "Publication", icon: arrow-right}
-  
+  - {file: "Sample.html", title: "Try", icon: arrow-right}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:yonwang@coh.org"}
