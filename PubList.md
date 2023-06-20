@@ -33,9 +33,9 @@ Erin Chung, __Yongzhe Wang__, Eric J Chow, Roy Burstein, Elisabeth Brandstetter,
 _American Journal of Preventive Medicine. (Submitted)_ \
 Key words: COVID-19, illness behavior, absenteeism, viral infections, households, generalized estimating equations (GEE), logistic regression, data visualization 
 
-__Respiratory Syncytial Virus and Other Respiratory Virus Infections in Residents of Homeless Shelters – King County, Washington, 2019-2021__ \
+__Respiratory syncytial virus and other respiratory virus infections in residents of homeless shelters – King County, Washington, 2019–2021__ \
 Denise J. McCulloch, Julia H. Rogers, __Yongzhe Wang__, Eric J. Chow, Amy C. Link, Caitlin R. Wolf, Timothy M. Uyeki, Melissa A. Rolfes, Emily Mosites, Jaydee Sereewit, Jeﬀrey S. Duchin, Nancy K. Sugg, Michael J. Boeckh, Janet A. Englund, Trevor Bedford, Jay Shendure, James P. Hughes, Lea M. Starita, Pavitra Roychoudhury, Helen Y. Chu \
-_Inﬂuenza and other respiratory viruses. (In press)_ \
+_Inﬂuenza and other respiratory viruses._ [_PDF_](https://onlinelibrary.wiley.com/doi/10.1111/irv.13166) \
 Key words: Respiratory syncytial virus (RSV) and influenza, shelter, repeated cross-sectional design, hypothesis testing, logistic regression, data visualization
 
 __Risk of Subsequent Respiratory Virus Detection After Primary Detection in a Community Household Study—Seattle, Washington__ \
