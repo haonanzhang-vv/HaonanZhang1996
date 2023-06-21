@@ -50,7 +50,7 @@ Key words: linear mixed model (LMM), Shapley value, LMG variable importance, coe
 
 __Streptococcus pneumoniae nasal carriage patterns with and without common respiratory viruses in Seattle, WA, USA__ \
 Julia C. Bennett, Anne Emanuels, Jessica Heimonen, Jessica O’Hanlon, James P. Hughes, Peter D. Han, __Yongzhe Wang__, Denise J. McCulloch, Eric J. Chow, Constance E. Ogokeh, Melissa A. Rolfes, Timothy M. Uyeki, Jay Shendure, Lea M. Starita, Janet A. Englund, Helen Y. Chu \
-_12th International RSV Symposium. (2022). (Poster presentation)_ \
+_12th International RSV Symposium. (2022). (Poster presentation)_ [_PDF_(https://isirv.org/site/images/conferences/RSV/RSV2022/RSV_2022_Abstracts_POSTERS%20Rev%20Dec22.pdf) \
 Key words: Streptococcus pneumoniae, viral transmission, household, logistic regression
 
 __Using machine learning to predict concrete’s strength: learning from small datasets__ \
