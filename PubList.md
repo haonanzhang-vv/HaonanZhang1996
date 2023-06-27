@@ -5,8 +5,8 @@ title: "Publication and Presentation"
 
 __Interrupted Time Series Design with Longitudinal Models: Evaluating a Multi-Site Intervention to Improve Colorectal Cancer Screening in Federally Qualified Health Centers in Los Angeles County__ \
 __Yongzhe Wang__, Kimlin Ashing, Haonan Zhang, Narissa Nonzee \
-_AcademyHealth Annual Research Meeting. (2023). (Oral presentation)_ \
-Key words: interrupted time series, mixed effect models, generalized estimating equations (GEE), segmented regression, intervention evaluation, implementation science
+_AcademyHealth Annual Research Meeting. (2023). (Oral presentation)_ [_PDF_](https://academyhealth.confex.com/academyhealth/2023arm/meetingapp.cgi/Paper/59138)\
+Key words: interrupted time series, mixed effect models, segmented regression, ARIMA, intervention evaluation, implementation science
 
 __Prelimbic neurons differently encode changes in metabolic or threat states during cued food seeking__ \
 Xu Zhang, Claire Cho, Guillermo Aquino-Miranda, __Yongzhe Wang__, Nikita Elinson-Watson, Fabricio Do Monte \
