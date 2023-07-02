@@ -3,6 +3,11 @@ layout: page
 title: "Publication and Presentation"
 ---
 
+__Region of Origin and Cervical Cancer Stage in Multi-Ethnic Hispanic/Latinx Patients Living in the United States__ \
+Andreea I. Dinicu, Shayan Dioun, Mandy Goldberg, Danielle M. Crookes, __Yongzhe Wang__, Alexander Melamed, Jason D. Wright, Ana I. Tergas \
+_Cancer. (Submitted)_ \
+Key words: cervical cancer, Hispanic/Latinx, health disparities, multinomial logistic regression
+
 __Interrupted Time Series Design with Longitudinal Models: Evaluating a Multi-Site Intervention to Improve Colorectal Cancer Screening in Federally Qualified Health Centers in Los Angeles County__ \
 __Yongzhe Wang__, Kimlin Ashing, Haonan Zhang, Narissa Nonzee \
 _AcademyHealth Annual Research Meeting. (2023). (Oral presentation)_ [_PDF_](https://academyhealth.confex.com/academyhealth/2023arm/meetingapp.cgi/Paper/59138)\
