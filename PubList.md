@@ -18,7 +18,7 @@ Xu Zhang, Claire Cho, Guillermo Aquino-Miranda, __Yongzhe Wang__, Nikita Elinson
 _Modulation of Neural Circuits and Behavior Gordon Research Seminar. (2023). (Poster presentation)_ \
 Key words: computational neuroscience, classification, recurrent switching linear dynamical systems (rSLDS), support vector machine (SVM), linear discriminant analysis (LDA), data visualization
 
-__Toward an integrated approach to understanding the interaction between cancer and cardiovascular disease in the Women’s Health Initiative__ \
+__Machine Learning to Identify Risk Factors for Cardiovascular Mortality after Breast Cancer__ \
 Alexi Vasbinder, Veronica Jones, __Yongzhe Wang__, Noah Simon, Richard K. Cheng, Ana Barac, Michael Simon, Kerryn Reding \
 _WHI Investigator Meeting. (2023). (Oral presentation)_ \
 Key words: breast cancer, cardiovascular disease, risk factor, variable selection, LASSO, penalized Cox regression, competing risk analysis, cumulative incidence function, Kaplan-Meier estimator
