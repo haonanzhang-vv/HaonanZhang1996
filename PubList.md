@@ -5,7 +5,7 @@ title: "Publication and Presentation"
 
 __The Effect of Guideline-concordant Care in Disparities in Cervical Cancer Survival Among Hispanic Subpopulations__ \
 Andreea I. Dinicu, __Yongzhe Wang__, Shayan Dioun, Jason D. Wright, Ana I. Tergas \
-_Journal of Gynecologic Oncology (Prepared)_ \
+_Journal of Gynecologic Oncology. (Prepared)_ \
 Key words: cervical cancer, Hispanic/Latinx, health disparities, cancer treatment, risk raito, marginal Poisson model, Cox model
 
 __Region of Origin and Cervical Cancer Stage in Multi-Ethnic Hispanic/Latinx Patients Living in the United States__ \
