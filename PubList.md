@@ -13,6 +13,16 @@ Andreea I. Dinicu, Shayan Dioun, Mandy Goldberg, Danielle M. Crookes, __Yongzhe 
 _Cancer. (Submitted)_ \
 Key words: cervical cancer, Hispanic/Latinx, health disparities, multinomial logistic regression
 
+__Decoding the Chemistry of Cement’s Strength Development by Gaussian Process Regression__ \
+Yu Song, __Yongzhe Wang__, Kaixin Wang, Samy Allal, Gaurav Sant, Mathieu Bauchy \
+_Science Advances. (Submitted)_ \
+Key words: the origin of cement strength, machine learning, variable importance, main effect analysis, gaussian process, XGBoost
+
+__Health Behavioral Trends and Absenteeism Associated Before and During the SARS-CoV-2 Pandemic in a Community Household Study, King County, Washington__ \
+Erin Chung, __Yongzhe Wang__, Eric J Chow, Roy Burstein, Elisabeth Brandstetter, Peter D Han, Kairsten Fay, Brian Pfau, Amanda Adler, Kirsten Lacombe, Christina M Lockwood, Timothy M Uyeki, Jay Shendure, Jeﬀrey S Duchin, Mark J Rieder, Deborah A Nickerson, Michael Boeckh, Michael Famulare, James P Hughes, Lea M Starita, Trevor Bedford, Janet A Englund, Helen Y Chu \
+_American Journal of Preventive Medicine. (Submitted)_ \
+Key words: COVID-19, illness behavior, absenteeism, viral infections, households, generalized estimating equations (GEE), logistic regression, data visualization 
+
 __Interrupted Time Series Design with Longitudinal Models: Evaluating a Multi-Site Intervention to Improve Colorectal Cancer Screening in Federally Qualified Health Centers in Los Angeles County__ \
 __Yongzhe Wang__, Kimlin Ashing, Haonan Zhang, Narissa Nonzee \
 _AcademyHealth Annual Research Meeting. (2023). (Oral presentation)_ [_PDF_](https://academyhealth.confex.com/academyhealth/2023arm/meetingapp.cgi/Paper/59138)\
@@ -37,11 +47,6 @@ __Community outreach and engagement to increase colorectal cancer screening in e
 Kimlin T. Ashing, __Yongzhe Wang__, Marisela Garcia, Trilokesh Kidambi, Gregory Idos, Sophia Yeung, Charleen Mikail, Margaret Martinez, Scott Kim, Kim Tran, Paul Gregerson, Paul Round, Cherry Lee, Pei-Chi Wu, Nancy Chen, Stephen Denq, Narissa Nonzee \
 _American Association for Cancer Research 2023 Annual Meeting. (2023). (Poster presentation)_ \
 Key words: observational study, interrupted time series design, cancer screening, health inequality, health metrics
-
-__Health Behavioral Trends and Absenteeism Associated Before and During the SARS-CoV-2 Pandemic in a Community Household Study, King County, Washington__ \
-Erin Chung, __Yongzhe Wang__, Eric J Chow, Roy Burstein, Elisabeth Brandstetter, Peter D Han, Kairsten Fay, Brian Pfau, Amanda Adler, Kirsten Lacombe, Christina M Lockwood, Timothy M Uyeki, Jay Shendure, Jeﬀrey S Duchin, Mark J Rieder, Deborah A Nickerson, Michael Boeckh, Michael Famulare, James P Hughes, Lea M Starita, Trevor Bedford, Janet A Englund, Helen Y Chu \
-_American Journal of Preventive Medicine. (Submitted)_ \
-Key words: COVID-19, illness behavior, absenteeism, viral infections, households, generalized estimating equations (GEE), logistic regression, data visualization 
 
 __Respiratory syncytial virus and other respiratory virus infections in residents of homeless shelters – King County, Washington, 2019–2021__ \
 Denise J. McCulloch, Julia H. Rogers, __Yongzhe Wang__, Eric J. Chow, Amy C. Link, Caitlin R. Wolf, Timothy M. Uyeki, Melissa A. Rolfes, Emily Mosites, Jaydee Sereewit, Jeﬀrey S. Duchin, Nancy K. Sugg, Michael J. Boeckh, Janet A. Englund, Trevor Bedford, Jay Shendure, James P. Hughes, Lea M. Starita, Pavitra Roychoudhury, Helen Y. Chu \
