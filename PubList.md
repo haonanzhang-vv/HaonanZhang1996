@@ -20,7 +20,7 @@ Key words: COVID-19, illness behavior, absenteeism, viral infections, households
 
 __Income Level with Death from Cardiovascular Disease after Breast Cancer in Women’s Health Initiative__ \
 Veronica Jones, __Yongzhe Wang__, Alexi Vasbinder, Noah Simon, Kerry Reding \
-_16th AACR Conference on the Science of Cancer Health Disparities. (2023). (Poster presentation)_
+_16th AACR Conference on the Science of Cancer Health Disparities. (2023). (Poster presentation)_ \
 Key words: socioeconomic impact, cardiovascular disease, machine learning, WHI cohort
 
 __Interrupted Time Series Design with Longitudinal Models: Evaluating a Multi-Site Intervention to Improve Colorectal Cancer Screening in Federally Qualified Health Centers in Los Angeles County__ \
