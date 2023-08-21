@@ -10,13 +10,18 @@ Key words: cervical cancer, Hispanic/Latinx, health disparities, cancer treatmen
 
 __Region of Origin and Cervical Cancer Stage in Multi-Ethnic Hispanic/Latinx Patients Living in the United States__ \
 Andreea I. Dinicu, Shayan Dioun, Mandy Goldberg, Danielle M. Crookes, __Yongzhe Wang__, Alexander Melamed, Jason D. Wright, Ana I. Tergas \
-_Cancer Medicine. (Submitted)_ \
+_Cancer Medicine. (Under Reviewed)_ \
 Key words: cervical cancer, Hispanic/Latinx, health disparities, multinomial logistic regression
 
 __Health Behavioral Trends and Absenteeism Associated Before and During the SARS-CoV-2 Pandemic in a Community Household Study, King County, Washington__ \
 Erin Chung, __Yongzhe Wang__, Eric J Chow, Roy Burstein, Elisabeth Brandstetter, Peter D Han, Kairsten Fay, Brian Pfau, Amanda Adler, Kirsten Lacombe, Christina M Lockwood, Timothy M Uyeki, Jay Shendure, Jeﬀrey S Duchin, Mark J Rieder, Deborah A Nickerson, Michael Boeckh, Michael Famulare, James P Hughes, Lea M Starita, Trevor Bedford, Janet A Englund, Helen Y Chu \
-_American Journal of Preventive Medicine. (Submitted)_ \
+_American Journal of Preventive Medicine. (Under Reviewed)_ \
 Key words: COVID-19, illness behavior, absenteeism, viral infections, households, generalized estimating equations (GEE), logistic regression, data visualization 
+
+__Risk of Subsequent Respiratory Virus Detection After Primary Detection in a Community Household Study—Seattle, Washington__ \
+Jessica Heimonen, Eric J. Chow, __Yongzhe Wang__, James P. Hughes, Peter D. Han, Anne Emmanuels, Jessica O’Hanlon, Denise McCulloch, Veronica Bowen, Constance E. Ogokeh, Melissa A. Rolfes, Timothy M. Uyeki, MPP, Michael Boeckh, Trevor Bedford, Lea Starita, Janet A. Englund, Helen Y. Chu \
+_Journal of Infectious Diseases. (2023)_ [_PDF_](https://academic.oup.com/jid/advance-article-abstract/doi/10.1093/infdis/jiad305/7235955?redirectedFrom=fulltext)\
+Key words: dual viral infection, household, time-dependent covariate and time-varying coefficient Cox models, smoothed baseline hazard, incidence
 
 __Income Level with Death from Cardiovascular Disease after Breast Cancer in Women’s Health Initiative__ \
 Veronica Jones, __Yongzhe Wang__, Alexi Vasbinder, Noah Simon, Kerry Reding \
@@ -50,13 +55,8 @@ Key words: observational study, interrupted time series design, cancer screening
 
 __Respiratory syncytial virus and other respiratory virus infections in residents of homeless shelters – King County, Washington, 2019–2021__ \
 Denise J. McCulloch, Julia H. Rogers, __Yongzhe Wang__, Eric J. Chow, Amy C. Link, Caitlin R. Wolf, Timothy M. Uyeki, Melissa A. Rolfes, Emily Mosites, Jaydee Sereewit, Jeﬀrey S. Duchin, Nancy K. Sugg, Michael J. Boeckh, Janet A. Englund, Trevor Bedford, Jay Shendure, James P. Hughes, Lea M. Starita, Pavitra Roychoudhury, Helen Y. Chu \
-_Inﬂuenza and other respiratory viruses, 17( 6):e13166. (2023)._ [_PDF_](https://onlinelibrary.wiley.com/doi/10.1111/irv.13166) \
+_Inﬂuenza and other respiratory viruses. (2023)._ [_PDF_](https://onlinelibrary.wiley.com/doi/10.1111/irv.13166) \
 Key words: Respiratory syncytial virus (RSV) and influenza, shelter, repeated cross-sectional design, hypothesis testing, logistic regression, data visualization
-
-__Risk of Subsequent Respiratory Virus Detection After Primary Detection in a Community Household Study—Seattle, Washington__ \
-Jessica Heimonen, Eric J. Chow, __Yongzhe Wang__, James P. Hughes, Peter D. Han, Anne Emmanuels, Jessica O’Hanlon, Denise McCulloch, Veronica Bowen, Constance E. Ogokeh, Melissa A. Rolfes, Timothy M. Uyeki, MPP, Michael Boeckh, Trevor Bedford, Lea Starita, Janet A. Englund, Helen Y. Chu \
-_Journal of Infectious Diseases. (In press)_ \
-Key words: dual viral infection, household, time-dependent covariate and time-varying coefficient Cox models, smoothed baseline hazard, incidence
 
 __Variable Importance for Fixed Effects in Linear Mixed Model__ \
 __Yongzhe Wang__, Lingbo Ye, Zifan Yu \
@@ -70,7 +70,7 @@ Key words: Streptococcus pneumoniae, viral transmission, household, logistic reg
 
 __Using machine learning to predict concrete’s strength: learning from small datasets__ \
 Ouyang, Boya, Yu Song, Yuhai Li, Feishu Wu, Huizi Yu, __Yongzhe Wang__, Zhanyuan Yin, Xiaoshu Luo, Gaurav Sant, and Mathieu Bauchy \
-_Engineering Research Express, 3(1), 015022. (2021)._ [_PDF_](https://iopscience.iop.org/article/10.1088/2631-8695/abe344/meta) \
+_Engineering Research Express. (2021)._ [_PDF_](https://iopscience.iop.org/article/10.1088/2631-8695/abe344/meta) \
 Key words: regression, prediction, polynomial regression, artificial neural network, random forest, gradual learning
 
 __Decoding the genome of cement by Gaussian Process Regression__ \
@@ -80,7 +80,7 @@ Key words: prediction, Gaussian process (GP) regression, variable importance, ma
 
 __Predicting Concrete’s Strength by Machine Learning: Balance between Accuracy and Complexity of Algorithms__ \
 Ouyang, Boya, Yu Song, Yuhai Li, Feishu Wu, Huizi Yu, __Yongzhe Wang__, Gaurav Sant, Mathieu Bauchy \
-_ACI Materials Journal, 117(6), 125–133. (2020)._ [_PDF_](https://par.nsf.gov/biblio/10296333) \
+_ACI Materials Journal. (2020)._ [_PDF_](https://par.nsf.gov/biblio/10296333) \
 Key words: regression, prediction, model complexity, variable selection, polynomial regression, artificial neural network, gradient boosted machine, random forest
 
 
