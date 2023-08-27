@@ -5,7 +5,10 @@ layout: post
 categories: media
 ---
 
+
 ![Cover](https://raw.githubusercontent.com/YzwIsALaity/Contour-Plot-Tutorial-in-R/adb30487e4d7c721b504c8440e1fa46ad59242c0/Cover.jpeg)
+
+
 
 This tutorial guides you through the process of creating __contour plots__ using `ggplot2`. A contour plot is a type of visualization used to represent a 3-dimensional surface by projecting constant `z` values onto a 2-dimensional space. It provides a straightforward way to visualize complex 3-dimensional datasets in a simplified 2-dimensional format. To illustrate the usage of contour plots, we will use the `volcano` dataset from the `rgl` package.
 
