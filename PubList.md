@@ -25,7 +25,7 @@ Key words: COVID-19, illness behavior, absenteeism, viral infections, households
 
 __Risk of Subsequent Respiratory Virus Detection After Primary Detection in a Community Household Study—Seattle, Washington__ \
 Jessica Heimonen, Eric J. Chow, __Yongzhe Wang__, James P. Hughes, Peter D. Han, Anne Emmanuels, Jessica O’Hanlon, Denise McCulloch, Veronica Bowen, Constance E. Ogokeh, Melissa A. Rolfes, Timothy M. Uyeki, MPP, Michael Boeckh, Trevor Bedford, Lea Starita, Janet A. Englund, Helen Y. Chu \
-_Journal of Infectious Diseases. (2023)_ [_PDF_](https://academic.oup.com/jid/advance-article-abstract/doi/10.1093/infdis/jiad305/7235955?redirectedFrom=fulltext)\
+_Journal of Infectious Diseases. (2023)_ [_PDF_](https://academic.oup.com/jid/advance-article/doi/10.1093/infdis/jiad305/7235955?utm_source=authortollfreelink&utm_campaign=jid&utm_medium=email&guestAccessKey=39b62645-faf9-4ac2-a2cc-b693e368c261)\
 Key words: dual viral infection, household, time-dependent covariate and time-varying coefficient Cox models, smoothed baseline hazard, incidence
 
 __Income Level with Death from Cardiovascular Disease after Breast Cancer in Women’s Health Initiative__ \
