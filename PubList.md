@@ -18,11 +18,6 @@ Andreea I. Dinicu, Shayan Dioun, Mandy Goldberg, Danielle M. Crookes, __Yongzhe 
 _Cancer Medicine. (Under Reviewed)_ \
 Key words: cervical cancer, Hispanic/Latinx, health disparities, multinomial logistic regression
 
-%__Health Behavioral Trends and Absenteeism Associated Before and During the SARS-CoV-2 Pandemic in a Community Household Study, King County, Washington__ \
-Erin Chung, __Yongzhe Wang__, Eric J Chow, Roy Burstein, Elisabeth Brandstetter, Peter D Han, Kairsten Fay, Brian Pfau, Amanda Adler, Kirsten Lacombe, Christina M Lockwood, Timothy M Uyeki, Jay Shendure, Jeffrey S Duchin, Mark J Rieder, Deborah A Nickerson, Michael Boeckh, Michael Famulare, James P Hughes, Lea M Starita, Trevor Bedford, Janet A Englund, Helen Y Chu \
-_American Journal of Preventive Medicine. (Under Reviewed)_ \
-Key words: COVID-19, illness behavior, absenteeism, viral infections, households, generalized estimating equations (GEE), logistic regression, data visualization 
-
 __Risk of Subsequent Respiratory Virus Detection After Primary Detection in a Community Household Study—Seattle, Washington__ \
 Jessica Heimonen, Eric J. Chow, __Yongzhe Wang__, James P. Hughes, Peter D. Han, Anne Emmanuels, Jessica O’Hanlon, Denise McCulloch, Veronica Bowen, Constance E. Ogokeh, Melissa A. Rolfes, Timothy M. Uyeki, MPP, Michael Boeckh, Trevor Bedford, Lea Starita, Janet A. Englund, Helen Y. Chu \
 _Journal of Infectious Diseases. (2023)_ [_PDF_](https://academic.oup.com/jid/advance-article/doi/10.1093/infdis/jiad305/7235955?utm_source=authortollfreelink&utm_campaign=jid&utm_medium=email&guestAccessKey=39b62645-faf9-4ac2-a2cc-b693e368c261)\
