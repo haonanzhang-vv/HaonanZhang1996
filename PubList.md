@@ -15,7 +15,7 @@ Key words: cementitious strength, carbon emissions, machine learning, Gaussian p
 
 __Region of Origin and Cervical Cancer Stage in Multi-Ethnic Hispanic/Latinx Patients Living in the United States__ \
 Andreea I. Dinicu, Shayan Dioun, Mandy Goldberg, Danielle M. Crookes, __Yongzhe Wang__, Alexander Melamed, Jason D. Wright, Ana I. Tergas \
-_Cancer Medicine. (Under Reviewed)_ \
+_Cancer Medicine. (In Press)_ \
 Key words: cervical cancer, Hispanic/Latinx, health disparities, multinomial logistic regression
 
 __Risk of Subsequent Respiratory Virus Detection After Primary Detection in a Community Household Study—Seattle, Washington__ \
