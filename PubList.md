@@ -5,7 +5,7 @@ title: "Publication and Presentation"
 
 __Survival rates in Hispanic subpopulations with cervical cancer associated with disparities in the provision of guideline-concordant care__ \
 Andreea I. Dinicu, Shayan Dioun, __Yongzhe Wang__, Yongmei Huang, Jason D. Wright, Ana I. Tergas \
-_Journal of Gynecologic Oncology. (Under Reviewed)_ \
+_Gynecologic Oncology. (Under Reviewed)_ \
 Key words: cervical cancer, Hispanic/Latinx, health disparities, cancer treatment, risk raito, marginal Poisson model, Cox model
 
 __Decoding the Chemistry of Cement’s Strength Development by Gaussian Process Regression__ \
