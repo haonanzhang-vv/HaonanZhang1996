@@ -24,7 +24,7 @@ We will use a simulated dataset for this visualization. Suppose there is a 3-yea
 
 ![](https://raw.githubusercontent.com/YzwIsALaity/Ridgeline-Plot-Tutorial-in-R/2a324d0c39139ff786a3f0ddf6960053578386cc/Dataset.png)
 
-At each time point, we collected 200 observations of TNF-$\alpha$ cytokine values in pg/mL. Since we hypothesize that this cytokine is linked to pro-inflammatory processes, monitoring its values can serve as a key indicator of inflammation. We aim to investigate whether inflammatory symptoms gradually decrease after the acute period.
+At each time point, we collected 200 observations of TNF- $\alpha$ cytokine values in pg/mL. Since we hypothesize that this cytokine is linked to pro-inflammatory processes, monitoring its values can serve as a key indicator of inflammation. We aim to investigate whether inflammatory symptoms gradually decrease after the acute period.
 
 ## 2. Ridgeline plot
 The ridgeline plot is generated using the `ggridges` extension package for `ggplot2.` We primarily employ three functions: `geom_ridgeline()`, `geom_density_ridges()`, and `geom_density_ridges_gradient()`, to create various types of ridgeline plots. In the basic version, we will cover the usage of `geom_ridgeline()` and `geom_density_ridges()`, while the comprehensive version will include a detailed walkthrough of `geom_density_ridges_gradient()`.
