@@ -12,7 +12,7 @@ categories: media
 In this tutorial, we'll introduce the use of __ridgeline plots__ in R using the __`ggplot2` and `ggridges` packages__. These plots display a sequence of histogram or density plots stacked vertically, making it a useful tool for __visualizing changes in the distribution of a numerical variable across different time points or categories__.
 
 ## 1. Dataset
-We will use a simulated dataset for this visualization. Suppose there is a 3-year cohort consisting of 200 participants who initially contracted severe Covid-19 at enrollment. We collected cytokine data at 0, 30, 90, 180, 360, 540, and 720 days (7 time points). Additionally, we hypothesized that the __TNF-&\alpha; cytokine__ levels (pg/mL) would increase during the initial 90 days and then gradually decrease as the acute symptoms subsided. The ridgeline plot is an excellent tool for __visualizing longitudinal changes in TNF-&\alpha; data__. The dataset is very simple and includes 4 variables only:
+We will use a simulated dataset for this visualization. Suppose there is a 3-year cohort consisting of 200 participants who initially contracted severe Covid-19 at enrollment. We collected cytokine data at 0, 30, 90, 180, 360, 540, and 720 days (7 time points). Additionally, we hypothesized that the __TNF-__ $\alpha$ __cytokine__ levels (pg/mL) would increase during the initial 90 days and then gradually decrease as the acute symptoms subsided. The ridgeline plot is an excellent tool for __visualizing longitudinal changes in TNF-&\alpha; data__. The dataset is very simple and includes 4 variables only:
 
 - `PTID`: this is an __unique identification__ for each participants __[200 participants]__ (string);
 
