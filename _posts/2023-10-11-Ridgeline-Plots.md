@@ -12,13 +12,13 @@ categories: media
 In this tutorial, we'll introduce the use of __ridgeline plots__ in R using the __`ggplot2` and `ggridges` packages__. These plots display a sequence of histogram or density plots stacked vertically, making it a useful tool for __visualizing changes in the distribution of a numerical variable across different time points or categories__.
 
 ## 1. Dataset
-We will use a simulated dataset for this visualization. Suppose there is a 3-year cohort consisting of 200 participants who initially contracted severe Covid-19 at enrollment. We collected cytokine data at 0, 30, 90, 180, 360, 540, and 720 days (7 time points). Additionally, we hypothesized that the __TNF-$\alpha$ cytokine__ levels (pg/mL) would increase during the initial 90 days and then gradually decrease as the acute symptoms subsided. The ridgeline plot is an excellent tool for __visualizing longitudinal changes in TNF-$\alpha$ data__. The dataset is very simple and includes 4 variables only:
+We will use a simulated dataset for this visualization. Suppose there is a 3-year cohort consisting of 200 participants who initially contracted severe Covid-19 at enrollment. We collected cytokine data at 0, 30, 90, 180, 360, 540, and 720 days (7 time points). Additionally, we hypothesized that the __TNF-&\alpha; cytokine__ levels (pg/mL) would increase during the initial 90 days and then gradually decrease as the acute symptoms subsided. The ridgeline plot is an excellent tool for __visualizing longitudinal changes in TNF-&\alpha; data__. The dataset is very simple and includes 4 variables only:
 
 - `PTID`: this is an __unique identification__ for each participants __[200 participants]__ (string);
 
 - `Time`: this variable represents the __time point of sample collection__ (numerical);
 
-- `TNF_alpha`: this variable represents the __value of TNF-$\alpha$ cytokine__ in pg/mL (numerical);
+- `TNF_alpha`: this variable represents the __value of TNF-&\alpha; cytokine__ in pg/mL (numerical);
 
 - `Numerical_PTID`: This is equivalent to `PTID`, but it is represented numerically (numerical).
 
@@ -118,10 +118,10 @@ grid.arrange(p1, p2, p3, p4, nrow = 2, ncol = 2)
 
 ![](https://raw.githubusercontent.com/YzwIsALaity/Ridgeline-Plot-Tutorial-in-R/2a324d0c39139ff786a3f0ddf6960053578386cc/Ridgeline%20(Basic).jpeg)
 
-In the __Basic ridgeline__ plot (top left), `geom_ridgeline()` simply maps TNF-$\alpha$ values at each time point according to numerical patient IDs. In contrast, the __Density ridgeline__ plot (top right) and the __Density ridgeline with jitter points__ plot (bottom left) offer more informative visuals, displaying the density of TNF-$\alpha$ value distributions grouped by time points. If users prefer a binned version (histogram), they can opt for the __Ridgeline in bins__ plot (bottom right).
+In the __Basic ridgeline__ plot (top left), `geom_ridgeline()` simply maps TNF-&\alpha; values at each time point according to numerical patient IDs. In contrast, the __Density ridgeline__ plot (top right) and the __Density ridgeline with jitter points__ plot (bottom left) offer more informative visuals, displaying the density of TNF-&\alpha; value distributions grouped by time points. If users prefer a binned version (histogram), they can opt for the __Ridgeline in bins__ plot (bottom right).
 
 ### (2). Comprehensive version
-For a more enhanced visualization of the TNF-$\alpha$ value distribution density, you can employ the `geom_density_ridges_gradient()` function, which __displays gradient colors under the density curve__ for each time point. To achieve this, you need to utilize the `after_stat(x)` function within the `aes()` function of the main `ggplot()` function. This allows you to map the transformed TNF-$\alpha$ values from `x` to the `fill` argument.
+For a more enhanced visualization of the TNF-&\alpha; value distribution density, you can employ the `geom_density_ridges_gradient()` function, which __displays gradient colors under the density curve__ for each time point. To achieve this, you need to utilize the `after_stat(x)` function within the `aes()` function of the main `ggplot()` function. This allows you to map the transformed TNF-$\alpha$ values from `x` to the `fill` argument.
 
 ```{r}
 # Texts for y axis
@@ -160,7 +160,7 @@ p5
 
 ![](https://raw.githubusercontent.com/YzwIsALaity/Ridgeline-Plot-Tutorial-in-R/2a324d0c39139ff786a3f0ddf6960053578386cc/Ridgeline%20(Comprehensive).jpeg)
 
-In this figure, we have eliminated all extraneous elements and focused solely on highlighting the density curve for TNF-$\alpha$ values. The intensity of TNF-$\alpha$ is represented by a gradient color scale.
+In this figure, we have eliminated all extraneous elements and focused solely on highlighting the density curve for TNF-&\alpha; values. The intensity of TNF-$\alpha$ is represented by a gradient color scale.
 
 __The inspiration for the ridgeline plot design comes from the cover of the debut studio album by the rock band Joy Division, and we can also experiment with mimicking that cover.__
 
