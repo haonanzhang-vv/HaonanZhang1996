@@ -64,7 +64,7 @@ _Inﬂuenza and other respiratory viruses. (2023)._ [_PDF_](https://onlinelibrar
 Key words: Respiratory syncytial virus (RSV) and influenza, shelter, repeated cross-sectional design, hypothesis testing, logistic regression, data visualization
 
 __Health Behavioral Trends and Absenteeism Associated Before and During the SARS-CoV-2 Pandemic in a Community Household Study, King County, Washington__
-Erin Chung, Jessica Heimonen, Jessica A O’Hanlon, __Yongzhe Wang__, Eric J Chow, Constance E Ogokeh, Melissa A Rolfes, James Hughes, Timothy M Uyeki, Lea Starita, Janet A Englund, Helen Y Chu, Samara Hoag
+Erin Chung, Jessica Heimonen, Jessica A O’Hanlon, __Yongzhe Wang__, Eric J Chow, Constance E Ogokeh, Melissa A Rolfes, James Hughes, Timothy M Uyeki, Lea Starita, Janet A Englund, Helen Y Chu, Samara Hoag \
 _Open Forum Infectious Diseases. (2022). (Oral presentation)_ [_PDF_](https://academic.oup.com/ofid/article/9/Supplement_2/ofac492.1531/6903759) \
 Key words: COVID-19, illness behavior, absenteeism, viral infections, households, generalized estimating equations (GEE), logistic regression, data visualization
 
