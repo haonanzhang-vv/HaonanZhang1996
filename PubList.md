@@ -3,10 +3,15 @@ layout: page
 title: "Publication and Presentation"
 ---
 
+__Accounting for Competing Risks in the Evaluation of Racial Disparities in Cardiovascular and Cancer Outcomes after Breast Cancer__ \ 
+Kerryn W. Reding, Alexi Vasbinder, __Yongzhe Wang__, Noah Simon, Richard K. Cheng, Ana Barac, Tara Ballinger, Marcia Stefanick, Michael Simon, Veronica Jones \
+_Cardio Oncology. (Under Reviewed)_ \
+Key words: Cardiovascular diseases, breast cancer, competing risks, cumulative incidence, survival analysis, risk factors
+
 __Survival rates in Hispanic subpopulations with cervical cancer associated with disparities in the provision of guideline-concordant care__ \
 Andreea I. Dinicu, Shayan Dioun, __Yongzhe Wang__, Yongmei Huang, Jason D. Wright, Ana I. Tergas \
 _Gynecologic Oncology. (Under Reviewed)_ \
-Key words: cervical cancer, Hispanic/Latinx, health disparities, cancer treatment, risk raito, marginal Poisson model, Cox model
+Key words: cervical cancer, Hispanic/Latinx, health disparities, cancer treatment, risk raito, Poisson model, Cox model
 
 __Decoding the Chemistry of Cement’s Strength Development by Gaussian Process Regression__ \
 Yu Song, __Yongzhe Wang__, Kaixin Wang, Samy Allal, Gaurav Sant, Mathieu Bauchy \
