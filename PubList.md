@@ -3,7 +3,7 @@ layout: page
 title: "Publication and Presentation"
 ---
 
-__Accounting for Competing Risks in the Evaluation of Racial Disparities in Cardiovascular and Cancer Outcomes after Breast Cancer__\ 
+__Accounting for Competing Risks in the Evaluation of Racial Disparities in Cardiovascular and Cancer Outcomes after Breast Cancer__ \ 
 Kerryn W. Reding, Alexi Vasbinder, __Yongzhe Wang__, Noah Simon, Richard K. Cheng, Ana Barac, Tara Ballinger, Marcia Stefanick, Michael Simon, Veronica Jones \
 _Cardio Oncology. (Under Reviewed)_ \
 Key words: Cardiovascular diseases, breast cancer, competing risks, cumulative incidence, survival analysis, risk factors
