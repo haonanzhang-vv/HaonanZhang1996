@@ -3,6 +3,11 @@ layout: page
 title: "Publication and Presentation"
 ---
 
+__“I probably shouldn’t go in today”: Inequitable access to paid sick leave and its impacts on health behaviors during the emergence of COVID-19 in the Seattle area__ \
+Chidozie Declan Iwu, Sarah Cox, Sarah Sohlberg, Ashley Kim, Jennifer Logue, Peter Han, Thomas Sibley, Misja Ilcisin, Kairsten Fay, Jover Lee, Denise McCulloch, __Yongzhe Wang__, Michael Boeckh, Janet Englund, Anjum Hajat, Lea Starita, Helen Chu \
+_PLoS one. (Under Reviewed)_ \
+Key words: Health policy, paid sick leave, COVID-19, longitudinal analysis, binomial regression
+
 __Accounting for Competing Risks in the Evaluation of Racial Disparities in Cardiovascular and Cancer Outcomes after Breast Cancer__ \
 Kerryn W. Reding, Alexi Vasbinder, __Yongzhe Wang__, Noah Simon, Richard K. Cheng, Ana Barac, Tara Ballinger, Marcia Stefanick, Michael Simon, Veronica Jones \
 _Cardio Oncology. (Under Reviewed)_ \
@@ -20,7 +25,7 @@ Key words: cementitious strength, carbon emissions, machine learning, Gaussian p
 
 __Health Behavioral Trends and Absenteeism Associated Before and During the SARS-CoV-2 Pandemic in a Community Household Study, King County, Washington__ \
 Erin Chung, __Yongzhe Wang__, Eric J Chow, Roy Burstein, Elisabeth Brandstetter, Peter D Han, Kairsten Fay, Brian Pfau, Amanda Adler, Kirsten Lacombe, Christina M Lockwood, Timothy M Uyeki, Jay Shendure, Jeffrey S Duchin, Mark J Rieder, Deborah A Nickerson, Michael Boeckh, Michael Famulare, James P Hughes, Lea M Starita, Trevor Bedford, Janet A Englund, Helen Y Chu \
-_American Journal of Preventive Medicine. (Under Reviewed)_ \
+_AJPM Focus. (Under Reviewed)_ \
 Key words: COVID-19, illness behavior, absenteeism, viral infections, households, generalized estimating equations (GEE), logistic regression, data visualization
 
 __Region of Origin and Cervical Cancer Stage in Multi-Ethnic Hispanic/Latinx Patients Living in the United States__ \
