@@ -8,7 +8,7 @@ __Yongzhe Wang__, Narissa J. Nonzze, Kimlin T. Ashing, Haonan Zhang, Gaole Song,
 _Health Services Research. (Under Reviewed)_ \
 Key words: Segmented regression, interrupted time series, observational study, intervention study
 
-__“I probably shouldn’t go in today”: Inequitable access to paid sick leave and its impacts on health behaviors during the emergence of COVID-19 in the Seattle area__ \
+__“I Probably Shouldn’t Go in Today”: Inequitable Access to Paid Sick Leave and its Impacts on Health Behaviors During the Emergence of COVID-19 in the Seattle Area__ \
 Chidozie Declan Iwu, Sarah Cox, Sarah Sohlberg, Ashley Kim, Jennifer Logue, Peter Han, Thomas Sibley, Misja Ilcisin, Kairsten Fay, Jover Lee, Denise McCulloch, __Yongzhe Wang__, Michael Boeckh, Janet Englund, Anjum Hajat, Lea Starita, Helen Chu \
 _PLoS one. (Under Reviewed)_ \
 Key words: Health policy, paid sick leave, COVID-19, longitudinal analysis, binomial regression
