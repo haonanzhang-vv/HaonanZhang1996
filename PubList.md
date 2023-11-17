@@ -3,6 +3,11 @@ layout: page
 title: "Publication and Presentation"
 ---
 
+__Interpretation of Coefficients in Segmented Regression for Interrupted Time Series Design__ \
+__Yongzhe Wang__, Narissa J. Nonzze, Kimlin T. Ashing, Haonan Zhang, Gaole Song, Catherine M. Crespi \
+_Health Services Research. (Under Reviewed)_ \
+Key words: Segmented regression, interrupted time series, observational study, intervention study
+
 __“I probably shouldn’t go in today”: Inequitable access to paid sick leave and its impacts on health behaviors during the emergence of COVID-19 in the Seattle area__ \
 Chidozie Declan Iwu, Sarah Cox, Sarah Sohlberg, Ashley Kim, Jennifer Logue, Peter Han, Thomas Sibley, Misja Ilcisin, Kairsten Fay, Jover Lee, Denise McCulloch, __Yongzhe Wang__, Michael Boeckh, Janet Englund, Anjum Hajat, Lea Starita, Helen Chu \
 _PLoS one. (Under Reviewed)_ \
