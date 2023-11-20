@@ -3,7 +3,7 @@ layout: page
 title: "Publication and Presentation"
 ---
 
-__Interpretation of Coefficients in Segmented Regression for Interrupted Time Series Design__ \
+__Interpretation of Coefficients in Segmented Regression for Interrupted Time Series Analyses__ \
 __Yongzhe Wang__, Narissa J. Nonzze, Kimlin T. Ashing, Haonan Zhang, Gaole Song, Catherine M. Crespi \
 _Health Services Research. (Under Reviewed)_ \
 Key words: Segmented regression, interrupted time series, observational study, intervention study
