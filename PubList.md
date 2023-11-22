@@ -14,7 +14,7 @@ _PLoS one. (Under Reviewed)_ \
 Key words: Health policy, paid sick leave, COVID-19, longitudinal analysis, binomial regression
 
 __Accounting for Competing Risks in the Evaluation of Racial Disparities in Cardiovascular and Cancer Outcomes after Breast Cancer__ \
-Kerryn W. Reding, Alexi Vasbinder, __Yongzhe Wang__, Noah Simon, Richard K. Cheng, Ana Barac, Tara Ballinger, Marcia Stefanick, Michael Simon, Veronica Jones \
+Kerryn W. Reding, Alexi Vasbinder, __Yongzhe Wang__, Richard K. Cheng, Ana Barac, Tara Ballinger, Marcia Stefanick, Michael Simon, Veronica Jones \
 _JACC: Cardio Oncology. (Under Reviewed)_ \
 Key words: Cardiovascular diseases, breast cancer, competing risks, cumulative incidence, survival analysis, risk factors
 
