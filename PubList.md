@@ -5,32 +5,32 @@ title: "Publication and Presentation"
 
 __Interpretation of Coefficients in Segmented Regression for Interrupted Time Series Analyses__ \
 __Yongzhe Wang__, Narissa J. Nonzze, Kimlin T. Ashing, Haonan Zhang, Gaole Song, Catherine M. Crespi \
-_Health Services Research. (Under Reviewed)_ \
+_Health Services Research. (Under Review)_ \
 Key words: Segmented regression, interrupted time series, observational study, intervention study
 
 __“I Probably Shouldn’t Go in Today”: Inequitable Access to Paid Sick Leave and its Impacts on Health Behaviors During the Emergence of COVID-19 in the Seattle Area__ \
 Chidozie Declan Iwu, Sarah Cox, Sarah Sohlberg, Ashley Kim, Jennifer Logue, Peter Han, Thomas Sibley, Misja Ilcisin, Kairsten Fay, Jover Lee, Denise McCulloch, __Yongzhe Wang__, Michael Boeckh, Janet Englund, Anjum Hajat, Lea Starita, Helen Chu \
-_PLoS one. (Under Reviewed)_ \
+_PLoS one. (Under Review)_ \
 Key words: Health policy, paid sick leave, COVID-19, longitudinal analysis, binomial regression
 
 __Accounting for Competing Risks in the Evaluation of Racial Disparities in Cardiovascular and Cancer Outcomes after Breast Cancer__ \
 Kerryn W. Reding, Alexi Vasbinder, __Yongzhe Wang__, Richard K. Cheng, Ana Barac, Tara Ballinger, Marcia Stefanick, Michael Simon, Veronica Jones \
-_JACC: Cardio Oncology. (Under Reviewed)_ \
+_JACC: Cardio Oncology. (Under Review)_ \
 Key words: Cardiovascular diseases, breast cancer, competing risks, cumulative incidence, survival analysis, risk factors
 
 __Survival rates in Hispanic subpopulations with cervical cancer associated with disparities in the provision of guideline-concordant care__ \
 Andreea I. Dinicu, Shayan Dioun, __Yongzhe Wang__, Yongmei Huang, Jason D. Wright, Ana I. Tergas \
-_Gynecologic Oncology. (Under Reviewed)_ \
+_Gynecologic Oncology. (Under Review)_ \
 Key words: cervical cancer, Hispanic/Latinx, health disparities, cancer treatment, risk raito, Poisson model, Cox model
 
 __Decoding the Chemistry of Cement’s Strength Development by Gaussian Process Regression__ \
 Yu Song, __Yongzhe Wang__, Kaixin Wang, Samy Allal, Gaurav Sant, Mathieu Bauchy \
-_Science Advances. (Under Reviewed)_ \
+_Science Advances. (Under Review)_ \
 Key words: cementitious strength, carbon emissions, machine learning, Gaussian process, variable importance
 
 __Health Behavioral Trends and Absenteeism Associated Before and During the SARS-CoV-2 Pandemic in a Community Household Study, King County, Washington__ \
 Erin Chung, __Yongzhe Wang__, Eric J Chow, Roy Burstein, Elisabeth Brandstetter, Peter D Han, Kairsten Fay, Brian Pfau, Amanda Adler, Kirsten Lacombe, Christina M Lockwood, Timothy M Uyeki, Jay Shendure, Jeffrey S Duchin, Mark J Rieder, Deborah A Nickerson, Michael Boeckh, Michael Famulare, James P Hughes, Lea M Starita, Trevor Bedford, Janet A Englund, Helen Y Chu \
-_AJPM Focus. (Under Reviewed)_ \
+_AJPM Focus. (Under Review)_ \
 Key words: COVID-19, illness behavior, absenteeism, viral infections, households, generalized estimating equations (GEE), logistic regression, data visualization
 
 __Region of Origin and Cervical Cancer Stage in Multi-Ethnic Hispanic/Latinx Patients Living in the United States__ \
