@@ -25,7 +25,7 @@ Key words: cervical cancer, Hispanic/Latinx, health disparities, cancer treatmen
 
 __Decoding the Chemistry of Cement’s Strength Development by Gaussian Process Regression__ \
 Yu Song, __Yongzhe Wang__, Kaixin Wang, Samy Allal, Gaurav Sant, Mathieu Bauchy \
-_Matter. (Under Review)_ \
+_Matter. (Under Review)_ [PDF](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4657713)\
 Key words: cementitious strength, carbon emissions, machine learning, Gaussian process, variable importance
 
 __Health Behavioral Trends and Absenteeism Associated Before and During the SARS-CoV-2 Pandemic in a Community Household Study, King County, Washington__ \
