@@ -23,7 +23,7 @@ Andreea I. Dinicu, Shayan Dioun, __Yongzhe Wang__, Yongmei Huang, Jason D. Wrigh
 _Gynecologic Oncology. (Under Review)_ \
 Key words: cervical cancer, Hispanic/Latinx, health disparities, cancer treatment, risk raito, Poisson model, Cox model
 
-__Decoding the Chemistry of Cement’s Strength Development by Gaussian Process Regression__ \
+__Decoding the Genome of Cement by Machine Learning__ \
 Yu Song, __Yongzhe Wang__, Kaixin Wang, Samy Allal, Gaurav Sant, Mathieu Bauchy \
 _Matter. (Under Review)_ [PDF](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4657713)\
 Key words: cementitious strength, carbon emissions, machine learning, Gaussian process, variable importance
@@ -33,7 +33,7 @@ Erin Chung, __Yongzhe Wang__, Eric J Chow, Roy Burstein, Elisabeth Brandstetter,
 _AJPM Focus. (Under Review)_ \
 Key words: COVID-19, illness behavior, absenteeism, viral infections, households, generalized estimating equations (GEE), logistic regression, data visualization
 
-__Region of Origin and Cervical Cancer Stage in Multi-Ethnic Hispanic/Latinx Patients Living in the United States__ \
+__Region of Origin and Cervical Cancer Stage in Multiethnic Hispanic/Latinx Patients Living in the United States__ \
 Andreea I. Dinicu, Shayan Dioun, Mandy Goldberg, Danielle M. Crookes, __Yongzhe Wang__, Alexander Melamed, Jason D. Wright, Ana I. Tergas \
 _Cancer Medicine. (2023)._ [_PDF_](https://onlinelibrary.wiley.com/doi/10.1002/cam4.6697)\
 Key words: cervical cancer, Hispanic/Latinx, health disparities, multinomial logistic regression
