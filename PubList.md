@@ -6,17 +6,17 @@ title: "Publication and Presentation"
 Interpretation of Coefficients in Segmented Regression for Interrupted Time Series Analyses \
 __Yongzhe Wang__, Narissa J. Nonzze, Kimlin T. Ashing, Haonan Zhang, Gaole Song, Catherine M. Crespi \
 ___Health Services Research___. (Under Review) \
-Key words: Segmented regression, interrupted time series, observational study, intervention study
+Key words: segmented regression, interrupted time series, observational study, intervention study
 
 “I Probably Shouldn’t Go in Today”: Inequitable Access to Paid Sick Leave and its Impacts on Health Behaviors During the Emergence of COVID-19 in the Seattle Area \
 Chidozie Declan Iwu, Sarah Cox, Sarah Sohlberg, Ashley Kim, Jennifer Logue, Peter Han, Thomas Sibley, Misja Ilcisin, Kairsten Fay, Jover Lee, Denise McCulloch, __Yongzhe Wang__, Michael Boeckh, Janet Englund, Anjum Hajat, Lea Starita, Helen Chu \
 ___PLoS one___. (Under Review) \
-Key words: Health policy, paid sick leave, COVID-19, longitudinal analysis, binomial regression
+Key words: health policy, paid sick leave, COVID-19, longitudinal analysis, binomial regression
 
 Accounting for Competing Risks in the Evaluation of Racial Disparities in Cardiovascular and Cancer Outcomes after Breast Cancer \
 Kerryn W. Reding, Alexi Vasbinder, __Yongzhe Wang__, Richard K. Cheng, Ana Barac, Tara Ballinger, Marcia Stefanick, Michael Simon, Veronica Jones \
 ___JACC: Cardio Oncology___. (Under Review) \
-Key words: Cardiovascular diseases, breast cancer, competing risks, cumulative incidence, survival analysis, risk factors
+Key words: cardiovascular diseases, breast cancer, competing risks, cumulative incidence, survival analysis, risk factors
 
 Decoding the Genome of Cement by Machine Learning \
 Yu Song, __Yongzhe Wang__, Kaixin Wang, Samy Allal, Gaurav Sant, Mathieu Bauchy \
@@ -26,7 +26,7 @@ Key words: cementitious strength, carbon emissions, machine learning, Gaussian p
 Health Behavioral Trends and Absenteeism Associated Before and During the SARS-CoV-2 Pandemic in a Community Household Study, King County, Washington \
 Erin Chung, __Yongzhe Wang__, Eric J Chow, Roy Burstein, Elisabeth Brandstetter, Peter D Han, Kairsten Fay, Brian Pfau, Amanda Adler, Kirsten Lacombe, Christina M Lockwood, Timothy M Uyeki, Jay Shendure, Jeffrey S Duchin, Mark J Rieder, Deborah A Nickerson, Michael Boeckh, Michael Famulare, James P Hughes, Lea M Starita, Trevor Bedford, Janet A Englund, Helen Y Chu \
 ___AJPM Focus___. (Under Review) \
-Key words: COVID-19, illness behavior, absenteeism, viral infections, households, generalized estimating equations (GEE), logistic regression, data visualization
+Key words: COVID-19, illness behavior, absenteeism, viral infections, households, generalized estimating equations, logistic regression, data visualization
 
 Survival rates in Hispanic/Latinx subpopulations with cervical cancer associated with disparities in guideline-concordant care \
 Andreea I. Dinicu, Shayan Dioun, __Yongzhe Wang__, Yongmei Huang, Jason D. Wright, Ana I. Tergas \
@@ -41,7 +41,7 @@ Key words: cervical cancer, Hispanic/Latinx, health disparities, multinomial log
 Risk of Subsequent Respiratory Virus Detection After Primary Detection in a Community Household Study—Seattle, Washington \
 Jessica Heimonen, Eric J. Chow, __Yongzhe Wang__, James P. Hughes, Peter D. Han, Anne Emmanuels, Jessica O’Hanlon, Denise McCulloch, Veronica Bowen, Constance E. Ogokeh, Melissa A. Rolfes, Timothy M. Uyeki, MPP, Michael Boeckh, Trevor Bedford, Lea Starita, Janet A. Englund, Helen Y. Chu \
 ___Journal of Infectious Diseases___. (2023). [_PDF_](https://doi.org/10.1093/infdis/jiad305)\
-Key words: dual viral infection, household, time-dependent covariate and time-varying coefficient Cox models, smoothed baseline hazard, incidence
+Key words: dual viral detection, household, time-dependent covariate and time-varying coefficient Cox models, smoothed baseline hazard, incidence
 
 Income Level with Death from Cardiovascular Disease after Breast Cancer in Women’s Health Initiative \
 Veronica Jones, __Yongzhe Wang__, Alexi Vasbinder, Noah Simon, Kerry Reding \
@@ -56,7 +56,7 @@ Key words: interrupted time series, mixed effect models, segmented regression, A
 Prelimbic neurons differently encode changes in metabolic or threat states during cued food seeking \
 Xu Zhang, Claire Cho, Guillermo Aquino-Miranda, __Yongzhe Wang__, Nikita Elinson-Watson, Fabricio Do Monte \
 ___Modulation of Neural Circuits and Behavior Gordon Research Seminar___. (2023). (Poster presentation) \
-Key words: computational neuroscience, classification, recurrent switching linear dynamical systems (rSLDS), support vector machine (SVM), linear discriminant analysis (LDA), data visualization
+Key words: computational neuroscience, classification, recurrent switching linear dynamical systems, support vector machine, linear discriminant analysis, data visualization
 
 Machine Learning to Identify Risk Factors for Cardiovascular Mortality after Breast Cancer \
 Alexi Vasbinder, Veronica Jones, __Yongzhe Wang__, Noah Simon, Richard K. Cheng, Ana Barac, Michael Simon, Kerryn Reding \
@@ -76,22 +76,22 @@ Key words: observational study, interrupted time series design, cancer screening
 Respiratory syncytial virus and other respiratory virus infections in residents of homeless shelters – King County, Washington, 2019–2021 \
 Denise J. McCulloch, Julia H. Rogers, __Yongzhe Wang__, Eric J. Chow, Amy C. Link, Caitlin R. Wolf, Timothy M. Uyeki, Melissa A. Rolfes, Emily Mosites, Jaydee Sereewit, Jeﬀrey S. Duchin, Nancy K. Sugg, Michael J. Boeckh, Janet A. Englund, Trevor Bedford, Jay Shendure, James P. Hughes, Lea M. Starita, Pavitra Roychoudhury, Helen Y. Chu \
 ___Inﬂuenza and other respiratory viruses___. (2023). [_PDF_](https://onlinelibrary.wiley.com/doi/10.1111/irv.13166) \
-Key words: Respiratory syncytial virus (RSV) and influenza, shelter, repeated cross-sectional design, hypothesis testing, logistic regression, data visualization
+Key words: respiratory syncytial virus and influenza, shelter, repeated cross-sectional design, hypothesis testing, logistic regression, data visualization
 
 Health Behavioral Trends and Absenteeism Associated Before and During the SARS-CoV-2 Pandemic in a Community Household Study, King County, Washington \
 Erin Chung, Jessica Heimonen, Jessica A O’Hanlon, __Yongzhe Wang__, Eric J Chow, Constance E Ogokeh, Melissa A Rolfes, James Hughes, Timothy M Uyeki, Lea Starita, Janet A Englund, Helen Y Chu, Samara Hoag \
 ___Open Forum Infectious Diseases___. (2022). (Oral presentation) [_PDF_](https://academic.oup.com/ofid/article/9/Supplement_2/ofac492.1531/6903759) \
-Key words: COVID-19, illness behavior, absenteeism, viral infections, households, generalized estimating equations (GEE), logistic regression, data visualization
+Key words: COVID-19, illness behavior, absenteeism, viral infections, households, generalized estimating equations, logistic regression, data visualization
 
 Variable Importance for Fixed Effects in Linear Mixed Model \
 __Yongzhe Wang__, Lingbo Ye, Zifan Yu \
 ___Western North American Region of The International Biometric Society Annual Meeting___. (2022). (Oral presentation). \
-Key words: linear mixed model (LMM), Shapley value, LMG variable importance, coefficient of determination, variance decomposition
+Key words: linear mixed model, Shapley value, LMG variable importance, coefficient of determination, variance decomposition
 
 Streptococcus pneumoniae nasal carriage patterns with and without common respiratory viruses in Seattle, WA, USA \
 Julia C. Bennett, Anne Emanuels, Jessica Heimonen, Jessica O’Hanlon, James P. Hughes, Peter D. Han, __Yongzhe Wang__, Denise J. McCulloch, Eric J. Chow, Constance E. Ogokeh, Melissa A. Rolfes, Timothy M. Uyeki, Jay Shendure, Lea M. Starita, Janet A. Englund, Helen Y. Chu \
 ___12th International RSV Symposium___. (2022). (Poster presentation) [_PDF_](https://isirv.org/site/images/conferences/RSV/RSV2022/RSV_2022_Abstracts_POSTERS%20Rev%20Dec22.pdf) \
-Key words: Streptococcus pneumoniae, viral transmission, household, logistic regression
+Key words: streptococcus pneumoniae, viral transmission, household, logistic regression
 
 Using machine learning to predict concrete’s strength: learning from small datasets \
 Ouyang, Boya, Yu Song, Yuhai Li, Feishu Wu, Huizi Yu, __Yongzhe Wang__, Zhanyuan Yin, Xiaoshu Luo, Gaurav Sant, and Mathieu Bauchy \
@@ -101,7 +101,7 @@ Key words: regression, prediction, polynomial regression, artificial neural netw
 Decoding the genome of cement by Gaussian Process Regression \
 Yu Song, __Yongzhe Wang__, Kaixin Wang, Mathieu Bauchy \
 ___NeurIPS Workshop: Machine Learning for Engineering Modeling, Simulation, and Design___. (2020). (Oral presentation) [_PDF_](https://ml4eng.github.io/camera_readys/38.pdf) \
-Key words: prediction, Gaussian process (GP) regression, variable importance, main effect, long-term cement behavior
+Key words: prediction, Gaussian process regression, variable importance, main effect, long-term cement behavior
 
 Predicting Concrete’s Strength by Machine Learning: Balance between Accuracy and Complexity of Algorithms \
 Ouyang, Boya, Yu Song, Yuhai Li, Feishu Wu, Huizi Yu, __Yongzhe Wang__, Gaurav Sant, Mathieu Bauchy \
