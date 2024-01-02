@@ -28,6 +28,11 @@ Erin Chung, __Yongzhe Wang__, Eric J Chow, Roy Burstein, Elisabeth Brandstetter,
 ___AJPM Focus___. (Under Review) \
 Key words: COVID-19, illness behavior, absenteeism, viral infections, households, generalized estimating equations, logistic regression, data visualization
 
+The Effect of Medicaid Expansion on the Receipt of Guideline-Concordant Care Among Patients with Cervical Cancer in the United States: a Difference-in-Difference Analysis of the NCDB \
+Andreea Dinicu, Narissa J. Nonzee, __Yongzhe Wang__, Yongmei Huang, Jason D. Wright, Ana I. Tergas \
+___Society of Gynecologic Oncology 2024 Annual Meeting on Women’s Cancer___. (2024). (Poster presentation)\
+Key words: difference-in-difference, cervical cancer, guideline-concordant care, socioeconomic status
+
 Survival rates in Hispanic/Latinx subpopulations with cervical cancer associated with disparities in guideline-concordant care \
 Andreea I. Dinicu, Shayan Dioun, __Yongzhe Wang__, Yongmei Huang, Jason D. Wright, Ana I. Tergas \
 ___Gynecologic Oncology___. (In Press) \
