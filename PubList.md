@@ -33,7 +33,7 @@ Andreea Dinicu, Narissa J. Nonzee, __Yongzhe Wang__, Yongmei Huang, Jason D. Wri
 ___Society of Gynecologic Oncology 2024 Annual Meeting on Women’s Cancer___. (2024). (Poster presentation)\
 Key words: difference-in-difference, cervical cancer, guideline-concordant care, socioeconomic status
 
-Survival rates in Hispanic/Latinx subpopulations with cervical cancer associated with disparities in guideline-concordant care \
+Survival Rates in Hispanic/Latinx Subpopulations with Cervical Cancer Associated with Disparities in Guideline-concordant Care \
 Andreea I. Dinicu, Shayan Dioun, __Yongzhe Wang__, Yongmei Huang, Jason D. Wright, Ana I. Tergas \
 ___Gynecologic Oncology___. (In Press) \
 Key words: cervical cancer, Hispanic/Latinx, health disparities, cancer treatment, risk raito, Poisson model, Cox model
@@ -58,7 +58,7 @@ __Yongzhe Wang__, Kimlin Ashing, Haonan Zhang, Narissa Nonzee \
 ___AcademyHealth Annual Research Meeting___. (2023). (Oral presentation) [_PDF_](https://academyhealth.confex.com/academyhealth/2023arm/meetingapp.cgi/Paper/59138)\
 Key words: interrupted time series, mixed effect models, segmented regression, ARIMA, intervention evaluation, implementation science
 
-Prelimbic neurons differently encode changes in metabolic or threat states during cued food seeking \
+Prelimbic Neurons Differently Encode Changes in Metabolic or Threat States During Cued Food Seeking \
 Xu Zhang, Claire Cho, Guillermo Aquino-Miranda, __Yongzhe Wang__, Nikita Elinson-Watson, Fabricio Do Monte \
 ___Modulation of Neural Circuits and Behavior Gordon Research Seminar___. (2023). (Poster presentation) \
 Key words: computational neuroscience, classification, recurrent switching linear dynamical systems, support vector machine, linear discriminant analysis, data visualization
@@ -73,12 +73,12 @@ Narissa J. Nonzee, __Yongzhe Wang__, Marisela Garcia, Sophia Yeung, Trilokesh D.
 ___American Society of Preventive Oncology 2023 Annual Meeting___. (2023). (Oral presentation) \
 Key words: observational study, interrupted time series design, cancer screening, multiscale interventions
 
-Community outreach and engagement to increase colorectal cancer screening in ethnic minority communities \
+Community Outreach and Engagement to Increase Colorectal Cancer Screening in Ethnic Minority Communities \
 Kimlin T. Ashing, __Yongzhe Wang__, Marisela Garcia, Trilokesh Kidambi, Gregory Idos, Sophia Yeung, Charleen Mikail, Margaret Martinez, Scott Kim, Kim Tran, Paul Gregerson, Paul Round, Cherry Lee, Pei-Chi Wu, Nancy Chen, Stephen Denq, Narissa Nonzee \
 ___American Association for Cancer Research 2023 Annual Meeting___. (2023). (Poster presentation) \
 Key words: observational study, interrupted time series design, cancer screening, health inequality, health metrics
 
-Respiratory syncytial virus and other respiratory virus infections in residents of homeless shelters – King County, Washington, 2019–2021 \
+Respiratory Syncytial Virus and Other Respiratory Virus Infections in Residents of Homeless Shelters – King County, Washington, 2019–2021 \
 Denise J. McCulloch, Julia H. Rogers, __Yongzhe Wang__, Eric J. Chow, Amy C. Link, Caitlin R. Wolf, Timothy M. Uyeki, Melissa A. Rolfes, Emily Mosites, Jaydee Sereewit, Jeﬀrey S. Duchin, Nancy K. Sugg, Michael J. Boeckh, Janet A. Englund, Trevor Bedford, Jay Shendure, James P. Hughes, Lea M. Starita, Pavitra Roychoudhury, Helen Y. Chu \
 ___Inﬂuenza and other respiratory viruses___. (2023). [_PDF_](https://onlinelibrary.wiley.com/doi/10.1111/irv.13166) \
 Key words: respiratory syncytial virus and influenza, shelter, repeated cross-sectional design, hypothesis testing, logistic regression, data visualization
@@ -93,17 +93,17 @@ __Yongzhe Wang__, Lingbo Ye, Zifan Yu \
 ___Western North American Region of The International Biometric Society Annual Meeting___. (2022). (Oral presentation). \
 Key words: linear mixed model, Shapley value, LMG variable importance, coefficient of determination, variance decomposition
 
-Streptococcus pneumoniae nasal carriage patterns with and without common respiratory viruses in Seattle, WA, USA \
+Streptococcus Pneumoniae Nasal Carriage Patterns with and without Common Respiratory Viruses in Seattle, WA, USA \
 Julia C. Bennett, Anne Emanuels, Jessica Heimonen, Jessica O’Hanlon, James P. Hughes, Peter D. Han, __Yongzhe Wang__, Denise J. McCulloch, Eric J. Chow, Constance E. Ogokeh, Melissa A. Rolfes, Timothy M. Uyeki, Jay Shendure, Lea M. Starita, Janet A. Englund, Helen Y. Chu \
 ___12th International RSV Symposium___. (2022). (Poster presentation) [_PDF_](https://isirv.org/site/images/conferences/RSV/RSV2022/RSV_2022_Abstracts_POSTERS%20Rev%20Dec22.pdf) \
 Key words: streptococcus pneumoniae, viral transmission, household, logistic regression
 
-Using machine learning to predict concrete’s strength: learning from small datasets \
+Using Machine Learning to Predict Concrete’s Strength: Learning from Small Datasets \
 Ouyang, Boya, Yu Song, Yuhai Li, Feishu Wu, Huizi Yu, __Yongzhe Wang__, Zhanyuan Yin, Xiaoshu Luo, Gaurav Sant, and Mathieu Bauchy \
 ___Engineering Research Express___. (2021). [_PDF_](https://iopscience.iop.org/article/10.1088/2631-8695/abe344/meta) \
 Key words: regression, prediction, polynomial regression, artificial neural network, random forest, gradual learning
 
-Decoding the genome of cement by Gaussian Process Regression \
+Decoding the Genome of Cement by Gaussian Process Regression \
 Yu Song, __Yongzhe Wang__, Kaixin Wang, Mathieu Bauchy \
 ___NeurIPS Workshop: Machine Learning for Engineering Modeling, Simulation, and Design___. (2020). (Oral presentation) [_PDF_](https://ml4eng.github.io/camera_readys/38.pdf) \
 Key words: prediction, Gaussian process regression, variable importance, main effect, long-term cement behavior
