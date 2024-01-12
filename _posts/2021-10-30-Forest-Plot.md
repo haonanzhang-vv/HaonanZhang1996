@@ -253,7 +253,3 @@ grid.arrange(p2, tab2,
 ![](https://raw.githubusercontent.com/YzwIsALaity/Forest-Plot-Tutorial-in-R/ddd1c3a8b85da7319432c60195ec29a32138fc48/Version%204.0.jpeg)
 
 __After we remove the X-axis for the top plot__, we need to __align the__ `Summary` __with rows in the plot__ and this can be modified by `geom_text(aes(y = Index, x = 1, label = Summary), size = 4, hjust = 0, vjust = 1.35)` (need to modify `vjust = `: modify vertical distance). 
-
-$$
-a = \frac{c}{d}
-$$
