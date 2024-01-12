@@ -254,6 +254,3 @@ grid.arrange(p2, tab2,
 
 __After we remove the X-axis for the top plot__, we need to __align the__ `Summary` __with rows in the plot__ and this can be modified by `geom_text(aes(y = Index, x = 1, label = Summary), size = 4, hjust = 0, vjust = 1.35)` (need to modify `vjust = `: modify vertical distance). 
 
-$$
-x\_1 = 132
-$$
