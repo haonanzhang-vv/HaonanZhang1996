@@ -3,7 +3,7 @@ layout: page
 title: "Publication and Presentation"
 ---
 
-# Manuscripts
+## Manuscript
 Interpretation of Coefficients in Segmented Regression for Interrupted Time Series Analyses \
 __Yongzhe Wang__, Narissa J. Nonzze, Kimlin T. Ashing, Haonan Zhang, Gaole Song, Catherine M. Crespi \
 ___Health Services Research___. (Under Review) \
@@ -69,7 +69,7 @@ Ouyang, Boya, Yu Song, Yuhai Li, Feishu Wu, Huizi Yu, __Yongzhe Wang__, Gaurav S
 ___ACI Materials Journal___. (2020). [_PDF_](https://par.nsf.gov/biblio/10296333) \
 Key words: regression, prediction, model complexity, variable selection, polynomial regression, artificial neural network, gradient boosted machine, random forest
 
-# Abstract
+## Abstract
 The Effect of Medicaid Expansion on the Receipt of Guideline-Concordant Care Among Patients with Cervical Cancer in the United States: a Difference-in-Difference Analysis of the NCDB \
 Andreea Dinicu, Narissa J. Nonzee, __Yongzhe Wang__, Yongmei Huang, Jason D. Wright, Ana I. Tergas \
 ___Society of Gynecologic Oncology 2024 Annual Meeting on Women’s Cancer___. (2024). (Poster presentation)\
