@@ -107,7 +107,7 @@ Key words: observational study, interrupted time series design, cancer screening
 
 Health Behavioral Trends and Absenteeism Associated Before and During the SARS-CoV-2 Pandemic in a Community Household Study, King County, Washington \
 Erin Chung, Jessica Heimonen, Jessica A O’Hanlon, __Yongzhe Wang__, Eric J Chow, Constance E Ogokeh, Melissa A Rolfes, James Hughes, Timothy M Uyeki, Lea Starita, Janet A Englund, Helen Y Chu, Samara Hoag \
-___Open Forum Infectious Diseases___. (2022). (Oral presentation) [_PDF_](https://academic.oup.com/ofid/article/9/Supplement_2/ofac492.1531/6903759) \
+___Open Forum Infectious Diseases___. (2022). (Poster presentation) [_PDF_](https://academic.oup.com/ofid/article/9/Supplement_2/ofac492.1531/6903759) \
 Key words: COVID-19, illness behavior, absenteeism, viral infections, households, generalized estimating equations, logistic regression, data visualization
 
 Streptococcus Pneumoniae Nasal Carriage Patterns with and without Common Respiratory Viruses in Seattle, WA, USA \
