@@ -21,7 +21,7 @@ Key words: cementitious strength, carbon emissions, machine learning, Gaussian p
 
 Health Behavioral Trends and Absenteeism Associated Before and During the SARS-CoV-2 Pandemic in a Community Household Study, King County, Washington \
 Erin Chung, __Yongzhe Wang__, Eric J Chow, Roy Burstein, Elisabeth Brandstetter, Peter D Han, Kairsten Fay, Brian Pfau, Amanda Adler, Kirsten Lacombe, Christina M Lockwood, Timothy M Uyeki, Jay Shendure, Jeffrey S Duchin, Mark J Rieder, Deborah A Nickerson, Michael Boeckh, Michael Famulare, James P Hughes, Lea M Starita, Trevor Bedford, Janet A Englund, Helen Y Chu \
-___AJPM Focus___. (Under Review) \
+___AJPM Focus___. (In Press) \
 Key words: COVID-19, illness behavior, absenteeism, viral infections, households, generalized estimating equations, logistic regression, data visualization
 
 “I Probably Shouldn’t Go in Today”: Inequitable Access to Paid Sick Leave and its Impacts on Health Behaviors During the Emergence of COVID-19 in the Seattle Area \
