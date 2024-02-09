@@ -26,7 +26,7 @@ ___PLoS one___. (In Press)
 
 Survival Rates in Hispanic/Latinx Subpopulations with Cervical Cancer Associated with Disparities in Guideline-concordant Care \
 Andreea I. Dinicu, Shayan Dioun, __Yongzhe Wang__, Yongmei Huang, Jason D. Wright, Ana I. Tergas \
-___Gynecologic Oncology___. (In Press) 
+___Gynecologic Oncology___. [_PDF_](https://www.sciencedirect.com/science/article/pii/S0090825824000696) 
 
 Region of Origin and Cervical Cancer Stage in Multiethnic Hispanic/Latinx Patients Living in the United States \
 Andreea I. Dinicu, Shayan Dioun, Mandy Goldberg, Danielle M. Crookes, __Yongzhe Wang__, Alexander Melamed, Jason D. Wright, Ana I. Tergas \
