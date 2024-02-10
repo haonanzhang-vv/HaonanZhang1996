@@ -5,7 +5,7 @@ title: "Publication and Presentation"
 
 ## Manuscript
 Interpretation of Coefficients in Segmented Regression for Interrupted Time Series Analyses \
-__Yongzhe Wang__, Narissa J. Nonzze, Kimlin T. Ashing, Haonan Zhang, Gaole Song, Catherine M. Crespi \
+__Yongzhe Wang__, Narissa J. Nonzze, Haonan Zhang, Kimlin T. Ashing, Gaole Song, Catherine M. Crespi \
 ___BMC Medical Research Methodology___. (Under Review) 
 
 Accounting for Competing Risks in the Evaluation of Racial Disparities in Cardiovascular and Cancer Outcomes after Breast Cancer \
