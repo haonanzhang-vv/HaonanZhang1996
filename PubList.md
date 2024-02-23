@@ -61,6 +61,10 @@ The Effect of Medicaid Expansion on the Receipt of Guideline-Concordant Care Amo
 Andreea Dinicu, Narissa J. Nonzee, __Yongzhe Wang__, Yongmei Huang, Jason D. Wright, Ana I. Tergas \
 ___Society of Gynecologic Oncology 2024 Annual Meeting on Women’s Cancer___. (2024). (Poster presentation)
 
+Disparities in cervical cancer survival among Hispanic subpopulations living in the United States \
+Andreea Dinicu, Shayan Dioun, __Yongzhe Wang__, Yongmei Huang, Jason Wright, Ana Tergas \
+___16th AACR Conference on the Science of Cancer Health Disparities___. (2023). (Poster presentation) [_PDF_](https://doi.org/10.1158/1538-7755.DISP23-B112)
+
 Income Level with Death from Cardiovascular Disease after Breast Cancer in Women’s Health Initiative \
 Veronica Jones, __Yongzhe Wang__, Alexi Vasbinder, Noah Simon, Kerry Reding \
 ___16th AACR Conference on the Science of Cancer Health Disparities___. (2023). (Poster presentation) [_PDF_](https://doi.org/10.1158/1538-7755.DISP23-B014)
