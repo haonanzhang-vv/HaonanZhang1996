@@ -63,7 +63,7 @@ ___Society of Gynecologic Oncology 2024 Annual Meeting on Women’s Cancer___. (
 
 Income Level with Death from Cardiovascular Disease after Breast Cancer in Women’s Health Initiative \
 Veronica Jones, __Yongzhe Wang__, Alexi Vasbinder, Noah Simon, Kerry Reding \
-___16th AACR Conference on the Science of Cancer Health Disparities___. (2023). (Poster presentation) 
+___16th AACR Conference on the Science of Cancer Health Disparities___. (2023). (Poster presentation) [_PDF_](https://doi.org/10.1158/1538-7755.DISP23-B014)
 
 Interrupted Time Series Design with Longitudinal Models: Evaluating a Multi-Site Intervention to Improve Colorectal Cancer Screening in Federally Qualified Health Centers in Los Angeles County \
 __Yongzhe Wang__, Kimlin Ashing, Haonan Zhang, Narissa Nonzee \
