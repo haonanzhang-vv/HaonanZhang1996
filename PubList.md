@@ -6,7 +6,7 @@ title: "Publication and Presentation"
 ## Manuscript
 Interpretation of Coefficients in Segmented Regression for Interrupted Time Series Analyses \
 __Yongzhe Wang__, Narissa J. Nonzze, Haonan Zhang, Kimlin T. Ashing, Gaole Song, Catherine M. Crespi \
-___BMC Medical Research Methodology___. (Under Review) 
+___BMC Medical Research Methodology___. (Under Review) [PDF](https://doi.org/10.21203/rs.3.rs-3972428/v1)
 
 Accounting for Competing Risks in the Evaluation of Racial Disparities in Cardiovascular and Cancer Outcomes after Breast Cancer \
 Kerryn W. Reding, Alexi Vasbinder, __Yongzhe Wang__, Richard K. Cheng, Ana Barac, Tara Ballinger, Marcia Stefanick, Michael Simon, Veronica Jones \
