@@ -25,23 +25,19 @@ $$ \hat{\Lambda}(t) = \int_{0}^{t} \frac{d \bar{N}(s)}{ \sum_{i} \bar{Y}_{i}(s) 
 
 where $$ d \bar{N}(s) $$ is the number of events occurring precisely at time $$ s $$, and $$ \bar{Y}_{i}(s) $$ is the number of patients "at risk" at time $$ s $$. Heuristically, the __Nelson-Aalen estimator is a method of moments estimator__ and can be reasonably considered as a Poisson process at a short time period $$ t $$. Therefore, its estimated variance can be obtained as
 
-$$ \hat{Var}(\hat{\Lambda}) = \sum_{i: t_{i} \leq t} \frac{d_i}{r_{i}^2} $$,
+$$ \hat{Var}(\hat{\Lambda}) = \sum_{i: t_{i} \leq t} \frac{d_i}{r_{i}^2}, $$
 
-where $$ r_{i} $$ is the number of patients "at risk" (i.e., under observation). The detailed procedure involves measure theory and stochastic process and is quite technical, so we will omit it here. In addition to the Nelson-Aalen estimator, the Breslow estimator for the cumulative baseline hazard function is often employed after fitting Cox regression. Essentially, the Breslow estimator aims to estimate a survival function $$ S(t) $$ and is intricately connected with the cumulative baseline hazard function:
-
-$$ S(t) = e^{- \Lambda(t)} $$.
-
-As the exponential function is continuous and monotonic, the crucial aspect of the Breslow estimator lies in obtaining the estimate of $$\Lambda(t) $$. In general, the Breslow estimator can be expressed as
+where $$ r_{i} $$ is the number of patients "at risk" (i.e., under observation). The detailed procedure involves measure theory and stochastic process and is quite technical, so we will omit it here. In addition to the Nelson-Aalen estimator, the Breslow estimator for the cumulative baseline hazard function is often employed after fitting Cox regression. Essentially, the Breslow estimator aims to estimate a survival function $$ S(t) $$ and is intricately connected with the cumulative baseline hazard function $$ S(t) = e^{- \Lambda(t)} $$. As the exponential function is continuous and monotonic, the crucial aspect of the Breslow estimator lies in obtaining the estimate of $$\Lambda(t) $$. In general, the Breslow estimator can be expressed as
 
 $$ \hat{\Lambda}(t) = \sum_{i: t_{i} \leq t} \frac{d_i}{\sum_{i: t_{i} \leq t} e^{X_{i} \hat{\beta}}}, $$
 
 where $$ \hat{\beta} $$ can be obtained from the maximum partial likelihood estimator. Interestingly, the Breslow estimator is equivalent to the Nelson-Aalen estimator when all covariates are set to zero. Considering the counting-process-type expression, we can rewrite it as follows:
 
-$$ \hat{\Lambda}(t) = \sum_{i = 1}^{n} [\int_{0}^{t} \frac{dN_{i}(s)}{\sum_{i = 1}^{n}(Y_{i}(s) e^{X_{i} \hat{\beta}})}] $$,
+$$ \hat{\Lambda}(t) = \sum_{i = 1}^{n} [\int_{0}^{t} \frac{dN_{i}(s)}{\sum_{i = 1}^{n}(Y_{i}(s) e^{X_{i} \hat{\beta}})}], $$
 
 where $$ dN_{i}(s) $$ indicates if an event happened at time $$ s $$ for a patient $$ i $$, $$ Y_{i}(s) $$ indicates if a patient $$ i $$ is still under observation at time $$ s $$, $$ n $$ is the total number of patients. Therefore, we noticed that
 
-$$ \bar{N}(s) = \sum_{i = 1}^{n} N_{i}(s), \quad \bar{Y}_{i}(s) = \sum_{i = 1}^{n} Y_{i}(s) $$.
+$$ \bar{N}(s) = \sum_{i = 1}^{n} N_{i}(s), \quad \bar{Y}_{i}(s) = \sum_{i = 1}^{n} Y_{i}(s). $$
 
 The detailed proof involves the use of Fubini's theorem to enable the interchangeability of integration and summation, but we will omit it here. Since both estimators are designed for the cumulative (integrated) baseline hazard, if we aim to derive the baseline hazard function $$ \lambda_{0}(t) $$ from the cumulative baseline hazard $$ \Lambda(t) $$, we need to take the __stepwise discrete-time derivative for the cumulative (integrated) baseline hazard__. It is worth noting that, while this approximation may not be very precise, the associated statistical inference (i.e., asymptotics) remains somewhat mysterious. Nevertheless, it serves as an informative tool for visualizing the baseline risk of event occurrence. Sometimes, understanding the behavior of a Cox model in this context can be useful and may be used for comparisons with the incidence rate over time in lots of infectious diseases studies. Particularly, when applying time-dependent covariate or time-varying coefficient Cox models, the visualization of the baseline hazard can convey more information about the underlying behavior of the model. Now, we are moving on to the visualization part.
 
