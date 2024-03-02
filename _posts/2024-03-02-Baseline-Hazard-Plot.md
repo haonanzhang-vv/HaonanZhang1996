@@ -139,7 +139,7 @@ Dt_Plot <- data.frame('Time' = baselineHazard$Time,
                       'smoothCBH' = smoothCBH$y)
 ```
 
-After combining the smooth curves with the original estimated (cumulative) baseline hazard functions using the `Time` steps, we will use this combined dataset to visualize these two functions. Initially, we visualize the raw estimated (cumulative) baseline functions without applying smoothers, using different colors. Here, since the __cumulative baseline hazard__ ($$ \Lambda(t) \geq 0 $$) and __baseline hazard__ ($$ 0 \geq \lambda_{0}(t) \leq 1 $$) are on different scales, we __create a second y-axis for the cumulative baseline hazard__. Therefore, it is necessary to __construct a scale factor__ to map values from the scale of cumulative hazard to the scale of baseline hazard.
+After combining the smooth curves with the original estimated (cumulative) baseline hazard functions using the `Time` steps, we will use this combined dataset to visualize these two functions. Initially, we visualize the raw estimated (cumulative) baseline functions without applying smoothers, using different colors. Here, since the __cumulative baseline hazard__ ($$ \Lambda(t) \geq 0 $$) and __baseline hazard__ ($$ 0 \leq \lambda_{0}(t) \leq 1 $$) are on different scales, we __create a second y-axis for the cumulative baseline hazard__. Therefore, it is necessary to __construct a scale factor__ to map values from the scale of cumulative hazard to the scale of baseline hazard.
 
 ```{r}
 # Set up color for smooth curves
