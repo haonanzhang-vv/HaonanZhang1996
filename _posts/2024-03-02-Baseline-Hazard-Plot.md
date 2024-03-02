@@ -7,6 +7,7 @@ categories: media
 
 ![Cover](https://raw.githubusercontent.com/YzwIsALaity/Baseline-Hazard-Plot-Tutorial-in-R/256df4a29230228e7a0effc11944d042fd84a528/Figure%202%20(Smooth).jpeg)
 
+
 In this tutorial, we will delve into depicting the estimated __(cumulative) baseline hazard functions__ in R using the `ggplot2` package. As we observe, a Cox proportional hazard regression comprises two components: __a non-specific baseline hazard function of time and a linear predictor in exponential form__:
 
 $$ \lambda_{i}(t) = \lambda_{0}(t)e^{X_{i}(t) \beta}, $$
