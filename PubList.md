@@ -93,6 +93,10 @@ Health Behavioral Trends and Absenteeism Associated Before and During the SARS-C
 Erin Chung, Jessica Heimonen, Jessica A O’Hanlon, __Yongzhe Wang__, Eric J Chow, Constance E Ogokeh, Melissa A Rolfes, James Hughes, Timothy M Uyeki, Lea Starita, Janet A Englund, Helen Y Chu, Samara Hoag \
 ___Open Forum Infectious Diseases___. (2022). (Poster presentation) [_PDF_](https://academic.oup.com/ofid/article/9/Supplement_2/ofac492.1531/6903759) 
 
+Influenza Surveillance of Families in an Observational Household Study 2019-2021 \
+Tara M Babu, Amanda M Casto, Jessica Heimonen, __Yongzhe Wang__, Annie Emanuels, Eric J Chow, Samara Hoag, James Hughes, Constance E Ogokeh, Melissa A Rolfes, Timothy M Uyeki, Lea Starita, Janet A Englund, Helen Y Chu \
+___Open Forum Infectious Diseases___. (2022). (Poster presentation) [_PDF_](https://academic.oup.com/ofid/article/9/Supplement_2/ofac492.1821/6903881) 
+
 Streptococcus Pneumoniae Nasal Carriage Patterns with and without Common Respiratory Viruses in Seattle, WA, USA \
 Julia C. Bennett, Anne Emanuels, Jessica Heimonen, Jessica O’Hanlon, James P. Hughes, Peter D. Han, __Yongzhe Wang__, Denise J. McCulloch, Eric J. Chow, Constance E. Ogokeh, Melissa A. Rolfes, Timothy M. Uyeki, Jay Shendure, Lea M. Starita, Janet A. Englund, Helen Y. Chu \
 ___12th International RSV Symposium___. (2022). (Poster presentation) [_PDF_](https://isirv.org/site/images/conferences/RSV/RSV2022/RSV_2022_Abstracts_POSTERS%20Rev%20Dec22.pdf) 
