@@ -42,7 +42,7 @@ ___Inﬂuenza and other respiratory viruses___. (2023). [_PDF_](https://onlineli
 
 Variable Importance for Fixed Effects in Linear Mixed Model \
 __Yongzhe Wang__, Lingbo Ye, Zifan Yu \
-___Western North American Region of The International Biometric Society Annual Meeting___. (2022). (Oral presentation). 
+___Western North American Region of The International Biometric Society Annual Meeting___. (2022). (Conference paper). 
 
 Using Machine Learning to Predict Concrete’s Strength: Learning from Small Datasets \
 Ouyang, Boya, Yu Song, Yuhai Li, Feishu Wu, Huizi Yu, __Yongzhe Wang__, Zhanyuan Yin, Xiaoshu Luo, Gaurav Sant, and Mathieu Bauchy \
@@ -50,7 +50,7 @@ ___Engineering Research Express___. (2021). [_PDF_](https://iopscience.iop.org/a
 
 Decoding the Genome of Cement by Gaussian Process Regression \
 Yu Song, __Yongzhe Wang__, Kaixin Wang, Mathieu Bauchy \
-___NeurIPS Workshop: Machine Learning for Engineering Modeling, Simulation, and Design___. (2020). (Oral presentation) [_PDF_](https://ml4eng.github.io/camera_readys/38.pdf) 
+___NeurIPS Workshop: Machine Learning for Engineering Modeling, Simulation, and Design___. (2020). (Conference paper) [_PDF_](https://ml4eng.github.io/camera_readys/38.pdf) 
 
 Predicting Concrete’s Strength by Machine Learning: Balance between Accuracy and Complexity of Algorithms \
 Ouyang, Boya, Yu Song, Yuhai Li, Feishu Wu, Huizi Yu, __Yongzhe Wang__, Gaurav Sant, Mathieu Bauchy \
