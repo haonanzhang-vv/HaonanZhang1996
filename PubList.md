@@ -57,6 +57,10 @@ Ouyang, Boya, Yu Song, Yuhai Li, Feishu Wu, Huizi Yu, __Yongzhe Wang__, Gaurav S
 ___ACI Materials Journal___. (2020). [_PDF_](https://par.nsf.gov/biblio/10296333)
 
 ## Abstract
+Changes in No-Show Rates after Implementation of an Oncology Navigation Enhancement Program Targeting Vulnerable Populations \
+Narissa J. Nonzee, __Yongzhe Wang__, Lauren Cai, Annette Mercurio, Lorena Gaytan, Marianne Razavi2, Deborah Lefkowitz, Terry Hernandez, Chrissy Kim, Steven Morales, Danilo Duque, Zeke Luna, William Dale and Ana I. Tergas \
+___AcademyHealth Annual Research Meeting___. (2024). (Poster presentation)
+
 The Effect of Medicaid Expansion on the Receipt of Guideline-Concordant Care Among Patients with Cervical Cancer in the United States: a Difference-in-Difference Analysis of the NCDB \
 Andreea Dinicu, Narissa J. Nonzee, __Yongzhe Wang__, Yongmei Huang, Jason D. Wright, Ana I. Tergas \
 ___Society of Gynecologic Oncology 2024 Annual Meeting on Women’s Cancer___. (2024). (Poster presentation)
