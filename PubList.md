@@ -61,7 +61,7 @@ Changes in No-Show Rates after Implementation of an Oncology Navigation Enhancem
 Narissa J. Nonzee, __Yongzhe Wang__, Lauren Cai, Annette Mercurio, Lorena Gaytan, Marianne Razavi2, Deborah Lefkowitz, Terry Hernandez, Chrissy Kim, Steven Morales, Danilo Duque, Zeke Luna, William Dale and Ana I. Tergas \
 ___AcademyHealth Annual Research Meeting___. (2024). (Poster presentation)
 
-Determinants of time to cancer treatment initiation at a comprehensive cancer center \
+Determinants of Time to Cancer Treatment Initiation at a Comprehensive Cancer Center \
 Narissa J. Nonzee, Marianne Razavi, William Dale, Lauren Cai, Annette Mercurio, __Yongzhe Wang__, Deborah Lefkowitz, Chrissy Kim, Terry Hernandez, Steven Morales, Danilo Duque, Ana I. Tergas \
 ___American Association for Cancer Research 2024 Annual Meeting___. (2024). (Poster presentation)
 
