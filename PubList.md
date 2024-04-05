@@ -61,6 +61,10 @@ Changes in No-Show Rates after Implementation of an Oncology Navigation Enhancem
 Narissa J. Nonzee, __Yongzhe Wang__, Lauren Cai, Annette Mercurio, Lorena Gaytan, Marianne Razavi2, Deborah Lefkowitz, Terry Hernandez, Chrissy Kim, Steven Morales, Danilo Duque, Zeke Luna, William Dale and Ana I. Tergas \
 ___AcademyHealth Annual Research Meeting___. (2024). (Poster presentation)
 
+Determinants of time to cancer treatment initiation at a comprehensive cancer center \
+Narissa J. Nonzee, Marianne Razavi, William Dale, Lauren Cai, Annette Mercurio, __Yongzhe Wang__, Deborah Lefkowitz, Chrissy Kim, Terry Hernandez, Steven Morales, Danilo Duque, Ana I. Tergas \
+___American Association for Cancer Research 2024 Annual Meeting___. (2024). (Poster presentation)
+
 The Effect of Medicaid Expansion on the Receipt of Guideline-Concordant Care Among Patients with Cervical Cancer in the United States: a Difference-in-Difference Analysis of the NCDB \
 Andreea Dinicu, Narissa J. Nonzee, __Yongzhe Wang__, Yongmei Huang, Jason D. Wright, Ana I. Tergas \
 ___Society of Gynecologic Oncology 2024 Annual Meeting on Women’s Cancer___. (2024). (Poster presentation)
