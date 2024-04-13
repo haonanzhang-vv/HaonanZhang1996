@@ -4,6 +4,10 @@ title: "Publication and Presentation"
 ---
 
 ## Manuscript
+Effect Measures and Associated Components in Segmented Regression for Interrupted Time Series Analysis \
+__Yongzhe Wang__, James P. Hughes, Narissa J. Nonzee \
+___Journal of Evaluation in Clinical Practice___. (Under Review)
+
 Interpretation of Coefficients in Segmented Regression for Interrupted Time Series Analyses \
 __Yongzhe Wang__, Narissa J. Nonzze, Haonan Zhang, Kimlin T. Ashing, Gaole Song, Catherine M. Crespi \
 ___BMC Medical Research Methodology___. (Under Review) [PDF](https://doi.org/10.21203/rs.3.rs-3972428/v1)
