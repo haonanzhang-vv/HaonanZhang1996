@@ -24,7 +24,7 @@ ___AJPM Focus___. (In Press)
 Chidozie Declan Iwu, Sarah Cox, Sarah Sohlberg, Ashley Kim, Jennifer Logue, Peter Han, Thomas Sibley, Misja Ilcisin, Kairsten Fay, Jover Lee, Denise McCulloch, __Yongzhe Wang__, Michael Boeckh, Janet Englund, Anjum Hajat, Lea Starita, Helen Chu \
 ___PLoS one___. (In Press) 
 
-Accounting for Competing Risks in the Evaluation of Racial Disparities in Cardiovascular and Cancer Outcomes after Breast Cancer \
+Evaluating Racial Disparities in Competing Cardiovascular and Cancer Outcomes after Breast Cancer \
 Alexi Vasbinder, Veronica Jones, Richard Kar-Hang Cheng, Ana Barac, __Yongzhe Wang__, Marcia Stefanick, Noah Simon, Aladdin Shadyab, Robert A. Wild, Reina Haque, Dorothy Lane, Xiaochen Zhang, Rami Nassir, Lisa Warsinger Martin, Michael Simon, and Kerryn Reding \
 ___Journal of the American College of Cardiology___. (2024). [_PDF_](https://www.jacc.org/doi/epdf/10.1016/S0735-1097%2824%2904584-4)
 
