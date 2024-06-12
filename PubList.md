@@ -16,17 +16,13 @@ Decoding the Genome of Cement by Machine Learning \
 Yu Song, __Yongzhe Wang__, Kaixin Wang, Samy Allal, Gaurav Sant, Mathieu Bauchy \
 ___Matter___. (Under Review) [PDF](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4657713)
 
-Health Behavioral Trends and Absenteeism Associated Before and During the SARS-CoV-2 Pandemic in a Community Household Study, King County, Washington \
-Erin Chung, __Yongzhe Wang__, Eric J Chow, Roy Burstein, Elisabeth Brandstetter, Peter D Han, Kairsten Fay, Brian Pfau, Amanda Adler, Kirsten Lacombe, Christina M Lockwood, Timothy M Uyeki, Jay Shendure, Jeffrey S Duchin, Mark J Rieder, Deborah A Nickerson, Michael Boeckh, Michael Famulare, James P Hughes, Lea M Starita, Trevor Bedford, Janet A Englund, Helen Y Chu \
-___AJPM Focus___. (In Press) 
-
 “I Probably Shouldn’t Go in Today”: Inequitable Access to Paid Sick Leave and its Impacts on Health Behaviors During the Emergence of COVID-19 in the Seattle Area \
 Chidozie Declan Iwu, Sarah Cox, Sarah Sohlberg, Ashley Kim, Jennifer Logue, Peter Han, Thomas Sibley, Misja Ilcisin, Kairsten Fay, Jover Lee, Denise McCulloch, __Yongzhe Wang__, Michael Boeckh, Janet Englund, Anjum Hajat, Lea Starita, Helen Chu \
-___PLoS one___. (In Press) 
+___PLoS one___. (Under Review) 
 
-Evaluating Racial Disparities in Competing Cardiovascular and Cancer Outcomes after Breast Cancer \
-Alexi Vasbinder, Veronica Jones, Richard Kar-Hang Cheng, Ana Barac, __Yongzhe Wang__, Marcia Stefanick, Noah Simon, Aladdin Shadyab, Robert A. Wild, Reina Haque, Dorothy Lane, Xiaochen Zhang, Rami Nassir, Lisa Warsinger Martin, Michael Simon, and Kerryn Reding \
-___Journal of the American College of Cardiology___. (2024). [_PDF_](https://www.jacc.org/doi/epdf/10.1016/S0735-1097%2824%2904584-4)
+Health Behavioral Trends and Absenteeism Associated Before and During the SARS-CoV-2 Pandemic in a Community Household Study, King County, Washington \
+Erin Chung, __Yongzhe Wang__, Eric J Chow, Roy Burstein, Elisabeth Brandstetter, Peter D Han, Kairsten Fay, Brian Pfau, Amanda Adler, Kirsten Lacombe, Christina M Lockwood, Timothy M Uyeki, Jay Shendure, Jeffrey S Duchin, Mark J Rieder, Deborah A Nickerson, Michael Boeckh, Michael Famulare, James P Hughes, Lea M Starita, Trevor Bedford, Janet A Englund, Helen Y Chu \
+___AJPM Focus___. (2024) [PDF](https://www.ajpmfocus.org/article/S2773-0654(24)00066-X/fulltext)
 
 Survival Rates in Hispanic/Latinx Subpopulations with Cervical Cancer Associated with Disparities in Guideline-concordant Care \
 Andreea I. Dinicu, Shayan Dioun, __Yongzhe Wang__, Yongmei Huang, Jason D. Wright, Ana I. Tergas \
@@ -68,6 +64,10 @@ ___AcademyHealth Annual Research Meeting___. (2024). (Poster presentation)
 Determinants of Time to Cancer Treatment Initiation at a Comprehensive Cancer Center \
 Narissa J. Nonzee, Marianne Razavi, William Dale, Lauren Cai, Annette Mercurio, __Yongzhe Wang__, Deborah Lefkowitz, Chrissy Kim, Terry Hernandez, Steven Morales, Danilo Duque, Ana I. Tergas \
 ___American Association for Cancer Research 2024 Annual Meeting___. (2024). (Poster presentation)
+
+Evaluating Racial Disparities in Competing Cardiovascular and Cancer Outcomes after Breast Cancer \
+Alexi Vasbinder, Veronica Jones, Richard Kar-Hang Cheng, Ana Barac, __Yongzhe Wang__, Marcia Stefanick, Noah Simon, Aladdin Shadyab, Robert A. Wild, Reina Haque, Dorothy Lane, Xiaochen Zhang, Rami Nassir, Lisa Warsinger Martin, Michael Simon, and Kerryn Reding \
+___American College of Cardiology's 73th Annual Scientific Session & Expo___. (2024). (Poster presentation) [_PDF_](https://www.jacc.org/doi/epdf/10.1016/S0735-1097%2824%2904584-4)
 
 The Effect of Medicaid Expansion on the Receipt of Guideline-Concordant Care Among Patients with Cervical Cancer in the United States: a Difference-in-Difference Analysis of the NCDB \
 Andreea Dinicu, Narissa J. Nonzee, __Yongzhe Wang__, Yongmei Huang, Jason D. Wright, Ana I. Tergas \
