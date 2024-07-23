@@ -59,7 +59,7 @@ ___ACI Materials Journal___. (2020). [_PDF_](https://par.nsf.gov/biblio/10296333
 ## Abstract
 Changes in No-Show Rates after Implementation of an Oncology Navigation Enhancement Program Targeting Vulnerable Populations \
 Narissa J. Nonzee, __Yongzhe Wang__, Lauren Cai, Annette Mercurio, Lorena Gaytan, Marianne Razavi2, Deborah Lefkowitz, Terry Hernandez, Chrissy Kim, Steven Morales, Danilo Duque, Zeke Luna, William Dale and Ana I. Tergas \
-___AcademyHealth Annual Research Meeting___. (2024). (Poster presentation)
+___AcademyHealth Annual Research Meeting___. (2024). (Poster presentation) [_PDF_](https://vmx.m-anage.com/us/2024arm/en-US/presentation/653912)
 
 Determinants of Time to Cancer Treatment Initiation at a Comprehensive Cancer Center \
 Narissa J. Nonzee, Marianne Razavi, William Dale, Lauren Cai, Annette Mercurio, __Yongzhe Wang__, Deborah Lefkowitz, Chrissy Kim, Terry Hernandez, Steven Morales, Danilo Duque, Ana I. Tergas \
