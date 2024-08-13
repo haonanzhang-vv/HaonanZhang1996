@@ -57,6 +57,10 @@ Ouyang, Boya, Yu Song, Yuhai Li, Feishu Wu, Huizi Yu, __Yongzhe Wang__, Gaurav S
 ___ACI Materials Journal___. (2020). [_PDF_](https://par.nsf.gov/biblio/10296333)
 
 ## Abstract
+Health Insurance and Cervical Cancer Screening Uptake in Kenya: a Propensity Score Matched Analysis of the National Demographic and Health Survey 2022 \
+Ana I. Tergas, Narissa Nonzee, __Yongzhe Wang__, Myurajan Rubaharan, Brighton Odundo, John Malago, James M’Boya, Gabriela Escalante, Lauren Cai, Javier Gordon Ogembo, Lawrence Were \
+___36th International Papillomavirus Conference___ (2024). (Poster presentation)
+
 Changes in No-Show Rates after Implementation of an Oncology Navigation Enhancement Program Targeting Vulnerable Populations \
 Narissa J. Nonzee, __Yongzhe Wang__, Lauren Cai, Annette Mercurio, Lorena Gaytan, Marianne Razavi2, Deborah Lefkowitz, Terry Hernandez, Chrissy Kim, Steven Morales, Danilo Duque, Zeke Luna, William Dale and Ana I. Tergas \
 ___AcademyHealth Annual Research Meeting___. (2024). (Poster presentation) [_PDF_](https://vmx.m-anage.com/us/2024arm/en-US/presentation/653912)
