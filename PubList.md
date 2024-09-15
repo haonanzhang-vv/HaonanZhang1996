@@ -18,11 +18,11 @@ ___Matter___. (Under Review) [PDF](https://papers.ssrn.com/sol3/papers.cfm?abstr
 
 “I Probably Shouldn’t Go in Today”: Inequitable Access to Paid Sick Leave and its Impacts on Health Behaviors During the Emergence of COVID-19 in the Seattle Area \
 Chidozie Declan Iwu, Sarah Cox, Sarah Sohlberg, Ashley Kim, Jennifer Logue, Peter Han, Thomas Sibley, Misja Ilcisin, Kairsten Fay, Jover Lee, Denise McCulloch, __Yongzhe Wang__, Michael Boeckh, Janet Englund, Anjum Hajat, Lea Starita, Helen Chu \
-___PLoS one___. (Under Review) 
+___PLoS one___. (2024). [PDF](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0307734) 
 
 Health Behavioral Trends and Absenteeism Associated Before and During the SARS-CoV-2 Pandemic in a Community Household Study, King County, Washington \
 Erin Chung, __Yongzhe Wang__, Eric J Chow, Roy Burstein, Elisabeth Brandstetter, Peter D Han, Kairsten Fay, Brian Pfau, Amanda Adler, Kirsten Lacombe, Christina M Lockwood, Timothy M Uyeki, Jay Shendure, Jeffrey S Duchin, Mark J Rieder, Deborah A Nickerson, Michael Boeckh, Michael Famulare, James P Hughes, Lea M Starita, Trevor Bedford, Janet A Englund, Helen Y Chu \
-___AJPM Focus___. (2024) [PDF](https://www.ajpmfocus.org/article/S2773-0654(24)00066-X/fulltext)
+___AJPM Focus___. (2024). [PDF](https://www.ajpmfocus.org/article/S2773-0654(24)00066-X/fulltext)
 
 Survival Rates in Hispanic/Latinx Subpopulations with Cervical Cancer Associated with Disparities in Guideline-concordant Care \
 Andreea I. Dinicu, Shayan Dioun, __Yongzhe Wang__, Yongmei Huang, Jason D. Wright, Ana I. Tergas \
