@@ -12,10 +12,6 @@ Interpretation of Coefficients in Segmented Regression for Interrupted Time Seri
 __Yongzhe Wang__, Narissa J. Nonzze, Haonan Zhang, Kimlin T. Ashing, Gaole Song, Catherine M. Crespi \
 ___BMC Medical Research Methodology___. (Under Review) [PDF](https://doi.org/10.21203/rs.3.rs-3972428/v1)
 
-Decoding the Genome of Cement by Machine Learning \
-Yu Song, __Yongzhe Wang__, Kaixin Wang, Samy Allal, Gaurav Sant, Mathieu Bauchy \
-___Matter___. (Under Review) [PDF](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4657713)
-
 “I Probably Shouldn’t Go in Today”: Inequitable Access to Paid Sick Leave and its Impacts on Health Behaviors During the Emergence of COVID-19 in the Seattle Area \
 Chidozie Declan Iwu, Sarah Cox, Sarah Sohlberg, Ashley Kim, Jennifer Logue, Peter Han, Thomas Sibley, Misja Ilcisin, Kairsten Fay, Jover Lee, Denise McCulloch, __Yongzhe Wang__, Michael Boeckh, Janet Englund, Anjum Hajat, Lea Starita, Helen Chu \
 ___PLoS one___. (2024). [PDF](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0307734) 
@@ -27,6 +23,10 @@ ___AJPM Focus___. (2024). [PDF](https://www.ajpmfocus.org/article/S2773-0654(24)
 Survival Rates in Hispanic/Latinx Subpopulations with Cervical Cancer Associated with Disparities in Guideline-concordant Care \
 Andreea I. Dinicu, Shayan Dioun, __Yongzhe Wang__, Yongmei Huang, Jason D. Wright, Ana I. Tergas \
 ___Gynecologic Oncology___. (2024). [_PDF_](https://www.sciencedirect.com/science/article/pii/S0090825824000696) 
+
+Decoding the Genome of Cement by Machine Learning \
+Yu Song, __Yongzhe Wang__, Kaixin Wang, Samy Allal, Gaurav Sant, Mathieu Bauchy \
+___Available at SSRN 4657713___. (2023) [PDF](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4657713)
 
 Region of Origin and Cervical Cancer Stage in Multiethnic Hispanic/Latinx Patients Living in the United States \
 Andreea I. Dinicu, Shayan Dioun, Mandy Goldberg, Danielle M. Crookes, __Yongzhe Wang__, Alexander Melamed, Jason D. Wright, Ana I. Tergas \
@@ -83,11 +83,11 @@ ___Society of Gynecologic Oncology 2024 Annual Meeting on Women’s Cancer___. (
 
 Disparities in cervical cancer survival among Hispanic subpopulations living in the United States \
 Andreea Dinicu, Shayan Dioun, __Yongzhe Wang__, Yongmei Huang, Jason Wright, Ana Tergas \
-___16th AACR Conference on the Science of Cancer Health Disparities___. (2023). (Poster presentation) [_PDF_](https://doi.org/10.1158/1538-7755.DISP23-B112)
+___16th AACR Conference on The Science of Cancer Health Disparities in Racial/Ethnic Minorities and the Medically Underserved___. (2023). (Poster presentation) [_PDF_](https://doi.org/10.1158/1538-7755.DISP23-B112)
 
 Income Level with Death from Cardiovascular Disease after Breast Cancer in Women’s Health Initiative \
 Veronica Jones, __Yongzhe Wang__, Alexi Vasbinder, Noah Simon, Kerry Reding \
-___16th AACR Conference on the Science of Cancer Health Disparities___. (2023). (Poster presentation) [_PDF_](https://doi.org/10.1158/1538-7755.DISP23-B014)
+___16th AACR Conference on The Science of Cancer Health Disparities in Racial/Ethnic Minorities and the Medically Underserved___. (2023). (Poster presentation) [_PDF_](https://doi.org/10.1158/1538-7755.DISP23-B014)
 
 Interrupted Time Series Design with Longitudinal Models: Evaluating a Multi-Site Intervention to Improve Colorectal Cancer Screening in Federally Qualified Health Centers in Los Angeles County \
 __Yongzhe Wang__, Kimlin Ashing, Haonan Zhang, Narissa Nonzee \
