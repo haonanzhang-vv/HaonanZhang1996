@@ -59,11 +59,11 @@ ___ACI Materials Journal___. (2020). [_PDF_](https://par.nsf.gov/biblio/10296333
 ## Abstract
 Impact of universal germline testing on pathogenic/likely pathogenic variant frequency among breast cancer patients in Southern California \
 Jessica Dzubnar, __Yongzhe Wang__, Dana Aljaber, Christine Quinones, Jennifer Tseng, Ilana Solomon, Lorena Gonzalez, Stacy Gray, Veronica Jones \
-___17th AACR Conference on The Science of Cancer Health Disparities in Racial/Ethnic Minorities and the Medically Underserved___ (2024). (Poster presentation) [_PDF_](https://aacrjournals.org/cebp/article/33/9_Supplement/A020/748299/Abstract-A020-Impact-of-universal-germline-testing?searchresult=1)
+___17th AACR Conference on The Science of Cancer Health Disparities in Racial/Ethnic Minorities and the Medically Underserved___. (2024). (Poster presentation) [_PDF_](https://aacrjournals.org/cebp/article/33/9_Supplement/A020/748299/Abstract-A020-Impact-of-universal-germline-testing?searchresult=1)
 
 Health Insurance and Cervical Cancer Screening Uptake in Kenya: a Propensity Score Matched Analysis of the National Demographic and Health Survey 2022 \
 Ana I. Tergas, Narissa Nonzee, __Yongzhe Wang__, Myurajan Rubaharan, Brighton Odundo, John Malago, James M’Boya, Gabriela Escalante, Lauren Cai, Javier Gordon Ogembo, Lawrence Were \
-___36th International Papillomavirus Conference___ (2024). (Poster presentation)
+___36th International Papillomavirus Conference___. (2024). (Poster presentation)
 
 Changes in No-Show Rates after Implementation of an Oncology Navigation Enhancement Program Targeting Vulnerable Populations \
 Narissa J. Nonzee, __Yongzhe Wang__, Lauren Cai, Annette Mercurio, Lorena Gaytan, Marianne Razavi2, Deborah Lefkowitz, Terry Hernandez, Chrissy Kim, Steven Morales, Danilo Duque, Zeke Luna, William Dale and Ana I. Tergas \
