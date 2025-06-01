@@ -1,6 +1,6 @@
-title: "Yongzhe Wang"
-author: "Yognzhe Wang"
-description: "Yongzhe Wang"
+title: "Haonan Zhang"
+author: "Haonan Zhang"
+description: "Haonan Zhang"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -17,12 +17,12 @@ show_sidebar: true        # show a sidebar instead of the usual header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.html", title: "Data Visualization", icon: arrow-right}
   - {file: "AboutMe.html", title: "About Me", icon: arrow-right}
-  - {file: 'PubList.md', title: "Publication", icon: arrow-right}
+  - {file: 'PubList.md', title: "Research", icon: arrow-right}
   
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:yonwang@coh.org"}
-  - {title: Github, icon: github, url: "https://github.com/YzwIsALaity"}
+  - {title: Mail, icon: envelope, url: "mailto:hzhang96@uw.edu"}
+  - {title: Github, icon: github, url: "https://github.com/haonanzhang-vv"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
