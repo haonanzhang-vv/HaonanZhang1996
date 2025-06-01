@@ -1,16 +1,16 @@
 ---
 layout: page
-title: "Publication and Presentation"
+title: "Research"
 ---
 
-## Manuscript
-Effect Measures and Associated Components in Segmented Regression for Interrupted Time Series Analysis \
-__Yongzhe Wang__, James P. Hughes, Narissa J. Nonzee \
-___Journal of Evaluation in Clinical Practice___. (Under Review)
+## Working Papers
+Does Online Shopping Affect Offline Price Sensitivity \
+Biswas, S., Yoganarasimhan, H., and Zhang, H. \
+___Marketing Science___. (Under Review)
 
-Interpretation of Coefficients in Segmented Regression for Interrupted Time Series Analyses \
-__Yongzhe Wang__, Narissa J. Nonzze, Haonan Zhang, Kimlin T. Ashing, Gaole Song, Catherine M. Crespi \
-___BMC Medical Research Methodology___. (Under Review) [PDF](https://doi.org/10.21203/rs.3.rs-3972428/v1)
+Channel Choice and Customer Value \
+Biswas, S., Yoganarasimhan, H., and Zhang, H. \
+Major Revision at Journal of Marketing [PDF](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4747756)
 
 “I Probably Shouldn’t Go in Today”: Inequitable Access to Paid Sick Leave and its Impacts on Health Behaviors During the Emergence of COVID-19 in the Seattle Area \
 Chidozie Declan Iwu, Sarah Cox, Sarah Sohlberg, Ashley Kim, Jennifer Logue, Peter Han, Thomas Sibley, Misja Ilcisin, Kairsten Fay, Jover Lee, Denise McCulloch, __Yongzhe Wang__, Michael Boeckh, Janet Englund, Anjum Hajat, Lea Starita, Helen Chu \
