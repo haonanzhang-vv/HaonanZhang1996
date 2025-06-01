@@ -4,9 +4,6 @@ title: "Research"
 ---
 
 ## Working Papers
-Does Online Shopping Affect Offline Price Sensitivity \
-Biswas, S., Yoganarasimhan, H., and Zhang, H. \
-___Marketing Science___. (Under Review)
 
 Channel Choice and Customer Value \
 Biswas, S., Yoganarasimhan, H., and Zhang, H. \
