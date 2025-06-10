@@ -14,8 +14,8 @@ The rapid growth of e-commerce has significantly transformed consumer behavior, 
 </details>
 
 
-Channel Choice and Customer Value [PDF](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4747756), Biswas, S., Yoganarasimhan, H., and Zhang, H.\
-Revise and Resubmit at ___Journal of Marketing___ 
+Channel Choice and Customer Value, Biswas, S., Yoganarasimhan, H., and Zhang, H.\
+Revise and Resubmit at ___Journal of Marketing___ [PDF](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4747756)
 
 <details>
   <summary><strong>Abstract</strong></summary>
