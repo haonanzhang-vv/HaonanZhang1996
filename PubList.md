@@ -5,7 +5,7 @@ title: "Research"
 
 ## Working Papers
 
-Does Online Shopping Affect Offline Price Sensitivity?" (Job Market Paper), Biswas, S., Yoganarasimhan, H., and Zhang, H.\
+Does Online Shopping Affect Offline Price Sensitivity?" (Job Market Paper), Biswas, S., Yoganarasimhan, H., and Zhang, H. \
 
 <details>
   <summary><strong>Abstract</strong></summary>
