@@ -5,8 +5,9 @@ title: "Research"
 
 ## Working Papers
 
-Does Online Shopping Affect Offline Price Sensitivity?" (Job Market Paper), Biswas, S., Yoganarasimhan, H., and Zhang, H. \
-Working Paper
+How Does Online Shopping Affect Offline Price Sensitivity?" (Job Market Paper), with Shirsho Biswas and
+Hema Yoganarasimhan \
+Under Review at ___Marketing Science___ [PDF](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5304835)
 
 <details>
   <summary><strong>Abstract</strong></summary>
@@ -14,7 +15,8 @@ The rapid growth of e-commerce has significantly transformed consumer behavior, 
 </details>
 
 
-Channel Choice and Customer Value, Biswas, S., Yoganarasimhan, H., and Zhang, H.\
+Channel Choice and Customer Value, , with Shirsho Biswas and
+Hema Yoganarasimhan \
 Revise and Resubmit at ___Journal of Marketing___ [PDF](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4747756)
 
 <details>
@@ -22,7 +24,7 @@ Revise and Resubmit at ___Journal of Marketing___ [PDF](https://papers.ssrn.com/
   We investigate how the adoption of a retailer's digital shopping channels (e-commerce website and/or mobile app) affects the purchase behaviors of consumers who had previously only shopped at the retailer's physical stores. We consider two types of adopters -- (a) those who adopted online shopping due to the environmental shock of COVID-19 ({\it covid adopters}), and (b) those who adopted online shopping of their own volition without any external stimulus, pre-COVID-19 ({\it organic adopters}). We find that both groups of online shopping adopters increase their total spend post-online adoption, and the magnitude of this increase in spend is similar for both groups. However, we uncover significant differences in how the two groups use the online and offline channels post-online-adoption. While both groups slowly shift more of their purchases to online channels, {\it covid adopters} do so at a significantly slower rate. These differences in channel share lead to significant differences in the profitability of the two groups, with {\it covid adopters} being more profitable than \textit{organic adopters}. Our findings highlight the need for managers to consider the different reasons for consumers' selection into the adoption of new channels when forecasting the impact on post-adoption purchase behavior and profitability.
 </details>
 
-Content and Pricing Strategies for Digital Video Games, Shriver, S., Yoganarasimhan, H., and Zhang, H. \
+Content and Pricing Strategies for Digital Video Games, with Scott Shriver and Hema Yoganarasimhan \
 Working Paper
 
 <details>
@@ -30,7 +32,7 @@ Working Paper
 The video game industry has experienced a wave of disruption as consumers rapidly shift to acquiring and consuming content through digital channels.  Incumbent game publishers have struggled to adapt their content and pricing strategies to shifting consumption patterns and increased competition from low cost independent suppliers. Recently, game publishers have pursued new business models that feature downloadable content (DLC) services offered in conjunction with or as a replacement for traditional physical media. While service-based models can potentially extract additional surplus from the market by allowing for more customized content bundles and pricing than with physically distributed media, exploiting these opportunities poses a challenge to firms who must attempt to optimize their offerings over a formidably complex decision space. In this paper, we develop a structural framework to facilitate the recovery of consumer preferences for game content and the optimization of firm content/price strategies.  Our approach is to leverage rich covariation in observed content consumption and DLC service subscriptions to infer consumer content valuations and price sensitivities. We devise a joint model of video game activity and demand for downloadable content, where consumers sequentially make (discrete) DLC subscription choices followed by (continuous) choices of how much to play.  Our model accounts for forward-looking consumer expectations about declining content prices and attendant concerns for dynamic selection bias in our demand estimates.  We document evidence of heterogeneous preferences for content and significant effects of DLC availability on game usage.  Our counterfactual experiments suggest that compressing the DLC release cycle and moving to a recurring fee structure are both viable ways to increase revenues. 
 </details>
 
-Impact of Scheduling Quality on Worker Turnovers: Evidence from  US Restaurant Chain, Yu, Q. and Zhang, H. \
+Impact of Scheduling Quality on Worker Turnovers: Evidence from  US Restaurant Chain, with Qiuping Yu \
 Working Paper
 
 <details>
