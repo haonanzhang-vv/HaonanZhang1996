@@ -7,7 +7,7 @@ title: "Research"
 
 How Does Online Shopping Affect Offline Price Sensitivity?" (Job Market Paper), with Shirsho Biswas and
 Hema Yoganarasimhan \
-Under Review at ___Marketing Science___ \[[Paper]\](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5304835)
+Under Review at ___Marketing Science___  [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5304835)
 
 <details>
   <summary><strong>Abstract</strong></summary>
@@ -17,7 +17,7 @@ The rapid growth of e-commerce has significantly transformed consumer behavior, 
 
 Channel Choice and Customer Value, with Shirsho Biswas and
 Hema Yoganarasimhan \
-Revise and Resubmit at ___Journal of Marketing___  \[[Paper]\](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4747756)
+Revise and Resubmit at ___Journal of Marketing___  [Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4747756)
 
 <details>
   <summary><strong>Abstract</strong></summary>
