@@ -9,8 +9,7 @@ title: "Research"
    [How Does Online Shopping Affect Offline Price Sensitivity? (Job Market Paper)](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5304835)
    </span>
    <br>
-   <span style="color:#333;">
-    ,with Shirsho Biswas and Hema Yoganarasimhan  
+   <span style="color:#333;">,with Shirsho Biswas and Hema Yoganarasimhan  
    <br>
    <em>Under Review at <strong>Marketing Science</strong></em>
    </span>
