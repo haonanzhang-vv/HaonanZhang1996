@@ -2,8 +2,13 @@
 <button class="sidebar-toggle" aria-label="Open menu" onclick="document.querySelector('aside').classList.toggle('open');">
   &#9776;
 </button>
-<aside >
+<aside>
+  <button class="sidebar-close" aria-label="Close menu" onclick="document.querySelector('aside').classList.remove('open');">
+    &times;
+  </button>
   <nav>
+      <!-- FIRST FOUR MENU ITEMS -->
+  {%- assign main_nav = site.navigation | slice: 0, 4 -%}
   {%- for item in site.navigation -%}
     {%- assign node = site.pages | where: "name", item.file | first -%}
     {%- assign url = item.url | default: node.url -%}
