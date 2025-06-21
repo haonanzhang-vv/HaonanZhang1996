@@ -3,16 +3,24 @@ layout: page
 title: "Research"
 ---
 
-## Working Papers
+## Job Market Paper
 
 <span style="color:#00008b; font-weight:bold; text-decoration:underline; padding:2px 4px; border-radius:4px;">
    [How Does Online Shopping Affect Offline Price Sensitivity?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5304835)
    </span>
+
+<a href="[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4747756](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5304835)" 
+   style="color:#00008b; font-weight:bold; text-decoration:underline; padding:2px 4px; border-radius:4px;">
+   How Does Online Shopping Affect Offline Price Sensitivity?
+</a>
 <span style="color:#111;">
-  &nbsp;(Job Market Paper), with Shirsho Biswas and Hema Yoganarasimhan
+  & nbsp;, with Shirsho Biswas and Hema Yoganarasimhan
    </span>
    <br>
-   <em> -- Under Review at <strong>Marketing Science</strong></em>
+   
+   <div style="border-left:2px dashed #a4b0be; padding-left:14px; margin-left:8px; color:#555; font-style:italic;">
+  -- Under Review at <strong>Marketing Science</strong>
+</div>
 
 <details>
   <summary> 📖 <strong>Abstract</strong></summary>
@@ -20,14 +28,20 @@ The rapid growth of e-commerce has significantly transformed consumer behavior, 
 </details>
 
 
-<span style="color:#00008b; font-weight:bold; text-decoration:underline; padding:2px 4px; border-radius:4px;">
-   [Channel Choice and Customer Value](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4747756)
-   </span>
+## Working Papers
+
+<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4747756" 
+   style="color:#00008b; font-weight:bold; text-decoration:underline; padding:2px 4px; border-radius:4px;">
+   Channel Choice and Customer Value
+</a>
 <span style="color:#111;">
   &nbsp;, with Shirsho Biswas and Hema Yoganarasimhan
    </span>
    <br>
-   <em> -- Revised and Resubmit at <strong>Journal of Marketing</strong></em>
+   
+   <div style="border-left:2px dashed #a4b0be; padding-left:14px; margin-left:8px; color:#555; font-style:italic;">
+-- Revised and Resubmit at <strong>Journal of Marketing</strong>
+</div>
 
 <details>
   <summary> 📖 <strong>Abstract</strong></summary>
@@ -42,7 +56,9 @@ The rapid growth of e-commerce has significantly transformed consumer behavior, 
   &nbsp;, with Scott Shriver and Hema Yoganarasimhan
    </span>
    <br>
-   <em> -- Working Paper</em>
+   <div style="border-left:2px dashed #a4b0be; padding-left:14px; margin-left:8px; color:#555; font-style:italic;">
+-- Working Paper
+</div>
 
 <details>
   <summary> 📖 <strong>Abstract</strong></summary>
@@ -56,7 +72,9 @@ The video game industry has experienced a wave of disruption as consumers rapidl
   &nbsp;, with Qiuping Yu
    </span>
    <br>
-   <em> -- Working Paper</em>
+   <div style="border-left:2px dashed #a4b0be; padding-left:14px; margin-left:8px; color:#555; font-style:italic;">
+-- Working Paper
+</div>
 
 <details>
   <summary> 📖 <strong>Abstract</strong></summary>
