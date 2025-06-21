@@ -15,7 +15,7 @@ title: "Research"
    </span>
    <br>
    
-   <div style="border-left:2px dashed #a4b0be; padding-left:14px; margin-left:8px; color:#555; font-style:italic;">
+   <div style="border-left:2px dashed #a4b0be; padding-left:14px; margin-left:8px; color:#555; font-style:italic;margin-bottom:18px;">
   -- Under Review at <strong>Marketing Science</strong>
 </div>
 
@@ -37,7 +37,7 @@ The rapid growth of e-commerce has significantly transformed consumer behavior, 
    </span>
    <br>
    
-   <div style="border-left:2px dashed #a4b0be; padding-left:14px; margin-left:8px; color:#555; font-style:italic;">
+   <div style="border-left:2px dashed #a4b0be; padding-left:14px; margin-left:8px; color:#555; font-style:italic;margin-bottom:18px;">
 -- Revised and Resubmit at <strong>Journal of Marketing</strong>
 </div>
 
@@ -55,7 +55,7 @@ The rapid growth of e-commerce has significantly transformed consumer behavior, 
   &nbsp; with Scott Shriver and Hema Yoganarasimhan
    </span>
    <br>
-   <div style="border-left:2px dashed #a4b0be; padding-left:14px; margin-left:8px; color:#555; font-style:italic;">
+   <div style="border-left:2px dashed #a4b0be; padding-left:14px; margin-left:8px; color:#555; font-style:italic;margin-bottom:18px;">
 -- Working Paper
 </div>
 
@@ -73,7 +73,7 @@ The video game industry has experienced a wave of disruption as consumers rapidl
   &nbsp; with Qiuping Yu
    </span>
    <br>
-   <div style="border-left:2px dashed #a4b0be; padding-left:14px; margin-left:8px; color:#555; font-style:italic;">
+   <div style="border-left:2px dashed #a4b0be; padding-left:14px; margin-left:8px; color:#555; font-style:italic;margin-bottom:18px;">
 -- Working Paper
 </div>
 
