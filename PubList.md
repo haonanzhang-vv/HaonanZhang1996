@@ -5,7 +5,7 @@ title: "Research"
 
 ## Working Papers
 
-<span style="color:#001f3f; font-weight:bold; text-decoration:underline; padding:2px 4px; border-radius:4px;">
+<span style="color:#0000EE; font-weight:bold; text-decoration:underline; padding:2px 4px; border-radius:4px;">
    [How Does Online Shopping Affect Offline Price Sensitivity?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5304835)
    </span>
 <span style="color:#111;">
