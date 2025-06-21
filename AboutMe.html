@@ -6,21 +6,29 @@ layout: page
 <html>
 	
   <style>
-  .container {
-	  display: flex;
-	  align-items: center;
-	  justify-content: center
-	}
+.container {
+  display: flex;
+  align-items: flex-start;   /* Align image and text at the top */
+  justify-content: flex-start;
+  gap: 32px;                /* Space between photo and text */
+  margin: 0;
+  padding: 0;
+}
+.image {
+  flex: 0 0 180px;          /* Fixed width for the image container */
+  max-width: 180px;
+}
+.image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;       /* Optional: rounded corners */
+}
+.text {
+  flex: 1;
+  min-width: 0;             /* Prevents overflow on narrow screens */
+}
 
-	img {
-	  max-width: 100%;
-	  max-height: 100%;
-	}
-
-	.text {
-	  font-size: 20px;
-	  padding-left: 70px;
-	}
 	  
 	.paragraph {
 	  font-size: 20px
