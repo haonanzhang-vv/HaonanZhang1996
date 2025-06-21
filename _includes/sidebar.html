@@ -1,5 +1,8 @@
 <link rel="stylesheet" href="{{ "/assets/css/sidebar.css" | relative_url }}" media="screen and (min-width: 70em)">
-<aside style="display: none">
+<button class="sidebar-toggle" aria-label="Open menu" onclick="document.querySelector('aside').classList.toggle('open');">
+  &#9776;
+</button>
+<aside >
   <nav>
   {%- for item in site.navigation -%}
     {%- assign node = site.pages | where: "name", item.file | first -%}
