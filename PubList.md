@@ -11,7 +11,7 @@ title: "Research"
    How Does Online Shopping Affect Offline Price Sensitivity?
 </a>
 <span style="color:#111;">
-  &nbsp;, with Shirsho Biswas and Hema Yoganarasimhan
+  &nbsp; with Shirsho Biswas and Hema Yoganarasimhan
    </span>
    <br>
    
@@ -33,7 +33,7 @@ The rapid growth of e-commerce has significantly transformed consumer behavior, 
    Channel Choice and Customer Value
 </a>
 <span style="color:#111;">
-  &nbsp;, with Shirsho Biswas and Hema Yoganarasimhan
+  &nbsp; with Shirsho Biswas and Hema Yoganarasimhan
    </span>
    <br>
    
@@ -52,7 +52,7 @@ The rapid growth of e-commerce has significantly transformed consumer behavior, 
    Content and Pricing Strategies for Digital Video Games
    </span>
 <span style="color:#111;">
-  &nbsp;, with Scott Shriver and Hema Yoganarasimhan
+  &nbsp; with Scott Shriver and Hema Yoganarasimhan
    </span>
    <br>
    <div style="border-left:2px dashed #a4b0be; padding-left:14px; margin-left:8px; color:#555; font-style:italic;">
@@ -70,7 +70,7 @@ The video game industry has experienced a wave of disruption as consumers rapidl
    Impact of Scheduling Quality on Worker Turnovers: Evidence from  US Restaurant Chain
    </span>
 <span style="color:#111;">
-  &nbsp;, with Qiuping Yu
+  &nbsp; with Qiuping Yu
    </span>
    <br>
    <div style="border-left:2px dashed #a4b0be; padding-left:14px; margin-left:8px; color:#555; font-style:italic;">
