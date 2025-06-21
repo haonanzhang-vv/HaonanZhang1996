@@ -17,6 +17,7 @@ show_sidebar: true        # show a sidebar instead of the usual header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "AboutMe.html", title: "About Me", icon: arrow-right}
   - {file: 'PubList.md', title: "Research", icon: arrow-right}
+  - {file: 'CV_web.html', title: "CV", icon: arrow-right}
   - {file: "index.html", title: "Data Visualization", icon: arrow-right}
   
 
