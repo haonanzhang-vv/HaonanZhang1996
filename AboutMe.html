@@ -25,6 +25,29 @@ layout: page
 	.paragraph {
 	  font-size: 20px
 	}
+	.section-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .item-block {
+      margin-bottom: 24px;
+    }
+    .org-name {
+      font-weight: bold;
+      font-size: 1.05em;
+      color: #1a1a1a; /* Black */
+      margin-bottom: 2px;
+      line-height: 1.28;
+    }
+    .role-desc {
+      color: #444;    /* Dark grey */
+      font-size: 1em;
+      margin-left: 2px;
+      margin-top: 0;
+      margin-bottom: 0;
+      line-height: 1.22;
+    }
   </style>
   
   <header>
@@ -61,30 +84,56 @@ layout: page
     </div>
 
      <div>
-	 <h2>Professional Experience</h2>
-         <ul style="font-size:20px">
-        <li>
-          <span class="label">Instacart:</span> Machine Learning Engineer Intern, Economics Team (06/2025 - Present)
-        </li>
-        <li>
-          <span class="label">JPMorgan Chase & Co. (formerly First Republic Bank):</span> Data Scientist, Statistical Modelling and Risk Management Team (06/2020 - 09/2021)
-        </li>
-	 </ul>
+  <h2>Professional Experience</h2>
+  <ul class="section-list">
+    <li class="item-block">
+      <div class="org-name">
+        Instacart
+      </div>
+      <div class="role-desc">
+        Machine Learning Engineer Intern, Economics Team &mdash; 06/2025 &ndash; Present
+      </div>
+    </li>
+    <li class="item-block">
+      <div class="org-name">
+        JPMorgan Chase &amp; Co. <span style="font-weight:normal; color:#777;">(formerly First Republic Bank)</span>
+      </div>
+      <div class="role-desc">
+        Data Scientist, Statistical Modelling and Risk Management Team &mdash; 06/2020 &ndash; 09/2021
+      </div>
+    </li>
+  </ul>
     </div>
 
      <div>
-	 <h2>Education</h2>
-         <ul style="font-size:20px">
-        <li>
-          <span class="label">University of Washington</span> Ph.D. in Marketing, 09/2021 - 06/2026 (Expected)
-        </li>
-        <li>
-          <span class="label">Northwestern University</span> M.S. in Machine Learning and Data Science, 09/2019 - 12/2020
-        </li>
-	<li>
-          <span class="label">The University of Sydney</span> B.Com. in Business Analytics (First Class Honors), 03/2015 - 12/2018
-        </li>
-	 </ul>
+ <h2>Education</h2>
+  <ul class="section-list">
+    <li class="item-block">
+      <div class="org-name">
+        University of Washington
+      </div>
+      <div class="role-desc">
+        Ph.D. in Marketing, 09/2021 &ndash; 06/2026 (Expected)
+      </div>
+    </li>
+    <li class="item-block">
+      <div class="org-name">
+        Northwestern University
+      </div>
+      <div class="role-desc">
+        M.S. in Machine Learning and Data Science, 09/2019 &ndash; 12/2020
+      </div>
+    </li>
+    <li class="item-block">
+      <div class="org-name">
+        The University of Sydney
+      </div>
+      <div class="role-desc">
+        B.Com. in Business Analytics (First Class Honors), 03/2015 &ndash; 12/2018
+      </div>
+    </li>
+  </ul>
+
     </div>
 	  
   </body>
