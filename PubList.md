@@ -12,7 +12,7 @@ title: "Research"
   &nbsp;(Job Market Paper), with Shirsho Biswas and Hema Yoganarasimhan
    </span>
    <br>
-   <em>Under Review at <strong>Marketing Science</strong></em>
+   <em> -- Under Review at <strong>Marketing Science</strong></em>
 
 <details>
   <summary> 📖 <strong>Abstract</strong></summary>
@@ -27,7 +27,7 @@ The rapid growth of e-commerce has significantly transformed consumer behavior, 
   &nbsp;, with Shirsho Biswas and Hema Yoganarasimhan
    </span>
    <br>
-   <em>Revised and Resubmit at <strong>Journal of Marketing</strong></em>
+   <em> -- Revised and Resubmit at <strong>Journal of Marketing</strong></em>
 
 <details>
   <summary> 📖 <strong>Abstract</strong></summary>
@@ -42,7 +42,7 @@ The rapid growth of e-commerce has significantly transformed consumer behavior, 
   &nbsp;, with Scott Shriver and Hema Yoganarasimhan
    </span>
    <br>
-   <em>Working Paper</em>
+   <em> -- Working Paper</em>
 
 <details>
   <summary> 📖 <strong>Abstract</strong></summary>
@@ -56,7 +56,7 @@ The video game industry has experienced a wave of disruption as consumers rapidl
   &nbsp;, with Qiuping Yu
    </span>
    <br>
-   <em>Working Paper</em>
+   <em> -- Working Paper</em>
 
 <details>
   <summary> 📖 <strong>Abstract</strong></summary>
