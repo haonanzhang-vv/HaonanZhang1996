@@ -10,7 +10,7 @@ title: "Research"
    </span>
    <br>
    <span style="color:#333;">
-   with Shirsho Biswas and Hema Yoganarasimhan  
+    ,with Shirsho Biswas and Hema Yoganarasimhan  
    <br>
    <em>Under Review at <strong>Marketing Science</strong></em>
    </span>
