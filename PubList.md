@@ -38,7 +38,7 @@ The rapid growth of e-commerce has significantly transformed consumer behavior, 
    <br>
    
    <div style="border-left:2px dashed #a4b0be; padding-left:14px; margin-left:8px; color:#555; font-style:italic;margin-bottom:18px;">
--- Revised and Resubmit at <strong>Journal of Marketing</strong>
+-- Revise and Resubmit at <strong>Journal of Marketing</strong>
 </div>
 
 <div>
