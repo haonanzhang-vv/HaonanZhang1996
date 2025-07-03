@@ -54,29 +54,57 @@ layout: page
   }
 
 
-/* 1) Define variables for light mode */
+/* 1) Base variables */
 :root {
-  --accent-color:    #FF4136;  /* deep blue in light mode */
-  --secondary-color: #444444;  /* dark gray in light mode */
+  /* accents: these must exist before you reference them */
+  --accent-red:    #E53935;
+  --accent-orange: #FF9800;
+  --accent-green:  #4CAF50;
+  --accent-purple: #9C27B0;
+  --accent-teal:   #009688;
+  --accent-blue:   #007ACC;
+
+  /* your “fallback” text colors */
+  --text-grey-light: #333333;
+  --text-grey-dark:  #CCCCCC;
+
+  /* set your defaults for the current scheme (optional—you can also let 
+     the light-mode media query below set these) */
+  --text-title: var(--accent-blue);
+  --text-grey: var(--text-grey-light);
 }
 
-/* 2) Override in dark mode */
+/* 2) Overrides per color-scheme */
 @media (prefers-color-scheme: dark) {
   :root {
-    --accent-color:    #FF4136;  /* bright red in dark mode */
-    --secondary-color: #DDDDDD;  /* light gray in dark mode */
+    --text-title: var(--accent-red);
+    --text-grey:  var(--text-grey-dark);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    /* these will just re-apply your defaults if you set them above */
+    --text-title: var(--accent-blue);
+    --text-grey:  var(--text-grey-light);
   }
 }
 
 /* 3) Apply them to your classes */
-.section-title {
-  color: var(--accent-color);
-}
+ .section-title {
+    font-size: 1.55em;
+    font-weight: bold;
+    color: var(--text-title);
+    margin-bottom: 10px;
+    letter-spacing: 0.02em;
+  }
 
-.role-desc,
-.interest-desc {
-  color: var(--secondary-color);
-}
+.role-desc, .interest-desc {
+    margin-left: 18px;
+     color: var(--text-grey);
+      font-size: 1em;
+    display: block;
+  }
 
   </style>
   
