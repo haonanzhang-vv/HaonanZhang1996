@@ -52,19 +52,32 @@ layout: page
     margin-bottom: 2px;
     display: inline-block;
   }
-  .section-title {
-    font-size: 1.55em;
-    font-weight: bold;
-    color: #15396c;
-    margin-bottom: 10px;
-    letter-spacing: 0.02em;
+
+
+/* 1) Define variables for light mode */
+:root {
+  --accent-color:    #15396c;  /* deep blue in light mode */
+  --secondary-color: #444444;  /* dark gray in light mode */
+}
+
+/* 2) Override in dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent-color:    #FF4136;  /* bright red in dark mode */
+    --secondary-color: #DDDDDD;  /* light gray in dark mode */
   }
-  .role-desc, .interest-desc {
-    margin-left: 18px;
-      color: #444;    /* Dark grey */
-      font-size: 1em;
-    display: block;
-  }
+}
+
+/* 3) Apply them to your classes */
+.section-title {
+  color: var(--accent-color);
+}
+
+.role-desc,
+.interest-desc {
+  color: var(--secondary-color);
+}
+
   </style>
   
   <header>
