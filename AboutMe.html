@@ -53,55 +53,16 @@ layout: page
     display: inline-block;
   }
 
-
-/* 1) Base variables */
-:root {
-  /* accents: these must exist before you reference them */
-  --accent-red:    #E53935;
-  --accent-orange: #FF9800;
-  --accent-green:  #4CAF50;
-  --accent-purple: #9C27B0;
-  --accent-teal:   #009688;
-  --accent-blue:   #007ACC;
-
-  /* your “fallback” text colors */
-  --text-grey-light: #333333;
-  --text-grey-dark:  #CCCCCC;
-
-  /* set your defaults for the current scheme (optional—you can also let 
-     the light-mode media query below set these) */
-  --text-title: var(--accent-blue);
-  --text-grey: var(--text-grey-light);
-}
-
-/* 2) Overrides per color-scheme */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text-title: var(--accent-red);
-    --text-grey:  var(--text-grey-dark);
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    /* these will just re-apply your defaults if you set them above */
-    --text-title: var(--accent-blue);
-    --text-grey:  var(--text-grey-light);
-  }
-}
-
-/* 3) Apply them to your classes */
- .section-title {
+.section-title {
     font-size: 1.55em;
     font-weight: bold;
-    color: var(--text-title);
+    color: #15396c;
     margin-bottom: 10px;
     letter-spacing: 0.02em;
   }
-
-.role-desc, .interest-desc {
+  .role-desc, .interest-desc {
     margin-left: 18px;
-     color: var(--text-grey);
+      color: #444;    /* Dark grey */
       font-size: 1em;
     display: block;
   }
