@@ -4,152 +4,134 @@ layout: page
 
 <!DOCTYPE html>
 <html>
-	
   <style>
-.container {
-  display: flex;
-  align-items: flex-start;   /* Align image and text at the top */
-  justify-content: flex-start;
-  gap: 32px;                /* Space between photo and text */
-  margin: 0;
-  padding: 0;
-}
-.image {
-  flex: 0 0 180px;          /* Fixed width for the image container */
-  max-width: 180px;
-}
-.image img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 8px;       /* Optional: rounded corners */
-}
-.text {
-  flex: 1;
-  min-width: 0;             /* Prevents overflow on narrow screens */
-}
-.text p:first-child {
-  margin-top: 0; /* Add to make sure photo and first line aligned */
-}
+    /* ---------- LAYOUT ---------- */
+    .container{
+      display:flex;
+      align-items:flex-start;           /* Align image + text at top */
+      justify-content:flex-start;
+      gap:32px;                         /* Space between photo and text */
+      margin:0;
+      padding:0;
+    }
+    .image{flex:0 0 180px;max-width:180px;}
+    .image img{
+      width:100%;
+      height:auto;
+      display:block;
+      border-radius:8px;                /* Optional: rounded corners */
+    }
+    .text{flex:1;min-width:0;}
+    .text p:first-child{margin-top:0;}
 
-	.paragraph {
-	  font-size: 20px
-	}
- .section-block {
-    margin-bottom: 36px;
-  }
-  .section-list {
-    list-style-type: disc;
-    padding-left: 32px;
-    font-size: 18px;
-    margin: 0;
-  }
-  .item-block {
-    margin-bottom: 16px;
-  }
-  .org-name, .interest-label {
-    font-weight: bold;
-    margin-bottom: 2px;
-    display: inline-block;
-  }
+    .paragraph{font-size:20px}
+    .section-block{margin-bottom:36px;}
+    .section-list{
+      list-style-type:disc;
+      padding-left:32px;
+      font-size:18px;
+      margin:0;
+    }
+    .item-block{margin-bottom:16px;}
+    .org-name,.interest-label{font-weight:bold;margin-bottom:2px;display:inline-block;}
 
-.section-title {
-    font-size: 1.55em;
-    font-weight: bold;
-    color: #15396c;
-    margin-bottom: 10px;
-    letter-spacing: 0.02em;
-  }
-  .role-desc, .interest-desc {
-    margin-left: 18px;
-      color: #444;    /* Dark grey */
-      font-size: 1em;
-    display: block;
-  }
+    /* ---------- COLOR THEMES ---------- */
+    :root{
+      /* Light-mode defaults */
+      --section-title-color:#15396c; /* blue */
+      --desc-color:#444;            /* visible dark-grey on white */
+    }
+    @media (prefers-color-scheme: dark){
+      :root{
+        --section-title-color:#ff4d4f; /* vivid red for dark bg */
+        --desc-color:#d1d1d1;          /* light-grey on black */
+      }
+    }
 
+    /* ---------- TYPOGRAPHY ---------- */
+    .section-title{
+      font-size:1.55em;
+      font-weight:bold;
+      color:var(--section-title-color);
+      margin-bottom:10px;
+      letter-spacing:0.02em;
+    }
+    .role-desc,.interest-desc{
+      margin-left:18px;
+      color:var(--desc-color);
+      font-size:1em;
+      display:block;
+    }
   </style>
-  
+
   <header>
     <h1>About Me</h1>
   </header>
-  
+
   <body>
     <div class="container">
-	    
       <div class="image">
-        <img src="https://raw.githubusercontent.com/haonanzhang-vv/HaonanZhang1996/a5dde08ac6bbf78c89b73375c752a97015090dae/photoHead.JPG">
+        <img src="https://raw.githubusercontent.com/haonanzhang-vv/HaonanZhang1996/a5dde08ac6bbf78c89b73375c752a97015090dae/photoHead.JPG" alt="Profile photo">
       </div>
-	    
+
       <div class="text">
         <p>
-          Welcome! I am <b>Haonan Zhang</b>, a 4th year Ph.D. Candidate in Quantitative Marketing at the Michael G. Foster School of Business, University of Washington. 
-	I am fortunate to be co-advised by Prof. <b>Shirsho Biswas</b> and Prof. <b>Hema Yoganarasimhan</b>.
-	</p>
-      <p>
-	My primary research lies in understanding consumers’ shopping behavior in multichannel retailing, with a particular focus on how the adoption of online shopping affects consumers’ offline shopping.
-	I study the cross-channel spillover effects of online adoption and their implications for retailers’ pricing strategies and profitability.
-        <br><br>
-        <strong><i>I am on the 2025–2026 Job Market.</i></strong>	
-	</p>
-      </div>	    
+          Welcome! I am <b>Haonan Zhang</b>, a 4th&nbsp;year Ph.D. Candidate in Quantitative Marketing at the Michael&nbsp;G.&nbsp;Foster School of Business, University&nbsp;of&nbsp;Washington.  
+          I am fortunate to be co-advised by Prof.&nbsp;<b>Shirsho Biswas</b> and Prof.&nbsp;<b>Hema Yoganarasimhan</b>.
+        </p>
+        <p>
+          My primary research lies in understanding consumers’ shopping behavior in multichannel retailing, with a particular focus on how the adoption of online shopping affects consumers’ offline shopping.  
+          I study the cross-channel spillover effects of online adoption and their implications for retailers’ pricing strategies and profitability.
+          <br><br>
+          <strong><i>I am on the 2025–2026 Job Market.</i></strong>
+        </p>
+      </div>
     </div>
-	  
-  <div class="section-block">
-  <div class="section-title">Research Interests</div>
-  <ul class="section-list">
-    <li class="item-block">
-      <span class="interest-label">Substantive areas:</span>
-      <span class="interest-desc">Multichannel retailing, e-commerce, pricing, digital and mobile marketing, personalization.</span>
-    </li>
-    <li class="item-block">
-      <span class="interest-label">Methods:</span>
-      <span class="interest-desc">Causal inference, structural models/IO, machine learning, field experiments.</span>
-    </li>
-  </ul>
-</div>
 
-<div class="section-block">
-  <div class="section-title">Professional Experience</div>
-  <ul class="section-list">
-    <li class="item-block">
-      <span class="org-name"><a href="https://www.instacart.com/" target="_blank" style="color:inherit; text-decoration:inherit; font-weight:inherit;">Instacart</a></span>
-      <span class="role-desc">Machine Learning Engineer Intern, Economics Team &mdash; 06/2025 &ndash; Present</span>
-    </li>
-    <li class="item-block">
-      <span class="org-name"><a href="https://www.jpmorganchase.com/" target="_blank" style="color:inherit; text-decoration:inherit; font-weight:inherit;">JPMorgan Chase &amp; Co. (formerly First Republic Bank)</a></span>
-      <span class="role-desc">Data Scientist, Statistical Modelling and Risk Management Team &mdash; 06/2020 &ndash; 09/2021 </span>
-    </li>
-  </ul>
-</div>
+    <div class="section-block">
+      <div class="section-title">Research Interests</div>
+      <ul class="section-list">
+        <li class="item-block">
+          <span class="interest-label">Substantive areas:</span>
+          <span class="interest-desc">Multichannel retailing, e-commerce, pricing, digital and mobile marketing, personalization.</span>
+        </li>
+        <li class="item-block">
+          <span class="interest-label">Methods:</span>
+          <span class="interest-desc">Causal inference, structural models/IO, machine learning, field experiments.</span>
+        </li>
+      </ul>
+    </div>
 
-<div class="section-block">
-  <div class="section-title">Education</div>
-  <ul class="section-list">
-    <li class="item-block">
-      <span class="org-name"> <a href="https://foster.uw.edu/" target="_blank" style="color:inherit; text-decoration:inherit; font-weight:inherit;">University of Washington</a></span>
-      <span class="role-desc">Ph.D. in Marketing, 09/2021 &ndash; 06/2026 (Expected)</span>
-    </li>
-    <li class="item-block">
-      <span class="org-name"><a href="https://www.mccormick.northwestern.edu/machine-learning-data-science/" target="_blank" style="color:inherit; text-decoration:inherit; font-weight:inherit;">Northwestern University</a></span>
-      <span class="role-desc">M.S. in Machine Learning and Data Science, 09/2019 &ndash; 12/2020</span>
-    </li>
-    <li class="item-block">
-      <span class="org-name"><a href="https://www.sydney.edu.au/business/" target="_blank" style="color:inherit; text-decoration:inherit; font-weight:inherit;">The University of Sydney</a></span>
-      <span class="role-desc">B.Com. in Business Analytics (First Class Honors), 03/2015 &ndash; 12/2018</span>
-    </li>
-  </ul>
-</div>
-	  
+    <div class="section-block">
+      <div class="section-title">Professional Experience</div>
+      <ul class="section-list">
+        <li class="item-block">
+          <span class="org-name"><a href="https://www.instacart.com/" target="_blank" style="color:inherit;text-decoration:inherit;font-weight:inherit;">Instacart</a></span>
+          <span class="role-desc">Machine Learning Engineer Intern, Economics Team &mdash; 06/2025 &ndash; Present</span>
+        </li>
+        <li class="item-block">
+          <span class="org-name"><a href="https://www.jpmorganchase.com/" target="_blank" style="color:inherit;text-decoration:inherit;font-weight:inherit;">JPMorgan Chase &amp; Co. (formerly First Republic Bank)</a></span>
+          <span class="role-desc">Data Scientist, Statistical Modelling and Risk Management Team &mdash; 06/2020 &ndash; 09/2021</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section-block">
+      <div class="section-title">Education</div>
+      <ul class="section-list">
+        <li class="item-block">
+          <span class="org-name"><a href="https://foster.uw.edu/" target="_blank" style="color:inherit;text-decoration:inherit;font-weight:inherit;">University of Washington</a></span>
+          <span class="role-desc">Ph.D.&nbsp;in Marketing, 09/2021 &ndash; 06/2026 (Expected)</span>
+        </li>
+        <li class="item-block">
+          <span class="org-name"><a href="https://www.mccormick.northwestern.edu/machine-learning-data-science/" target="_blank" style="color:inherit;text-decoration:inherit;font-weight:inherit;">Northwestern University</a></span>
+          <span class="role-desc">M.S.&nbsp;in Machine Learning and Data Science, 09/2019 &ndash; 12/2020</span>
+        </li>
+        <li class="item-block">
+          <span class="org-name"><a href="https://www.sydney.edu.au/business/" target="_blank" style="color:inherit;text-decoration:inherit;font-weight:inherit;">The University of Sydney</a></span>
+          <span class="role-desc">B.Com.&nbsp;in Business Analytics (First Class Honors), 03/2015 &ndash; 12/2018</span>
+        </li>
+      </ul>
+    </div>
   </body>
-	
 </html>
-
-
-
-
-
-
-
-
-
-
