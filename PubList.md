@@ -9,13 +9,15 @@ title: "Research"
   /* Light mode defaults */
   --title-link-color: #15396c;   /* blue (same as current site) */
   --status-color:     #555555;   /* medium grey on white */
-  --status-border:    #a4b0be;   /* muted blue‑grey */
+  --status-border:    #a4b0be;   /* muted blue-grey */
+  --author-color:     #111111;   /* nearly-black for light mode */
 }
 @media (prefers-color-scheme: dark){
   :root{
     --title-link-color: #ff4d4f; /* vivid red on dark bg */
     --status-color:     #d1d1d1; /* light grey on dark bg */
     --status-border:    #9aa5b1; /* softened grey for border */
+    --author-color:     #d1d1d1; /* light grey for author names */
   }
 }
 
@@ -36,6 +38,10 @@ title: "Research"
   font-style: italic;
   margin-bottom: 18px;
 }
+
+.author-name{
+  color: var(--author-color);
+}
 </style>
 
 ## Job Market Paper
@@ -43,8 +49,8 @@ title: "Research"
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5304835" class="paper-title">
   How Does Online Shopping Affect Offline Price Sensitivity?
 </a>
-<span style="color:#111;">
-  &nbsp; with Shirsho Biswas and Hema Yoganarasimhan
+<span class="author-name">
+  &nbsp; with Shirsho&nbsp;Biswas and Hema&nbsp;Yoganarasimhan
 </span>
 <br>
 
@@ -62,8 +68,8 @@ The rapid growth of e-commerce has significantly transformed consumer behavior, 
 <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4747756" class="paper-title">
   Channel Choice and Customer Value
 </a>
-<span style="color:#111;">
-  &nbsp; with Shirsho Biswas and Hema Yoganarasimhan
+<span class="author-name">
+  &nbsp; with Shirsho&nbsp;Biswas and Hema&nbsp;Yoganarasimhan
 </span>
 <br>
 
@@ -79,8 +85,8 @@ We investigate how the adoption of a retailer's digital shopping channels (e-com
 <span class="paper-title">
   Content and Pricing Strategies for Digital Video Games
 </span>
-<span style="color:#111;">
-  &nbsp; with Scott Shriver and Hema Yoganarasimhan
+<span class="author-name">
+  &nbsp; with Scott&nbsp;Shriver and Hema&nbsp;Yoganarasimhan
 </span>
 <br>
 
@@ -96,8 +102,8 @@ The video game industry has experienced a wave of disruption as consumers rapidl
 <span class="paper-title">
   The Hidden Costs of Flexibility: JIT Scheduling and Turnover in a U.S. Restaurant Chain
 </span>
-<span style="color:#111;">
-  &nbsp; with Qiuping Yu
+<span class="author-name">
+  &nbsp; with Qiuping&nbsp;Yu
 </span>
 <br>
 
